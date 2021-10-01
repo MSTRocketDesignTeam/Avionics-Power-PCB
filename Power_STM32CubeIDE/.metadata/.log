@@ -1,0 +1,27 @@
+!SESSION 2021-10-01 15:46:30.801 -----------------------------------------------
+eclipse.buildId=Version 1.5.1
+java.version=1.8.0_272
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data C:\Users\frisc_000\Documents\GitHub\Avionics-Power-PCB\Power_STM32CubeIDE
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2021-10-01 15:46:37.575
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2021-10-01 15:46:37.628
+!MESSAGE Log4j initialized with config file C:\Users\frisc_000\Documents\GitHub\Avionics-Power-PCB\Power_STM32CubeIDE\.metadata\.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2021-10-01 15:46:39.642
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 4 4 2021-10-01 15:46:40.058
+!MESSAGE com.st.stm32cube.ide.mcu.ide/META-INF/version/build_ref file not found, build reference will not be reported into properties
+
+!ENTRY org.eclipse.cdt.core 1 0 2021-10-01 15:48:36.123
+!MESSAGE Indexed 'Avionics-Power-STM32_Project' (22 sources, 81 headers) in 2.95 sec: 4,304 declarations; 23,075 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0073%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2021-10-01 15:49:19.429
+!MESSAGE Indexed 'Avionics-Power-STM32_Project2' (0 sources, 0 headers) in 0 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2021-10-01 15:49:22.825
+!MESSAGE Indexed 'Avionics-Power-STM32_Project2' (21 sources, 80 headers) in 2.11 sec: 3,977 declarations; 20,865 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0081%)
