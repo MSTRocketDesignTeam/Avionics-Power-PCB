@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 1 3
 Title "Power Supply PCB Schematic"
 Date "2021-10-01"
-Rev "v1.0.1"
+Rev "v1.0.2"
 Comp "Missouri S&T Rocket Design Team '21 (Thomas Francois)"
 Comment1 "https://github.com/MSTRocketDesignTeam/Avionics-Power-PCB"
 Comment2 "Intended as initial pre-production design"
@@ -143,8 +143,6 @@ F 3 "~" H 5400 3000 50  0001 C CNN
 	1    5400 3000
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4750 3800 4150 3800
 Wire Wire Line
 	5400 2900 5400 2800
 Wire Wire Line
@@ -1187,7 +1185,7 @@ Text Notes 7100 6450 0    50   ~ 0
 Current version uses connector data\nbus for communications to BMS.\nThis may not be ideal, and perhaps a \ndedicated communcation line\nto the BMS should be used instead.
 Connection ~ 4150 3800
 Wire Wire Line
-	4150 3800 4150 4200
+	4150 3800 4150 3950
 Text Notes 3650 4600 0    50   ~ 0
 Simplified Schematic given from BQ76920 datasheet.
 $Sheet
@@ -1465,8 +1463,6 @@ Wire Wire Line
 	4050 2400 4750 2400
 Wire Wire Line
 	4050 2000 4750 2000
-Wire Wire Line
-	4050 1600 4750 1600
 Wire Notes Line
 	4150 1650 4500 1650
 Wire Notes Line
@@ -1579,4 +1575,26 @@ F7 "ALERT" I L 1550 2400 50
 $EndSheet
 Wire Wire Line
 	7850 1150 8950 1150
+Text GLabel 4050 1450 0    50   Input ~ 0
+PACK+
+Wire Wire Line
+	5400 1500 5400 1600
+Text GLabel 4050 3950 0    50   Input ~ 0
+PACK-
+Wire Wire Line
+	4050 1600 4150 1600
+Wire Wire Line
+	4050 1450 4150 1450
+Wire Wire Line
+	4150 1450 4150 1600
+Connection ~ 4150 1600
+Wire Wire Line
+	4050 3950 4150 3950
+Connection ~ 4150 3950
+Wire Wire Line
+	4150 3950 4150 4200
+Wire Wire Line
+	4150 3800 4750 3800
+Wire Wire Line
+	4150 1600 4750 1600
 $EndSCHEMATC
