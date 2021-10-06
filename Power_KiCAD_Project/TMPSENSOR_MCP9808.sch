@@ -3,10 +3,10 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 3
+Sheet 2 5
 Title "MCP9608 Temperature Sensor"
-Date "2021-10-01"
-Rev "v1.0.1"
+Date "2021-10-05"
+Rev "v1.0.3"
 Comp "Missouri S&T Rocket Design Team '21 (Thomas Francois)"
 Comment1 "https://github.com/MSTRocketDesignTeam/Avionics-Data-Collection-PCB"
 Comment2 ""
