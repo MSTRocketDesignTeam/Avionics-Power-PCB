@@ -512,6 +512,14 @@ Entry Wire Line
 	5600 1050 5700 950 
 Wire Bus Line
 	4500 2600 5600 2600
+NoConn ~ 800  1300
+NoConn ~ 800  1400
+NoConn ~ 800  1500
+NoConn ~ 800  1600
+NoConn ~ 800  1700
+NoConn ~ 800  1800
+NoConn ~ 1300 1700
+NoConn ~ 1300 1800
 Wire Bus Line
 	1350 6500 1350 6800
 Wire Bus Line
