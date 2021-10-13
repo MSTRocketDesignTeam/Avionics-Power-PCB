@@ -159,10 +159,6 @@ Text Notes 1900 800  2    100  ~ 0
 Main System Bus
 Text Notes 1750 2900 2    100  ~ 0
 SWD Connector
-Text GLabel 1300 1500 2    50   Input ~ 0
-I2C1_SDA
-Text GLabel 1300 1600 2    50   Input ~ 0
-I2C1_SCL
 Text Notes 600  2400 0    50   ~ 0
 Current version uses connector data\nbus for communications to BMS.\nThis may not be ideal, and perhaps a \ndedicated communcation line\nto the BMS should be used instead.
 $Sheet
@@ -528,4 +524,8 @@ Wire Bus Line
 	4450 5400 4450 6800
 Wire Bus Line
 	5600 1050 5600 2600
+Text Label 1300 1500 0    50   ~ 0
+I2C1_SDA
+Text Label 1300 1600 0    50   ~ 0
+I2C1_SCL
 $EndSCHEMATC

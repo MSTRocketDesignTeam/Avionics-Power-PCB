@@ -14,18 +14,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Battery_Management:BQ76920PW U?
-U 1 1 615F6CE9
-P 6750 3300
-F 0 "U?" H 6750 4450 50  0000 C CNN
-F 1 "BQ76920PW" H 6750 4350 50  0000 C CNN
-F 2 "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm" H 7650 2550 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/bq76920.pdf" H 7450 3850 50  0001 C CNN
-F 4 "LiPo Pack Monitor" H 6750 4250 50  0000 C CNN "Description"
-	1    6750 3300
-	-1   0    0    -1  
-$EndComp
-$Comp
 L Device:R R?
 U 1 1 615F6CEF
 P 3800 2900
@@ -330,30 +318,6 @@ Wire Wire Line
 	6400 5250 6500 5250
 Wire Wire Line
 	6500 5250 6500 5350
-Text GLabel 6250 3100 0    50   Input ~ 0
-VC5
-Text GLabel 6250 3200 0    50   Input ~ 0
-VC4
-Text GLabel 6250 3300 0    50   Input ~ 0
-VC3
-Text GLabel 6250 3400 0    50   Input ~ 0
-VC2
-Text GLabel 6250 3500 0    50   Input ~ 0
-VC1
-Text GLabel 6250 3600 0    50   Input ~ 0
-VC0
-Text GLabel 4400 2900 2    50   Input ~ 0
-VC5
-Text GLabel 4400 3300 2    50   Input ~ 0
-VC4
-Text GLabel 4400 3700 2    50   Input ~ 0
-VC3
-Text GLabel 4400 4500 2    50   Input ~ 0
-VC1
-Text GLabel 4400 5100 2    50   Input ~ 0
-VC0
-Text GLabel 4400 4100 2    50   Input ~ 0
-VC2
 Wire Wire Line
 	4300 3300 4400 3300
 Wire Wire Line
@@ -366,29 +330,8 @@ Wire Wire Line
 	4400 5100 4300 5100
 Connection ~ 4300 5100
 Wire Wire Line
-	6750 2450 6750 2500
-Wire Wire Line
 	4400 2900 4300 2900
 Connection ~ 4300 2900
-$Comp
-L power:GND #PWR?
-U 1 1 615F6DAB
-P 6750 4100
-F 0 "#PWR?" H 6750 3850 50  0001 C CNN
-F 1 "GND" H 6755 3927 50  0000 C CNN
-F 2 "" H 6750 4100 50  0001 C CNN
-F 3 "" H 6750 4100 50  0001 C CNN
-	1    6750 4100
-	1    0    0    -1  
-$EndComp
-Text GLabel 6250 3800 0    50   Input ~ 0
-SRP
-Text GLabel 6250 3900 0    50   Input ~ 0
-SRN
-Text GLabel 5100 4900 0    50   Input ~ 0
-SRP
-Text GLabel 6000 4900 2    50   Input ~ 0
-SRN
 Wire Wire Line
 	6000 4900 5950 4900
 Wire Wire Line
@@ -397,10 +340,6 @@ Wire Wire Line
 	5150 5250 5150 4900
 Wire Wire Line
 	5150 4900 5100 4900
-Text GLabel 7250 3400 2    50   Input ~ 0
-TS1
-Text GLabel 5100 4350 0    50   Input ~ 0
-TS1
 $Comp
 L Device:R R?
 U 1 1 615F6DBB
@@ -441,23 +380,8 @@ F 3 "" H 5350 4850 50  0001 C CNN
 	1    5350 4850
 	1    0    0    -1  
 $EndComp
-Text GLabel 6400 4350 2    50   Input ~ 0
-VC1
-$Comp
-L Switch:SW_Push SW?
-U 1 1 615F6DD2
-P 6100 4350
-F 0 "SW?" H 6100 4635 50  0000 C CNN
-F 1 "Reboot" H 6100 4544 50  0000 C CNN
-F 2 "" H 6100 4550 50  0001 C CNN
-F 3 "~" H 6100 4550 50  0001 C CNN
-	1    6100 4350
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5800 4350 5900 4350
-Wire Wire Line
-	6300 4350 6400 4350
 $Comp
 L Device:Q_NMOS_GDS Q?
 U 1 1 615F6DDA
@@ -486,8 +410,6 @@ Wire Wire Line
 	5700 5700 5950 5700
 Wire Wire Line
 	5650 5250 5950 5250
-Text GLabel 6250 2900 0    50   Input ~ 0
-BAT
 $Comp
 L Device:R R?
 U 1 1 615F6DEA
@@ -582,19 +504,9 @@ Wire Wire Line
 	8250 4350 8350 4350
 Connection ~ 8350 4350
 Wire Wire Line
-	7850 4350 7350 4350
-Wire Wire Line
-	7350 4350 7350 3900
-Wire Wire Line
-	7350 3900 7250 3900
-Wire Wire Line
 	7350 4850 7350 4450
 Wire Wire Line
 	7350 4450 7500 4450
-Wire Wire Line
-	7500 4450 7500 3800
-Wire Wire Line
-	7500 3800 7250 3800
 Connection ~ 7350 4850
 $Comp
 L power:GND #PWR?
@@ -607,8 +519,6 @@ F 3 "" H 8050 4650 50  0001 C CNN
 	1    8050 4650
 	1    0    0    -1  
 $EndComp
-Text GLabel 7250 3000 2    50   Input ~ 0
-BATT_ALERT
 $Comp
 L Device:C_Small C?
 U 1 1 615F6E2C
@@ -700,8 +610,6 @@ $EndComp
 Wire Wire Line
 	5700 2800 5700 2700
 Wire Wire Line
-	5700 2700 6250 2700
-Wire Wire Line
 	7850 2750 7850 2450
 $Comp
 L Device:R R?
@@ -716,13 +624,9 @@ F 3 "~" H 8250 2650 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	8250 2500 8250 2450
-Wire Wire Line
-	8250 2450 7850 2450
 Connection ~ 7850 2450
 Wire Wire Line
 	8250 3000 8250 2900
-Text GLabel 8350 2900 2    50   Input ~ 0
-BAT
 Wire Wire Line
 	8350 2900 8250 2900
 Connection ~ 8250 2900
@@ -730,8 +634,6 @@ Wire Wire Line
 	8250 2900 8250 2800
 Wire Wire Line
 	7700 3650 7700 3600
-Wire Wire Line
-	7700 3600 7250 3600
 $Comp
 L power:+3.3V #PWR?
 U 1 1 615F6E6F
@@ -744,10 +646,6 @@ F 3 "" H 5700 2700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 5700 2700
-Text GLabel 7250 2700 2    50   Input ~ 0
-I2C1_SDA
-Text GLabel 7250 2800 2    50   Input ~ 0
-I2C1_SCL
 Wire Wire Line
 	5150 5700 5400 5700
 Wire Wire Line
@@ -767,8 +665,6 @@ F 3 "" H 5150 5700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 5150 5700
-Text Notes 2500 2050 0    100  ~ 0
-LiPo Pack Monitor
 Connection ~ 3050 5100
 Wire Wire Line
 	3050 5100 3050 5250
@@ -892,8 +788,6 @@ Wire Notes Line
 Wire Notes Line
 	2500 5950 2500 2100
 Wire Notes Line
-	2500 2100 9500 2100
-Wire Notes Line
 	2500 5950 9500 5950
 Text Notes 3200 3050 0    50   ~ 0
 +
@@ -915,8 +809,6 @@ Text Notes 3200 4250 0    50   ~ 0
 +
 Text Notes 3200 4750 0    50   ~ 0
 +
-Wire Wire Line
-	6750 2450 7850 2450
 Wire Wire Line
 	4300 2800 4300 2900
 Wire Wire Line
@@ -951,4 +843,114 @@ Text HLabel 2950 5100 0    50   Input ~ 0
 PACK_M0
 Text HLabel 2950 5250 0    50   Input ~ 0
 PACK-
+Wire Notes Line
+	2500 2100 9500 2100
+Text Notes 2500 2050 0    100  ~ 0
+LiPo Pack Monitor
+Wire Wire Line
+	8250 2450 7850 2450
+Wire Wire Line
+	7850 4350 7350 4350
+Wire Wire Line
+	6300 4350 6400 4350
+$Comp
+L Battery_Management:BQ76920PW U?
+U 1 1 615F6CE9
+P 6750 3300
+F 0 "U?" H 6750 4450 50  0000 C CNN
+F 1 "BQ76920PW" H 6750 4350 50  0000 C CNN
+F 2 "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm" H 7650 2550 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/bq76920.pdf" H 7450 3850 50  0001 C CNN
+F 4 "LiPo Pack Monitor" H 6750 4250 50  0000 C CNN "Description"
+	1    6750 3300
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	7700 3600 7250 3600
+Wire Wire Line
+	7500 3800 7250 3800
+Wire Wire Line
+	7350 3900 7250 3900
+Text Label 6250 3100 2    50   ~ 0
+VC5
+Wire Wire Line
+	6750 2450 7850 2450
+Wire Wire Line
+	5700 2700 6250 2700
+Wire Wire Line
+	7500 4450 7500 3800
+Wire Wire Line
+	7350 4350 7350 3900
+$Comp
+L Switch:SW_Push SW?
+U 1 1 615F6DD2
+P 6100 4350
+F 0 "SW?" H 6100 4635 50  0000 C CNN
+F 1 "Reboot" H 6100 4544 50  0000 C CNN
+F 2 "" H 6100 4550 50  0001 C CNN
+F 3 "~" H 6100 4550 50  0001 C CNN
+	1    6100 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 615F6DAB
+P 6750 4100
+F 0 "#PWR?" H 6750 3850 50  0001 C CNN
+F 1 "GND" H 6755 3927 50  0000 C CNN
+F 2 "" H 6750 4100 50  0001 C CNN
+F 3 "" H 6750 4100 50  0001 C CNN
+	1    6750 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6750 2450 6750 2500
+Text Label 6250 3200 2    50   ~ 0
+VC4
+Text Label 6250 3300 2    50   ~ 0
+VC3
+Text Label 6250 3400 2    50   ~ 0
+VC2
+Text Label 6250 3500 2    50   ~ 0
+VC1
+Text Label 6250 3600 2    50   ~ 0
+VC0
+Text Label 6250 3800 2    50   ~ 0
+SRP
+Text Label 6250 3900 2    50   ~ 0
+SRN
+Text Label 6250 2900 2    50   ~ 0
+BAT
+Text Label 7550 3200 0    50   ~ 0
+l
+Text Label 7250 2700 0    50   ~ 0
+I2C1_SDA
+Text Label 7250 2800 0    50   ~ 0
+I2C1_SCL
+Text Label 7250 3000 0    50   ~ 0
+BATT_ALERT
+Text Label 7250 3400 0    50   ~ 0
+TS1
+Text Label 8350 2900 0    50   ~ 0
+BAT
+Text Label 6000 4900 0    50   ~ 0
+SRN
+Text Label 6400 4350 0    50   ~ 0
+VC1
+Text Label 5100 4350 2    50   ~ 0
+TS1
+Text Label 5100 4900 2    50   ~ 0
+SRP
+Text Label 4400 5100 0    50   ~ 0
+VC0
+Text Label 4400 4500 0    50   ~ 0
+VC1
+Text Label 4400 4100 0    50   ~ 0
+VC2
+Text Label 4400 3700 0    50   ~ 0
+VC3
+Text Label 4400 3300 0    50   ~ 0
+VC4
+Text Label 4400 2900 0    50   ~ 0
+VC5
 $EndSCHEMATC
