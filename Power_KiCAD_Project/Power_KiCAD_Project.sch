@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 5
+Sheet 1 6
 Title "Power Supply PCB Schematic"
 Date "2021-10-05"
 Rev "v1.0.3"
@@ -457,13 +457,13 @@ Wire Wire Line
 Wire Wire Line
 	2500 5450 2500 5300
 Wire Wire Line
-	2500 5300 3100 5300
+	2500 5300 2950 5300
 Wire Wire Line
 	1500 5550 2500 5550
 Wire Wire Line
 	2500 5550 2500 6050
 Wire Wire Line
-	2500 6050 3100 6050
+	2500 6050 2750 6050
 Wire Wire Line
 	1400 3350 2150 3350
 Wire Wire Line
@@ -516,6 +516,34 @@ NoConn ~ 800  1700
 NoConn ~ 800  1800
 NoConn ~ 1300 1700
 NoConn ~ 1300 1800
+Text Label 1300 1500 0    50   ~ 0
+I2C1_SDA
+Text Label 1300 1600 0    50   ~ 0
+I2C1_SCL
+$Sheet
+S 8500 4550 2050 1400
+U 6183A598
+F0 "Pcie_Connection" 50
+F1 "Pcie_Connection.sch" 50
+$EndSheet
+$Comp
+L Connector:Barrel_Jack J?
+U 1 1 61850F95
+P 2850 4550
+F 0 "J?" V 2861 4738 50  0000 L CNN
+F 1 "Barrel_Jack" V 2952 4738 50  0000 L CNN
+F 2 "" H 2900 4510 50  0001 C CNN
+F 3 "~" H 2900 4510 50  0001 C CNN
+	1    2850 4550
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2950 4850 2950 5300
+Connection ~ 2950 5300
+Wire Wire Line
+	2950 5300 3100 5300
+Wire Wire Line
+	2750 4850 2750 6050
 Wire Bus Line
 	1350 6500 1350 6800
 Wire Bus Line
@@ -524,8 +552,7 @@ Wire Bus Line
 	4450 5400 4450 6800
 Wire Bus Line
 	5600 1050 5600 2600
-Text Label 1300 1500 0    50   ~ 0
-I2C1_SDA
-Text Label 1300 1600 0    50   ~ 0
-I2C1_SCL
+Connection ~ 2750 6050
+Wire Wire Line
+	2750 6050 3100 6050
 $EndSCHEMATC
