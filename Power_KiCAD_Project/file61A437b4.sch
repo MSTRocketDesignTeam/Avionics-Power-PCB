@@ -1,0 +1,216 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 5 11
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector:DB37_Male J7
+U 1 1 61A44CBA
+P 5550 3300
+AR Path="/61A8C208/61A44CBA" Ref="J7"  Part="1" 
+AR Path="/61AB12B0/61A44CBA" Ref="J8"  Part="1" 
+AR Path="/61AB30C2/61A44CBA" Ref="J9"  Part="1" 
+AR Path="/61AB4CDA/61A44CBA" Ref="J10"  Part="1" 
+AR Path="/61AB7510/61A44CBA" Ref="J11"  Part="1" 
+AR Path="/61AB8D34/61A44CBA" Ref="J12"  Part="1" 
+F 0 "J7" H 5730 3359 50  0000 L CNN
+F 1 "DB37_Male" H 5730 3268 50  0000 L CNN
+F 2 "Connector_Dsub:DSUB-37_Male_Vertical_P2.77x2.84mm" H 5550 3300 50  0001 C CNN
+F 3 " ~" H 5550 3300 50  0001 C CNN
+	1    5550 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:Earth #PWR0122
+U 1 1 61A472F3
+P 5250 1500
+AR Path="/61A8C208/61A472F3" Ref="#PWR0122"  Part="1" 
+AR Path="/61AB12B0/61A472F3" Ref="#PWR0138"  Part="1" 
+AR Path="/61AB30C2/61A472F3" Ref="#PWR0145"  Part="1" 
+AR Path="/61AB4CDA/61A472F3" Ref="#PWR0152"  Part="1" 
+AR Path="/61AB7510/61A472F3" Ref="#PWR0159"  Part="1" 
+AR Path="/61AB8D34/61A472F3" Ref="#PWR0166"  Part="1" 
+F 0 "#PWR0122" H 5250 1250 50  0001 C CNN
+F 1 "Earth" H 5250 1350 50  0001 C CNN
+F 2 "" H 5250 1500 50  0001 C CNN
+F 3 "~" H 5250 1500 50  0001 C CNN
+	1    5250 1500
+	0    1    1    0   
+$EndComp
+$Comp
+L power:Earth #PWR0123
+U 1 1 61A486AF
+P 5250 5100
+AR Path="/61A8C208/61A486AF" Ref="#PWR0123"  Part="1" 
+AR Path="/61AB12B0/61A486AF" Ref="#PWR0139"  Part="1" 
+AR Path="/61AB30C2/61A486AF" Ref="#PWR0146"  Part="1" 
+AR Path="/61AB4CDA/61A486AF" Ref="#PWR0153"  Part="1" 
+AR Path="/61AB7510/61A486AF" Ref="#PWR0160"  Part="1" 
+AR Path="/61AB8D34/61A486AF" Ref="#PWR0167"  Part="1" 
+F 0 "#PWR0123" H 5250 4850 50  0001 C CNN
+F 1 "Earth" H 5250 4950 50  0001 C CNN
+F 2 "" H 5250 5100 50  0001 C CNN
+F 3 "~" H 5250 5100 50  0001 C CNN
+	1    5250 5100
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+5V #PWR0124
+U 1 1 61A491E6
+P 5250 1600
+AR Path="/61A8C208/61A491E6" Ref="#PWR0124"  Part="1" 
+AR Path="/61AB12B0/61A491E6" Ref="#PWR0140"  Part="1" 
+AR Path="/61AB30C2/61A491E6" Ref="#PWR0147"  Part="1" 
+AR Path="/61AB4CDA/61A491E6" Ref="#PWR0154"  Part="1" 
+AR Path="/61AB7510/61A491E6" Ref="#PWR0161"  Part="1" 
+AR Path="/61AB8D34/61A491E6" Ref="#PWR0168"  Part="1" 
+F 0 "#PWR0124" H 5250 1450 50  0001 C CNN
+F 1 "+5V" V 5265 1728 50  0000 L CNN
+F 2 "" H 5250 1600 50  0001 C CNN
+F 3 "" H 5250 1600 50  0001 C CNN
+	1    5250 1600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+5V #PWR0125
+U 1 1 61A49AB4
+P 5250 5000
+AR Path="/61A8C208/61A49AB4" Ref="#PWR0125"  Part="1" 
+AR Path="/61AB12B0/61A49AB4" Ref="#PWR0141"  Part="1" 
+AR Path="/61AB30C2/61A49AB4" Ref="#PWR0148"  Part="1" 
+AR Path="/61AB4CDA/61A49AB4" Ref="#PWR0155"  Part="1" 
+AR Path="/61AB7510/61A49AB4" Ref="#PWR0162"  Part="1" 
+AR Path="/61AB8D34/61A49AB4" Ref="#PWR0169"  Part="1" 
+F 0 "#PWR0125" H 5250 4850 50  0001 C CNN
+F 1 "+5V" V 5265 5128 50  0000 L CNN
+F 2 "" H 5250 5000 50  0001 C CNN
+F 3 "" H 5250 5000 50  0001 C CNN
+	1    5250 5000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+3.3V #PWR0126
+U 1 1 61A4A3FB
+P 5250 1700
+AR Path="/61A8C208/61A4A3FB" Ref="#PWR0126"  Part="1" 
+AR Path="/61AB12B0/61A4A3FB" Ref="#PWR0142"  Part="1" 
+AR Path="/61AB30C2/61A4A3FB" Ref="#PWR0149"  Part="1" 
+AR Path="/61AB4CDA/61A4A3FB" Ref="#PWR0156"  Part="1" 
+AR Path="/61AB7510/61A4A3FB" Ref="#PWR0163"  Part="1" 
+AR Path="/61AB8D34/61A4A3FB" Ref="#PWR0170"  Part="1" 
+F 0 "#PWR0126" H 5250 1550 50  0001 C CNN
+F 1 "+3.3V" V 5265 1828 50  0000 L CNN
+F 2 "" H 5250 1700 50  0001 C CNN
+F 3 "" H 5250 1700 50  0001 C CNN
+	1    5250 1700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+3.3V #PWR0127
+U 1 1 61A4AB5D
+P 5250 4900
+AR Path="/61A8C208/61A4AB5D" Ref="#PWR0127"  Part="1" 
+AR Path="/61AB12B0/61A4AB5D" Ref="#PWR0143"  Part="1" 
+AR Path="/61AB30C2/61A4AB5D" Ref="#PWR0150"  Part="1" 
+AR Path="/61AB4CDA/61A4AB5D" Ref="#PWR0157"  Part="1" 
+AR Path="/61AB7510/61A4AB5D" Ref="#PWR0164"  Part="1" 
+AR Path="/61AB8D34/61A4AB5D" Ref="#PWR0171"  Part="1" 
+F 0 "#PWR0127" H 5250 4750 50  0001 C CNN
+F 1 "+3.3V" V 5265 5028 50  0000 L CNN
+F 2 "" H 5250 4900 50  0001 C CNN
+F 3 "" H 5250 4900 50  0001 C CNN
+	1    5250 4900
+	0    -1   -1   0   
+$EndComp
+Text HLabel 5250 1800 0    50   Input ~ 0
+t_mosi
+Text HLabel 5250 1900 0    50   Input ~ 0
+t_miso
+Text HLabel 5250 2000 0    50   Input ~ 0
+t_clk
+Text HLabel 5250 2100 0    50   Input ~ 0
+Alert_scl
+Text HLabel 5250 2200 0    50   Input ~ 0
+Alert_sda
+Text HLabel 5250 2300 0    50   Input ~ 0
+Alert_Active
+Text HLabel 5250 2400 0    50   Input ~ 0
+SWDIO
+Text HLabel 5250 2500 0    50   Input ~ 0
+SWCLK
+Text HLabel 5250 2600 0    50   Input ~ 0
+NRST
+$Comp
+L Device:C_Small C?
+U 1 1 61A55586
+P 4700 2600
+AR Path="/61A55586" Ref="C?"  Part="1" 
+AR Path="/61A437B5/61A55586" Ref="C1"  Part="1" 
+AR Path="/61A8C208/61A55586" Ref="C16"  Part="1" 
+AR Path="/61AB12B0/61A55586" Ref="C22"  Part="1" 
+AR Path="/61AB30C2/61A55586" Ref="C23"  Part="1" 
+AR Path="/61AB4CDA/61A55586" Ref="C24"  Part="1" 
+AR Path="/61AB7510/61A55586" Ref="C25"  Part="1" 
+AR Path="/61AB8D34/61A55586" Ref="C26"  Part="1" 
+F 0 "C16" H 4792 2646 50  0000 L CNN
+F 1 "100nF" H 4792 2555 50  0000 L CNN
+F 2 "" H 4700 2600 50  0001 C CNN
+F 3 "~" H 4700 2600 50  0001 C CNN
+	1    4700 2600
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 61A5558D
+P 4600 2600
+AR Path="/61A5558D" Ref="#PWR?"  Part="1" 
+AR Path="/61A437B5/61A5558D" Ref="#PWR0141"  Part="1" 
+AR Path="/61A8C208/61A5558D" Ref="#PWR0128"  Part="1" 
+AR Path="/61AB12B0/61A5558D" Ref="#PWR0144"  Part="1" 
+AR Path="/61AB30C2/61A5558D" Ref="#PWR0151"  Part="1" 
+AR Path="/61AB4CDA/61A5558D" Ref="#PWR0158"  Part="1" 
+AR Path="/61AB7510/61A5558D" Ref="#PWR0165"  Part="1" 
+AR Path="/61AB8D34/61A5558D" Ref="#PWR0172"  Part="1" 
+F 0 "#PWR0128" H 4600 2350 50  0001 C CNN
+F 1 "GND" H 4605 2427 50  0000 C CNN
+F 2 "" H 4600 2600 50  0001 C CNN
+F 3 "" H 4600 2600 50  0001 C CNN
+	1    4600 2600
+	0    1    1    0   
+$EndComp
+Text HLabel 5250 2700 0    50   Input ~ 0
+Fire
+Text HLabel 5250 2800 0    50   Input ~ 0
+Fire_redundant
+NoConn ~ 5250 3600
+NoConn ~ 5250 3500
+NoConn ~ 5250 3400
+NoConn ~ 5250 3300
+NoConn ~ 5250 3200
+NoConn ~ 5250 3100
+NoConn ~ 5250 3000
+NoConn ~ 5250 3800
+NoConn ~ 5250 3700
+NoConn ~ 5250 3900
+NoConn ~ 5250 4000
+NoConn ~ 5250 4100
+NoConn ~ 5250 4200
+NoConn ~ 5250 4300
+NoConn ~ 5250 4800
+NoConn ~ 5250 4700
+NoConn ~ 5250 4600
+NoConn ~ 5250 4500
+NoConn ~ 5250 4400
+Wire Wire Line
+	5250 2600 4800 2600
+$EndSCHEMATC

@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 6
+Sheet 3 11
 Title "MCP9608 Temperature Sensor"
 Date "2021-10-05"
 Rev "v1.0.3"
@@ -20,8 +20,8 @@ P 3250 3650
 AR Path="/6160E311" Ref="#PWR?"  Part="1" 
 AR Path="/615C1FB4/6160E311" Ref="#PWR?"  Part="1" 
 AR Path="/61B1B3BC/6160E311" Ref="#PWR?"  Part="1" 
-AR Path="/61B35621/6160E311" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 3250 3400 50  0001 C CNN
+AR Path="/61B35621/6160E311" Ref="#PWR0106"  Part="1" 
+F 0 "#PWR0106" H 3250 3400 50  0001 C CNN
 F 1 "GND" H 3255 3477 50  0000 C CNN
 F 2 "" H 3250 3650 50  0001 C CNN
 F 3 "" H 3250 3650 50  0001 C CNN
@@ -35,8 +35,8 @@ P 3700 2450
 AR Path="/6160E323" Ref="#PWR?"  Part="1" 
 AR Path="/615C1FB4/6160E323" Ref="#PWR?"  Part="1" 
 AR Path="/61B1B3BC/6160E323" Ref="#PWR?"  Part="1" 
-AR Path="/61B35621/6160E323" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 3700 2300 50  0001 C CNN
+AR Path="/61B35621/6160E323" Ref="#PWR0107"  Part="1" 
+F 0 "#PWR0107" H 3700 2300 50  0001 C CNN
 F 1 "+3.3V" H 3715 2623 50  0000 C CNN
 F 2 "" H 3700 2450 50  0001 C CNN
 F 3 "" H 3700 2450 50  0001 C CNN
@@ -60,8 +60,8 @@ P 4250 3100
 AR Path="/6160E331" Ref="C?"  Part="1" 
 AR Path="/615C1FB4/6160E331" Ref="C?"  Part="1" 
 AR Path="/61B1B3BC/6160E331" Ref="C?"  Part="1" 
-AR Path="/61B35621/6160E331" Ref="C?"  Part="1" 
-F 0 "C?" H 4365 3146 50  0000 L CNN
+AR Path="/61B35621/6160E331" Ref="C3"  Part="1" 
+F 0 "C3" H 4365 3146 50  0000 L CNN
 F 1 "100nF" H 4365 3055 50  0000 L CNN
 F 2 "" H 4288 2950 50  0001 C CNN
 F 3 "~" H 4250 3100 50  0001 C CNN
@@ -82,13 +82,13 @@ Wire Wire Line
 	3250 3550 3250 3650
 $Comp
 L Sensor_Temperature:MCP9808_MSOP U?
-U 1 1 6160E30B
+U 1 1 61A8C2DF
 P 3250 3050
-AR Path="/6160E30B" Ref="U?"  Part="1" 
-AR Path="/615C1FB4/6160E30B" Ref="U?"  Part="1" 
-AR Path="/61B1B3BC/6160E30B" Ref="U?"  Part="1" 
-AR Path="/61B35621/6160E30B" Ref="U?"  Part="1" 
-F 0 "U?" H 3200 3800 50  0000 L CNN
+AR Path="/61A8C2DF" Ref="U?"  Part="1" 
+AR Path="/615C1FB4/61A8C2DF" Ref="U?"  Part="1" 
+AR Path="/61B1B3BC/61A8C2DF" Ref="U?"  Part="1" 
+AR Path="/61B35621/61A8C2DF" Ref="U2"  Part="1" 
+F 0 "U2" H 3200 3800 50  0000 L CNN
 F 1 "MCP9808_MSOP" H 2950 3700 50  0000 L CNN
 F 2 "Package_SO:MSOP-8_3x3mm_P0.65mm" H 3250 3050 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/22203b.pdf" H 3000 3500 50  0001 C CNN
@@ -100,13 +100,13 @@ Wire Wire Line
 Connection ~ 3700 2500
 $Comp
 L power:GND #PWR?
-U 1 1 618848DE
+U 1 1 61A8C2E3
 P 4250 3250
-AR Path="/618848DE" Ref="#PWR?"  Part="1" 
-AR Path="/615C1FB4/618848DE" Ref="#PWR?"  Part="1" 
-AR Path="/61B1B3BC/618848DE" Ref="#PWR?"  Part="1" 
-AR Path="/61B35621/618848DE" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 4250 3000 50  0001 C CNN
+AR Path="/61A8C2E3" Ref="#PWR?"  Part="1" 
+AR Path="/615C1FB4/61A8C2E3" Ref="#PWR?"  Part="1" 
+AR Path="/61B1B3BC/61A8C2E3" Ref="#PWR?"  Part="1" 
+AR Path="/61B35621/61A8C2E3" Ref="#PWR0108"  Part="1" 
+F 0 "#PWR0108" H 4250 3000 50  0001 C CNN
 F 1 "GND" H 4255 3077 50  0000 C CNN
 F 2 "" H 4250 3250 50  0001 C CNN
 F 3 "" H 4250 3250 50  0001 C CNN

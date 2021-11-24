@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name PCIE-036-02-X-D-EMS2)(type Legacy)(uri D:/Downloads/PCIE-036-02-F-D-EMS2/PCIE-036-02-X-D-EMS2.lib)(options "")(descr ""))
+  (lib (name Power_KiCAD_Project-rescue)(type Legacy)(uri ${KIPRJMOD}/Power_KiCAD_Project-rescue.lib)(options "")(descr ""))
 )
