@@ -645,6 +645,10 @@ Wire Wire Line
 	4200 4150 4200 4000
 Wire Wire Line
 	4450 4000 4450 4450
+Wire Wire Line
+	4450 4450 3850 4450
+Text Notes 1300 7550 0    79   Italic 16
+Important: Should the Pack negative be directly connected to GND?\nThink this will Bypass the BMS system since everything else uses GND and not Pack-?\nMaybe we need separate the two grounds??\n-Seth
 Wire Bus Line
 	3050 2000 3050 2600
 Wire Bus Line
@@ -653,8 +657,4 @@ Wire Bus Line
 	2500 1550 2500 2000
 Wire Bus Line
 	4450 5400 4450 6800
-Wire Wire Line
-	4450 4450 3850 4450
-Text Notes 1300 7550 0    79   Italic 16
-Important: Should the Pack negative be directly connected to GND?\nThink this will Bypass the BMS system since everything else uses GND and not Pack-?\nMaybe we need separate the two grounds??\n-Seth
 $EndSCHEMATC

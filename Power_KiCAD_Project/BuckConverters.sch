@@ -184,10 +184,10 @@ L lm2672m-to-263:LM2672M-TO-263 U?
 U 1 1 61A7F0DE
 P 4900 2850
 F 0 "U?" H 4900 3317 50  0000 C CNN
-F 1 "LM2678SX-3.3/NOPB" H 4900 3226 50  0000 C CNN
+F 1 "LM2678SX-5.0/NOPB" H 4900 3226 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:TO-263-7_TabPin8" H 4950 2500 50  0001 L CIN
-F 3 "https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Flm2678" H 4900 2850 50  0001 C CNN
-F 4 "https://www.digikey.com/en/products/detail/texas-instruments/LM2678SX-3-3-NOPB/366920" H 4900 2850 50  0001 C CNN "Digikey"
+F 3 "https://www.ti.com/lit/ds/symlink/lm2677.pdf" H 4900 2850 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/texas-instruments/LM2677SX-5-0-NOPB/366916" H 4900 2850 50  0001 C CNN "Digikey"
 F 5 "https://webench.ti.com/wb5/PartDesigner/quickview.jsp?base_pn=LM2678&origin=ODS&litsection=application" H 4900 2850 50  0001 C CNN "Designer"
 	1    4900 2850
 	1    0    0    -1  
