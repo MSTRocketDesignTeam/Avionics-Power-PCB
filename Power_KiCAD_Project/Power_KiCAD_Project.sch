@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 11
+Sheet 1 12
 Title "Power Supply PCB Schematic"
 Date "2021-10-05"
 Rev "v1.0.3"
@@ -228,20 +228,16 @@ Wire Bus Line
 $Comp
 L Connector:Barrel_Jack J6
 U 1 1 61850F95
-P 2850 4550
-F 0 "J6" V 2861 4738 50  0000 L CNN
-F 1 "Barrel_Jack" V 2952 4738 50  0000 L CNN
-F 2 "" H 2900 4510 50  0001 C CNN
-F 3 "~" H 2900 4510 50  0001 C CNN
-	1    2850 4550
+P 2850 3500
+F 0 "J6" V 2861 3688 50  0000 L CNN
+F 1 "Barrel_Jack" V 2952 3688 50  0000 L CNN
+F 2 "" H 2900 3460 50  0001 C CNN
+F 3 "~" H 2900 3460 50  0001 C CNN
+	1    2850 3500
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	2950 4850 2950 5300
-Wire Wire Line
 	2950 5300 3100 5300
-Wire Wire Line
-	2750 4850 2750 6050
 Wire Wire Line
 	2750 6050 3100 6050
 $Sheet
@@ -580,14 +576,6 @@ Wire Bus Line
 Connection ~ 1300 6100
 Wire Bus Line
 	1050 5650 1050 6100
-Wire Bus Line
-	3050 2000 3050 2600
-Wire Bus Line
-	3050 1250 3050 2000
-Wire Bus Line
-	2500 1550 2500 2000
-Wire Bus Line
-	4450 5400 4450 6800
 Connection ~ 1050 6100
 Wire Bus Line
 	1050 6100 1300 6100
@@ -611,4 +599,62 @@ Text Label 1800 6100 2    50   ~ 0
 PACK_M1
 Text Label 1800 6200 2    50   ~ 0
 PACK_M0
+$Sheet
+S 3100 3950 750  700 
+U 61A48488
+F0 "Buck_Converters" 50
+F1 "BuckConverters.sch" 50
+F2 "V_IN" I L 3100 4300 50 
+F3 "3.3V" I R 3850 4450 50 
+F4 "5V" I R 3850 4150 50 
+$EndSheet
+Wire Wire Line
+	2750 3800 2750 6050
+Wire Wire Line
+	2950 3800 2950 4300
+Wire Wire Line
+	3100 4300 2950 4300
+Connection ~ 2950 4300
+Wire Wire Line
+	2950 4300 2950 5300
+$Comp
+L power:+3.3V #PWR?
+U 1 1 61A5452E
+P 4450 4000
+F 0 "#PWR?" H 4450 3850 50  0001 C CNN
+F 1 "+3.3V" H 4465 4173 50  0000 C CNN
+F 2 "" H 4450 4000 50  0001 C CNN
+F 3 "" H 4450 4000 50  0001 C CNN
+	1    4450 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 61A56282
+P 4200 4000
+F 0 "#PWR?" H 4200 3850 50  0001 C CNN
+F 1 "+5V" H 4215 4173 50  0000 C CNN
+F 2 "" H 4200 4000 50  0001 C CNN
+F 3 "" H 4200 4000 50  0001 C CNN
+	1    4200 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3850 4150 4200 4150
+Wire Wire Line
+	4200 4150 4200 4000
+Wire Wire Line
+	4450 4000 4450 4450
+Wire Bus Line
+	3050 2000 3050 2600
+Wire Bus Line
+	3050 1250 3050 2000
+Wire Bus Line
+	2500 1550 2500 2000
+Wire Bus Line
+	4450 5400 4450 6800
+Wire Wire Line
+	4450 4450 3850 4450
+Text Notes 1300 7550 0    79   Italic 16
+Important: Should the Pack negative be directly connected to GND?\nThink this will Bypass the BMS system since everything else uses GND and not Pack-?\nMaybe we need separate the two grounds??\n-Seth
 $EndSCHEMATC
