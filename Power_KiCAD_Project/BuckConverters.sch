@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 12 12
+Sheet 6 12
 Title "Buck Converter Supply"
 Date "2021-11-29"
 Rev "1"
@@ -14,10 +14,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L lm2672m-to-263:LM2672M-TO-263 U?
+L Power_KiCAD_Project-rescue:LM2672M-TO-263-lm2672m-to-263 U6
 U 1 1 61A319C7
 P 4900 5200
-F 0 "U?" H 4900 5667 50  0000 C CNN
+F 0 "U6" H 4900 5667 50  0000 C CNN
 F 1 "LM2678SX-3.3/NOPB" H 4900 5576 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:TO-263-7_TabPin8" H 4950 4850 50  0001 L CIN
 F 3 "https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Flm2678" H 4900 5200 50  0001 C CNN
@@ -27,10 +27,10 @@ F 5 "https://webench.ti.com/wb5/PartDesigner/quickview.jsp?base_pn=LM2678&origin
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L Device:C C24
 U 1 1 61A53C7C
 P 4050 5400
-F 0 "C?" H 4200 5400 50  0000 L CNN
+F 0 "C24" H 4200 5400 50  0000 L CNN
 F 1 "C0805C104M5RACTU" V 3900 5000 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 4088 5250 50  0001 C CNN
 F 3 "~" H 4050 5400 50  0001 C CNN
@@ -45,10 +45,10 @@ V_IN
 Text Notes 2900 1300 0    50   ~ 0
 Designed with 3S - 5S lithium pack in mind\nV_IN: 9V - 21V\n\n5A Output
 $Comp
-L 35SVPF82M:35SVPF82M C?
+L Power_KiCAD_Project-rescue:35SVPF82M-35SVPF82M C22
 U 1 1 61A4499B
 P 3400 5250
-F 0 "C?" V 3550 5350 60  0000 L CNN
+F 0 "C22" V 3550 5350 60  0000 L CNN
 F 1 "35SVPF82M" H 3350 5100 60  0000 L CNN
 F 2 "35SVPF82M:35SVPF82M" H 3550 4890 60  0001 C CNN
 F 3 "" H 3400 5250 60  0000 C CNN
@@ -69,10 +69,10 @@ Connection ~ 4050 5000
 Wire Wire Line
 	4050 5000 4400 5000
 $Comp
-L Device:C_Small C?
+L Device:C_Small C26
 U 1 1 61A48396
 P 5650 5300
-F 0 "C?" H 5742 5346 50  0000 L CNN
+F 0 "C26" H 5742 5346 50  0000 L CNN
 F 1 "CGA4C2C0G1H103J060AA" H 5700 5250 39  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 5650 5300 50  0001 C CNN
 F 3 "~" H 5650 5300 50  0001 C CNN
@@ -81,10 +81,10 @@ F 4 "https://www.digikey.com/en/products/detail/tdk-corporation/CGA4C2C0G1H103J0
 	1    0    0    -1  
 $EndComp
 $Comp
-L pspice:INDUCTOR L?
+L pspice:INDUCTOR L2
 U 1 1 61A496D2
 P 6950 5400
-F 0 "L?" H 6950 5615 50  0000 C CNN
+F 0 "L2" H 6950 5615 50  0000 C CNN
 F 1 "SER2915L-103KL" H 6950 5524 50  0000 C CNN
 F 2 "SER2915L-153KL:SER2915L-153KL" H 6950 5400 50  0001 C CNN
 F 3 "~" H 6950 5400 50  0001 C CNN
@@ -93,10 +93,10 @@ F 4 "https://www.mouser.com/ProductDetail/Coilcraft/SER2915L-103KL?qs=zCSbvcPd3p
 	1    0    0    -1  
 $EndComp
 $Comp
-L 6SVPC330M:6SVPC330M C?
+L Power_KiCAD_Project-rescue:6SVPC330M-6SVPC330M C28
 U 1 1 61A467E9
 P 7400 5550
-F 0 "C?" V 7500 5750 60  0000 L CNN
+F 0 "C28" V 7500 5750 60  0000 L CNN
 F 1 "6SVPC330M" H 7300 5700 60  0000 L CNN
 F 2 "6SVPC330M:6SVPC330M" H 7550 5190 60  0001 C CNN
 F 3 "" H 7400 5550 60  0000 C CNN
@@ -105,25 +105,8 @@ F 3 "" H 7400 5550 60  0000 C CNN
 $EndComp
 Wire Wire Line
 	7200 5400 7400 5400
-$Comp
-L Device:D_Schottky D?
-U 1 1 61A4C464
-P 6100 5700
-F 0 "D?" V 6054 5780 50  0000 L CNN
-F 1 "SBRD10200TR" H 5850 5600 50  0000 L CNN
-F 2 "" H 6100 5700 50  0001 C CNN
-F 3 "~" H 6100 5700 50  0001 C CNN
-	1    6100 5700
-	0    1    1    0   
-$EndComp
 Wire Wire Line
-	6100 6000 6100 5850
-Wire Wire Line
-	6100 6000 7400 6000
-Wire Wire Line
-	6100 5550 6100 5400
-Wire Wire Line
-	6100 5400 6700 5400
+	6100 6000 6300 6000
 Wire Wire Line
 	7400 5850 7400 6000
 Wire Wire Line
@@ -137,37 +120,11 @@ Wire Wire Line
 	5400 5400 5650 5400
 Wire Wire Line
 	5400 5200 5650 5200
-Wire Wire Line
-	5650 5400 6100 5400
 Connection ~ 5650 5400
-Connection ~ 6100 5400
 Wire Wire Line
 	7400 5000 7400 5400
 Wire Wire Line
 	5400 5000 7400 5000
-Connection ~ 6100 6000
-$Comp
-L power:GND #PWR?
-U 1 1 61A58607
-P 4050 5800
-F 0 "#PWR?" H 4050 5550 50  0001 C CNN
-F 1 "GND" H 4055 5627 50  0000 C CNN
-F 2 "" H 4050 5800 50  0001 C CNN
-F 3 "" H 4050 5800 50  0001 C CNN
-	1    4050 5800
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 61A58BE6
-P 6100 6000
-F 0 "#PWR?" H 6100 5750 50  0001 C CNN
-F 1 "GND" H 6105 5827 50  0000 C CNN
-F 2 "" H 6100 6000 50  0001 C CNN
-F 3 "" H 6100 6000 50  0001 C CNN
-	1    6100 6000
-	1    0    0    -1  
-$EndComp
 NoConn ~ 4400 5400
 Wire Notes Line
 	2900 4550 2900 6250
@@ -180,10 +137,10 @@ Wire Notes Line
 Text Notes 2950 4500 0    98   ~ 20
 3.3V Buck Converter
 $Comp
-L lm2672m-to-263:LM2672M-TO-263 U?
+L Power_KiCAD_Project-rescue:LM2672M-TO-263-lm2672m-to-263 U5
 U 1 1 61A7F0DE
 P 4900 2850
-F 0 "U?" H 4900 3317 50  0000 C CNN
+F 0 "U5" H 4900 3317 50  0000 C CNN
 F 1 "LM2678SX-5.0/NOPB" H 4900 3226 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:TO-263-7_TabPin8" H 4950 2500 50  0001 L CIN
 F 3 "https://www.ti.com/lit/ds/symlink/lm2677.pdf" H 4900 2850 50  0001 C CNN
@@ -193,10 +150,10 @@ F 5 "https://webench.ti.com/wb5/PartDesigner/quickview.jsp?base_pn=LM2678&origin
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L Device:C C23
 U 1 1 61A7F0E5
 P 4050 3050
-F 0 "C?" H 4200 3050 50  0000 L CNN
+F 0 "C23" H 4200 3050 50  0000 L CNN
 F 1 "C0805C104M5RACTU" V 3900 2650 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 4088 2900 50  0001 C CNN
 F 3 "~" H 4050 3050 50  0001 C CNN
@@ -205,21 +162,16 @@ F 4 "https://www.digikey.com/en/products/detail/kemet/C0805C104M5RAC7800/411168"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3400 2650 3400 2900
-Wire Wire Line
 	3400 3450 3400 3200
 Wire Wire Line
 	4900 3450 4900 3250
-Wire Wire Line
-	3400 2650 3250 2650
-Connection ~ 3400 2650
 Text HLabel 3250 2650 0    50   Input ~ 0
 V_IN
 $Comp
-L 35SVPF82M:35SVPF82M C?
+L Power_KiCAD_Project-rescue:35SVPF82M-35SVPF82M C21
 U 1 1 61A7F0F2
 P 3400 2900
-F 0 "C?" V 3550 3000 60  0000 L CNN
+F 0 "C21" V 3550 3000 60  0000 L CNN
 F 1 "35SVPF82M" H 3350 2750 60  0000 L CNN
 F 2 "35SVPF82M:35SVPF82M" H 3550 2540 60  0001 C CNN
 F 3 "" H 3400 2900 60  0000 C CNN
@@ -229,8 +181,6 @@ F 4 "https://www.digikey.com/en/products/detail/panasonic-electronic-components/
 $EndComp
 Wire Wire Line
 	3400 3450 4050 3450
-Wire Wire Line
-	3400 2650 4050 2650
 Wire Wire Line
 	4050 3200 4050 3450
 Connection ~ 4050 3450
@@ -242,10 +192,10 @@ Connection ~ 4050 2650
 Wire Wire Line
 	4050 2650 4400 2650
 $Comp
-L Device:C_Small C?
+L Device:C_Small C25
 U 1 1 61A7F101
 P 5650 2950
-F 0 "C?" H 5742 2996 50  0000 L CNN
+F 0 "C25" H 5742 2996 50  0000 L CNN
 F 1 "CGA4C2C0G1H103J060AA" H 5700 2900 39  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 5650 2950 50  0001 C CNN
 F 3 "~" H 5650 2950 50  0001 C CNN
@@ -254,10 +204,10 @@ F 4 "https://www.digikey.com/en/products/detail/tdk-corporation/CGA4C2C0G1H103J0
 	1    0    0    -1  
 $EndComp
 $Comp
-L pspice:INDUCTOR L?
+L pspice:INDUCTOR L1
 U 1 1 61A7F108
 P 6950 3050
-F 0 "L?" H 6950 3265 50  0000 C CNN
+F 0 "L1" H 6950 3265 50  0000 C CNN
 F 1 "MSS1210-153MEB" H 6950 3174 50  0000 C CNN
 F 2 "MSS1210-153MEB:INDPM120120X1020N" H 6950 3050 50  0001 C CNN
 F 3 "~" H 6950 3050 50  0001 C CNN
@@ -267,21 +217,6 @@ F 4 "https://www.mouser.com/ProductDetail/Coilcraft/MSS1210-153MEB?qs=VJjuEbE9QB
 $EndComp
 Wire Wire Line
 	7200 3050 7400 3050
-$Comp
-L Device:D_Schottky D?
-U 1 1 61A7F115
-P 6100 3350
-F 0 "D?" V 6054 3430 50  0000 L CNN
-F 1 "SBRD10200TR" H 5850 3250 50  0000 L CNN
-F 2 "" H 6100 3350 50  0001 C CNN
-F 3 "~" H 6100 3350 50  0001 C CNN
-	1    6100 3350
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	6100 3650 6100 3500
-Wire Wire Line
-	6100 3650 7400 3650
 Wire Wire Line
 	6100 3200 6100 3050
 Wire Wire Line
@@ -307,29 +242,6 @@ Wire Wire Line
 	7400 2650 7400 3050
 Wire Wire Line
 	5400 2650 7400 2650
-Connection ~ 6100 3650
-$Comp
-L power:GND #PWR?
-U 1 1 61A7F12C
-P 4050 3450
-F 0 "#PWR?" H 4050 3200 50  0001 C CNN
-F 1 "GND" H 4055 3277 50  0000 C CNN
-F 2 "" H 4050 3450 50  0001 C CNN
-F 3 "" H 4050 3450 50  0001 C CNN
-	1    4050 3450
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 61A7F132
-P 6100 3650
-F 0 "#PWR?" H 6100 3400 50  0001 C CNN
-F 1 "GND" H 6105 3477 50  0000 C CNN
-F 2 "" H 6100 3650 50  0001 C CNN
-F 3 "" H 6100 3650 50  0001 C CNN
-	1    6100 3650
-	1    0    0    -1  
-$EndComp
 NoConn ~ 4400 3050
 Wire Notes Line
 	2900 2200 2900 3900
@@ -342,10 +254,12 @@ Wire Notes Line
 Text Notes 2950 2150 0    98   ~ 20
 5V Buck Converter
 $Comp
-L 16SVP330M:16SVP330M C?
+L Power_KiCAD_Project-rescue:16SVP330M-16SVP330M C?
 U 1 1 61A47D3A
 P 7400 3200
-F 0 "C?" V 7497 3305 60  0000 L CNN
+AR Path="/61A47D3A" Ref="C?"  Part="1" 
+AR Path="/61A48488/61A47D3A" Ref="C27"  Part="1" 
+F 0 "C27" V 7497 3305 60  0000 L CNN
 F 1 "16SVP330M" V 7603 3305 60  0000 L CNN
 F 2 "PCAP_SVP_F12_PAN" H 7550 2840 60  0001 C CNN
 F 3 "" H 7400 3200 60  0000 C CNN
@@ -362,4 +276,75 @@ Wire Wire Line
 	3400 5000 4050 5000
 Wire Wire Line
 	3400 5800 3400 5550
+Text HLabel 4050 3450 3    50   Input ~ 0
+ground
+Text HLabel 6000 3650 0    50   Input ~ 0
+ground
+Text HLabel 6100 6000 0    50   Input ~ 0
+ground
+Text HLabel 4050 5800 3    50   Input ~ 0
+ground
+$Comp
+L SBRD10200TR:SBRD10200TR D5
+U 1 1 61A8FF3C
+P 6100 3400
+F 0 "D5" H 6276 3441 50  0000 L CNN
+F 1 "SBRD10200TR" H 6276 3350 50  0000 L CNN
+F 2 "SBRD10200TR:DPAK228P1005X240-4N" H 6100 3400 50  0001 L BNN
+F 3 "" H 6100 3400 50  0001 L BNN
+F 4 "SBRD10200TR" H 6100 3400 50  0001 L BNN "MP"
+F 5 "1655-1939-1-ND" H 6100 3400 50  0001 L BNN "Digi-Key_Part_Number"
+F 6 "TO-252-3 SMC" H 6100 3400 50  0001 L BNN "Package"
+F 7 "Diode Schottky 200 V 10A Surface Mount DPAK" H 6100 3400 50  0001 L BNN "Description"
+F 8 "SMC Diode" H 6100 3400 50  0001 L BNN "MF"
+	1    6100 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L SBRD10200TR:SBRD10200TR D6
+U 1 1 61A94D59
+P 6200 5600
+F 0 "D6" H 6376 5641 50  0000 L CNN
+F 1 "SBRD10200TR" H 6376 5550 50  0000 L CNN
+F 2 "SBRD10200TR:DPAK228P1005X240-4N" H 6200 5600 50  0001 L BNN
+F 3 "" H 6200 5600 50  0001 L BNN
+F 4 "SBRD10200TR" H 6200 5600 50  0001 L BNN "MP"
+F 5 "1655-1939-1-ND" H 6200 5600 50  0001 L BNN "Digi-Key_Part_Number"
+F 6 "TO-252-3 SMC" H 6200 5600 50  0001 L BNN "Package"
+F 7 "Diode Schottky 200 V 10A Surface Mount DPAK" H 6200 5600 50  0001 L BNN "Description"
+F 8 "SMC Diode" H 6200 5600 50  0001 L BNN "MF"
+	1    6200 5600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5650 5400 6200 5400
+Connection ~ 6200 5400
+Wire Wire Line
+	6200 5400 6700 5400
+Wire Wire Line
+	6300 5800 6300 6000
+Connection ~ 6300 6000
+Wire Wire Line
+	6300 6000 7400 6000
+Wire Wire Line
+	6100 5800 6100 6000
+Wire Wire Line
+	6000 3650 6200 3650
+Wire Wire Line
+	6000 3600 6000 3610
+Connection ~ 6000 3610
+Wire Wire Line
+	6000 3610 6000 3650
+Wire Wire Line
+	6200 3600 6200 3650
+Connection ~ 6200 3650
+Wire Wire Line
+	6200 3650 7400 3650
+Wire Wire Line
+	3250 2650 3400 2650
+Wire Wire Line
+	3400 2900 3400 2650
+Connection ~ 3400 2650
+Wire Wire Line
+	3400 2650 4050 2650
 $EndSCHEMATC

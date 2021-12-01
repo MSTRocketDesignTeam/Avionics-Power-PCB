@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 12
+Sheet 5 12
 Title ""
 Date "2021-10-05"
 Rev "v1.0.3"
@@ -35,19 +35,6 @@ F 12 "Active" H 6950 5100 60  0001 L CNN "Status"
 	1    6750 3900
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 6161462F
-P 6850 5100
-AR Path="/6161462F" Ref="#PWR?"  Part="1" 
-AR Path="/6160DF75/6161462F" Ref="#PWR0129"  Part="1" 
-F 0 "#PWR0129" H 6850 4850 50  0001 C CNN
-F 1 "GND" H 6855 4927 50  0000 C CNN
-F 2 "" H 6850 5100 50  0001 C CNN
-F 3 "" H 6850 5100 50  0001 C CNN
-	1    6850 5100
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	7300 3300 7300 3350
 Wire Wire Line
@@ -64,8 +51,8 @@ L power:+3.3V #PWR?
 U 1 1 6161463B
 P 7300 3300
 AR Path="/6161463B" Ref="#PWR?"  Part="1" 
-AR Path="/6160DF75/6161463B" Ref="#PWR0130"  Part="1" 
-F 0 "#PWR0130" H 7300 3150 50  0001 C CNN
+AR Path="/6160DF75/6161463B" Ref="#PWR020"  Part="1" 
+F 0 "#PWR020" H 7300 3150 50  0001 C CNN
 F 1 "+3.3V" H 7315 3473 50  0000 C CNN
 F 2 "" H 7300 3300 50  0001 C CNN
 F 3 "" H 7300 3300 50  0001 C CNN
@@ -80,7 +67,7 @@ AR Path="/61614642" Ref="Y?"  Part="1"
 AR Path="/6160DF75/61614642" Ref="Y1"  Part="1" 
 F 0 "Y1" H 8250 4418 50  0000 C CNN
 F 1 "Crystal" H 8250 4327 50  0000 C CNN
-F 2 "" H 8250 4150 50  0001 C CNN
+F 2 "Crystal:Crystal_HC49-4H_Vertical" H 8250 4150 50  0001 C CNN
 F 3 "~" H 8250 4150 50  0001 C CNN
 	1    8250 4150
 	1    0    0    -1  
@@ -90,10 +77,10 @@ L Device:C_Small C?
 U 1 1 61614648
 P 8550 4400
 AR Path="/61614648" Ref="C?"  Part="1" 
-AR Path="/6160DF75/61614648" Ref="C21"  Part="1" 
-F 0 "C21" H 8458 4354 50  0000 R CNN
+AR Path="/6160DF75/61614648" Ref="C20"  Part="1" 
+F 0 "C20" H 8458 4354 50  0000 R CNN
 F 1 "30pF" H 8458 4445 50  0000 R CNN
-F 2 "" H 8550 4400 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 8550 4400 50  0001 C CNN
 F 3 "~" H 8550 4400 50  0001 C CNN
 	1    8550 4400
 	-1   0    0    1   
@@ -103,55 +90,16 @@ L Device:C_Small C?
 U 1 1 6161464E
 P 7950 4400
 AR Path="/6161464E" Ref="C?"  Part="1" 
-AR Path="/6160DF75/6161464E" Ref="C20"  Part="1" 
-F 0 "C20" H 7858 4354 50  0000 R CNN
+AR Path="/6160DF75/6161464E" Ref="C19"  Part="1" 
+F 0 "C19" H 7858 4354 50  0000 R CNN
 F 1 "30pF" H 7858 4445 50  0000 R CNN
-F 2 "" H 7950 4400 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 7950 4400 50  0001 C CNN
 F 3 "~" H 7950 4400 50  0001 C CNN
 	1    7950 4400
 	-1   0    0    1   
 $EndComp
 Text Notes 7850 5100 0    50   ~ 0
 CL = 2 * (Cload - Cstray)\nCload ≈ 20pF, Cstray ≈ 5pF\nCL = 2 *(20pF - 5pF)\nCL = 30pF
-$Comp
-L power:GND #PWR?
-U 1 1 61614655
-P 7950 4500
-AR Path="/61614655" Ref="#PWR?"  Part="1" 
-AR Path="/6160DF75/61614655" Ref="#PWR0131"  Part="1" 
-F 0 "#PWR0131" H 7950 4250 50  0001 C CNN
-F 1 "GND" H 7955 4327 50  0000 C CNN
-F 2 "" H 7950 4500 50  0001 C CNN
-F 3 "" H 7950 4500 50  0001 C CNN
-	1    7950 4500
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 6161465B
-P 8550 4500
-AR Path="/6161465B" Ref="#PWR?"  Part="1" 
-AR Path="/6160DF75/6161465B" Ref="#PWR0132"  Part="1" 
-F 0 "#PWR0132" H 8550 4250 50  0001 C CNN
-F 1 "GND" H 8555 4327 50  0000 C CNN
-F 2 "" H 8550 4500 50  0001 C CNN
-F 3 "" H 8550 4500 50  0001 C CNN
-	1    8550 4500
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 61614661
-P 6000 4750
-AR Path="/61614661" Ref="#PWR?"  Part="1" 
-AR Path="/6160DF75/61614661" Ref="#PWR0133"  Part="1" 
-F 0 "#PWR0133" H 6000 4500 50  0001 C CNN
-F 1 "GND" H 6005 4577 50  0000 C CNN
-F 2 "" H 6000 4750 50  0001 C CNN
-F 3 "" H 6000 4750 50  0001 C CNN
-	1    6000 4750
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	6000 4750 6000 4600
 Wire Wire Line
@@ -179,10 +127,10 @@ L Device:C_Small C?
 U 1 1 61614678
 P 3500 4350
 AR Path="/61614678" Ref="C?"  Part="1" 
-AR Path="/6160DF75/61614678" Ref="C17"  Part="1" 
-F 0 "C17" H 3408 4304 50  0000 R CNN
+AR Path="/6160DF75/61614678" Ref="C16"  Part="1" 
+F 0 "C16" H 3408 4304 50  0000 R CNN
 F 1 "1uF" H 3408 4395 50  0000 R CNN
-F 2 "" H 3500 4350 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3500 4350 50  0001 C CNN
 F 3 "~" H 3500 4350 50  0001 C CNN
 	1    3500 4350
 	-1   0    0    1   
@@ -192,10 +140,10 @@ L Device:C_Small C?
 U 1 1 6161467E
 P 3900 4350
 AR Path="/6161467E" Ref="C?"  Part="1" 
-AR Path="/6160DF75/6161467E" Ref="C18"  Part="1" 
-F 0 "C18" H 3808 4304 50  0000 R CNN
+AR Path="/6160DF75/6161467E" Ref="C17"  Part="1" 
+F 0 "C17" H 3808 4304 50  0000 R CNN
 F 1 "100nF" H 3808 4395 50  0000 R CNN
-F 2 "" H 3900 4350 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3900 4350 50  0001 C CNN
 F 3 "~" H 3900 4350 50  0001 C CNN
 	1    3900 4350
 	-1   0    0    1   
@@ -205,26 +153,13 @@ L Device:C_Small C?
 U 1 1 61614684
 P 4300 4350
 AR Path="/61614684" Ref="C?"  Part="1" 
-AR Path="/6160DF75/61614684" Ref="C19"  Part="1" 
-F 0 "C19" H 4208 4304 50  0000 R CNN
+AR Path="/6160DF75/61614684" Ref="C18"  Part="1" 
+F 0 "C18" H 4208 4304 50  0000 R CNN
 F 1 "100nF" H 4208 4395 50  0000 R CNN
-F 2 "" H 4300 4350 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4300 4350 50  0001 C CNN
 F 3 "~" H 4300 4350 50  0001 C CNN
 	1    4300 4350
 	-1   0    0    1   
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 6161468A
-P 3500 4600
-AR Path="/6161468A" Ref="#PWR?"  Part="1" 
-AR Path="/6160DF75/6161468A" Ref="#PWR0134"  Part="1" 
-F 0 "#PWR0134" H 3500 4350 50  0001 C CNN
-F 1 "GND" H 3505 4427 50  0000 C CNN
-F 2 "" H 3500 4600 50  0001 C CNN
-F 3 "" H 3500 4600 50  0001 C CNN
-	1    3500 4600
-	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	3500 4600 3500 4550
@@ -245,8 +180,8 @@ L power:+3.3V #PWR?
 U 1 1 61614698
 P 3500 4100
 AR Path="/61614698" Ref="#PWR?"  Part="1" 
-AR Path="/6160DF75/61614698" Ref="#PWR0135"  Part="1" 
-F 0 "#PWR0135" H 3500 3950 50  0001 C CNN
+AR Path="/6160DF75/61614698" Ref="#PWR019"  Part="1" 
+F 0 "#PWR019" H 3500 3950 50  0001 C CNN
 F 1 "+3.3V" H 3515 4273 50  0000 C CNN
 F 2 "" H 3500 4100 50  0001 C CNN
 F 3 "" H 3500 4100 50  0001 C CNN
@@ -291,22 +226,9 @@ AR Path="/616146AE" Ref="R?"  Part="1"
 AR Path="/6160DF75/616146AE" Ref="R18"  Part="1" 
 F 0 "R18" H 5770 4646 50  0000 L CNN
 F 1 "1k5Ω" H 5770 4555 50  0000 L CNN
-F 2 "" V 5630 4600 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 5630 4600 50  0001 C CNN
 F 3 "~" H 5700 4600 50  0001 C CNN
 	1    5700 4600
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 616146B4
-P 5700 4750
-AR Path="/616146B4" Ref="#PWR?"  Part="1" 
-AR Path="/6160DF75/616146B4" Ref="#PWR0136"  Part="1" 
-F 0 "#PWR0136" H 5700 4500 50  0001 C CNN
-F 1 "GND" H 5705 4577 50  0000 C CNN
-F 2 "" H 5700 4750 50  0001 C CNN
-F 3 "" H 5700 4750 50  0001 C CNN
-	1    5700 4750
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -317,7 +239,7 @@ AR Path="/616146BA" Ref="D?"  Part="1"
 AR Path="/6160DF75/616146BA" Ref="D4"  Part="1" 
 F 0 "D4" V 5739 4082 50  0000 R CNN
 F 1 "GREEN" V 5648 4082 50  0000 R CNN
-F 2 "" H 5700 4200 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" H 5700 4200 50  0001 C CNN
 F 3 "~" H 5700 4200 50  0001 C CNN
 	1    5700 4200
 	0    -1   -1   0   
@@ -330,7 +252,7 @@ AR Path="/616146C0" Ref="D?"  Part="1"
 AR Path="/6160DF75/616146C0" Ref="D3"  Part="1" 
 F 0 "D3" V 5389 4082 50  0000 R CNN
 F 1 "RED" V 5298 4082 50  0000 R CNN
-F 2 "" H 5350 4200 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" H 5350 4200 50  0001 C CNN
 F 3 "~" H 5350 4200 50  0001 C CNN
 	1    5350 4200
 	0    -1   -1   0   
@@ -343,22 +265,9 @@ AR Path="/616146C6" Ref="R?"  Part="1"
 AR Path="/6160DF75/616146C6" Ref="R17"  Part="1" 
 F 0 "R17" H 5420 4646 50  0000 L CNN
 F 1 "1k5Ω" H 5420 4555 50  0000 L CNN
-F 2 "" V 5280 4600 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 5280 4600 50  0001 C CNN
 F 3 "~" H 5350 4600 50  0001 C CNN
 	1    5350 4600
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 616146CC
-P 5350 4750
-AR Path="/616146CC" Ref="#PWR?"  Part="1" 
-AR Path="/6160DF75/616146CC" Ref="#PWR0137"  Part="1" 
-F 0 "#PWR0137" H 5350 4500 50  0001 C CNN
-F 1 "GND" H 5355 4577 50  0000 C CNN
-F 2 "" H 5350 4750 50  0001 C CNN
-F 3 "" H 5350 4750 50  0001 C CNN
-	1    5350 4750
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -399,4 +308,18 @@ Text HLabel 6350 4300 0    50   Input ~ 0
 Alert_sda
 Text HLabel 6350 4400 0    50   Input ~ 0
 Alert_Active
+Text HLabel 3500 4600 3    50   Input ~ 0
+ground
+Text HLabel 6000 4750 3    50   Input ~ 0
+ground
+Text HLabel 5700 4750 3    50   Input ~ 0
+ground
+Text HLabel 5350 4750 3    50   Input ~ 0
+ground
+Text HLabel 6850 5100 3    50   Input ~ 0
+ground
+Text HLabel 8550 4500 3    50   Input ~ 0
+ground
+Text HLabel 7950 4500 3    50   Input ~ 0
+ground
 $EndSCHEMATC

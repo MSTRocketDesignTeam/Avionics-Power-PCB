@@ -14,29 +14,14 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L power:GND #PWR?
-U 1 1 6160E311
-P 3250 3650
-AR Path="/6160E311" Ref="#PWR?"  Part="1" 
-AR Path="/615C1FB4/6160E311" Ref="#PWR?"  Part="1" 
-AR Path="/61B1B3BC/6160E311" Ref="#PWR?"  Part="1" 
-AR Path="/61B35621/6160E311" Ref="#PWR0106"  Part="1" 
-F 0 "#PWR0106" H 3250 3400 50  0001 C CNN
-F 1 "GND" H 3255 3477 50  0000 C CNN
-F 2 "" H 3250 3650 50  0001 C CNN
-F 3 "" H 3250 3650 50  0001 C CNN
-	1    3250 3650
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:+3.3V #PWR?
 U 1 1 6160E323
 P 3700 2450
 AR Path="/6160E323" Ref="#PWR?"  Part="1" 
 AR Path="/615C1FB4/6160E323" Ref="#PWR?"  Part="1" 
 AR Path="/61B1B3BC/6160E323" Ref="#PWR?"  Part="1" 
-AR Path="/61B35621/6160E323" Ref="#PWR0107"  Part="1" 
-F 0 "#PWR0107" H 3700 2300 50  0001 C CNN
+AR Path="/61B35621/6160E323" Ref="#PWR05"  Part="1" 
+F 0 "#PWR05" H 3700 2300 50  0001 C CNN
 F 1 "+3.3V" H 3715 2623 50  0000 C CNN
 F 2 "" H 3700 2450 50  0001 C CNN
 F 3 "" H 3700 2450 50  0001 C CNN
@@ -60,10 +45,10 @@ P 4250 3100
 AR Path="/6160E331" Ref="C?"  Part="1" 
 AR Path="/615C1FB4/6160E331" Ref="C?"  Part="1" 
 AR Path="/61B1B3BC/6160E331" Ref="C?"  Part="1" 
-AR Path="/61B35621/6160E331" Ref="C3"  Part="1" 
-F 0 "C3" H 4365 3146 50  0000 L CNN
+AR Path="/61B35621/6160E331" Ref="C2"  Part="1" 
+F 0 "C2" H 4365 3146 50  0000 L CNN
 F 1 "100nF" H 4365 3055 50  0000 L CNN
-F 2 "" H 4288 2950 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4288 2950 50  0001 C CNN
 F 3 "~" H 4250 3100 50  0001 C CNN
 	1    4250 3100
 	1    0    0    -1  
@@ -98,21 +83,6 @@ $EndComp
 Wire Wire Line
 	3700 2500 4250 2500
 Connection ~ 3700 2500
-$Comp
-L power:GND #PWR?
-U 1 1 61A8C2E3
-P 4250 3250
-AR Path="/61A8C2E3" Ref="#PWR?"  Part="1" 
-AR Path="/615C1FB4/61A8C2E3" Ref="#PWR?"  Part="1" 
-AR Path="/61B1B3BC/61A8C2E3" Ref="#PWR?"  Part="1" 
-AR Path="/61B35621/61A8C2E3" Ref="#PWR0108"  Part="1" 
-F 0 "#PWR0108" H 4250 3000 50  0001 C CNN
-F 1 "GND" H 4255 3077 50  0000 C CNN
-F 2 "" H 4250 3250 50  0001 C CNN
-F 3 "" H 4250 3250 50  0001 C CNN
-	1    4250 3250
-	1    0    0    -1  
-$EndComp
 Text HLabel 3650 3050 2    50   Input ~ 0
 ALERT
 Wire Notes Line
@@ -123,4 +93,8 @@ Wire Notes Line
 	2400 2200 4750 2200
 Wire Wire Line
 	4250 2500 4250 2950
+Text HLabel 4250 3250 3    50   Input ~ 0
+ground
+Text HLabel 3250 3650 3    50   Input ~ 0
+ground
 $EndSCHEMATC
