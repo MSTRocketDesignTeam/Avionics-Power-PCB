@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 12
+Sheet 1 7
 Title "Power Supply PCB Schematic"
 Date "2021-10-05"
 Rev "v1.0.3"
@@ -51,20 +51,6 @@ F5 "A1" I R 4550 2400 50
 F6 "A2" I R 4550 2550 50 
 F7 "ALERT" I L 3750 2500 50 
 F8 "ground" I R 4550 2700 50 
-$EndSheet
-$Sheet
-S 3100 5200 850  950 
-U 615ED460
-F0 "LiPo Pack Monitor" 50
-F1 "LiPo_Pack_Monitor.sch" 50
-F2 "PACK+" I L 3100 5300 50 
-F3 "PACK_M5" I R 3950 5300 50 
-F4 "PACK_M4" I R 3950 5450 50 
-F5 "PACK_M3" I R 3950 5600 50 
-F6 "PACK_M2" I R 3950 5750 50 
-F7 "PACK_M1" I R 3950 5900 50 
-F8 "PACK_M0" I R 3950 6050 50 
-F9 "PACK-" I L 3100 6050 50 
 $EndSheet
 Entry Wire Line
 	2500 1850 2400 1750
@@ -216,17 +202,6 @@ Entry Wire Line
 	3050 1250 3150 1150
 Wire Bus Line
 	2500 2000 3050 2000
-$Comp
-L Connector:Barrel_Jack J6
-U 1 1 61850F95
-P 2850 3500
-F 0 "J6" V 2861 3688 50  0000 L CNN
-F 1 "Barrel_Jack" V 2952 3688 50  0000 L CNN
-F 2 "Connector_BarrelJack:BarrelJack_CUI_PJ-036AH-SMT_Horizontal" H 2900 3460 50  0001 C CNN
-F 3 "~" H 2900 3460 50  0001 C CNN
-	1    2850 3500
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	2950 5300 3100 5300
 Wire Wire Line
@@ -260,17 +235,17 @@ F10 "Alert_sda" I L 1100 1250 50
 F11 "Alert_Active" I L 1100 1350 50 
 F12 "ground" I R 1800 2300 50 
 $EndSheet
-Text Label 7350 1450 2    50   ~ 0
+Text Label 7400 3500 2    50   ~ 0
 Alert_scl
-Text Label 7350 1600 2    50   ~ 0
+Text Label 7400 3600 2    50   ~ 0
 Alert_sda
-Text Label 8400 1100 0    50   ~ 0
+Text Label 7400 3800 2    50   ~ 0
 SWDIO
-Text Label 8400 1250 0    50   ~ 0
+Text Label 7400 3900 2    50   ~ 0
 SWCLK
-Text Label 8400 1400 0    50   ~ 0
+Text Label 7400 4000 2    50   ~ 0
 NRST
-Text Label 8400 950  0    50   ~ 0
+Text Label 7400 3700 2    50   ~ 0
 Alert_active
 Connection ~ 3050 2000
 Wire Notes Line
@@ -316,15 +291,8 @@ Connection ~ 1400 6100
 Wire Bus Line
 	1400 6100 1650 6100
 Wire Bus Line
-	1300 5600 1300 6100
-Wire Bus Line
-	1300 6100 1350 6100
-Connection ~ 1300 6100
-Wire Bus Line
 	1050 5650 1050 6100
 Connection ~ 1050 6100
-Wire Bus Line
-	1050 6100 1300 6100
 Text Label 900  6200 0    50   ~ 0
 PACK_M5
 Text Label 900  6100 0    50   ~ 0
@@ -333,7 +301,7 @@ Text Label 950  5650 3    50   ~ 0
 PACK_M4
 Text Label 1050 5650 3    50   ~ 0
 PACK_M3
-Text Label 1300 5650 3    50   ~ 0
+Text Label 1300 5600 3    50   ~ 0
 PACK_M3
 Text Label 1400 5650 3    50   ~ 0
 PACK_M2
@@ -355,8 +323,6 @@ F3 "3.3V" I R 3850 4450 50
 F4 "5V" I R 3850 4150 50 
 F5 "ground" I R 3850 4600 50 
 $EndSheet
-Wire Wire Line
-	2750 3800 2750 6050
 Wire Wire Line
 	2950 3800 2950 4300
 Wire Wire Line
@@ -403,24 +369,6 @@ Wire Wire Line
 	4750 1750 4750 2250
 Wire Wire Line
 	4550 2700 4750 2700
-$Sheet
-S 7350 800  1050 1400
-U 61A88F09
-F0 "Sheet61A88F08" 50
-F1 "power_dsub.sch" 50
-F2 "t_mosi" I L 7350 950 50 
-F3 "t_miso" I L 7350 1100 50 
-F4 "t_clk" I L 7350 1250 50 
-F5 "Alert_scl" I L 7350 1450 50 
-F6 "Alert_sda" I L 7350 1600 50 
-F7 "Alert_Active" I R 8400 950 50 
-F8 "SWDIO" I R 8400 1100 50 
-F9 "SWCLK" I R 8400 1250 50 
-F10 "NRST" I R 8400 1400 50 
-F11 "Fire" I R 8400 1550 50 
-F12 "Fire_redundant" I R 8400 1650 50 
-F13 "ground" I R 8400 1800 50 
-$EndSheet
 Text Label 2750 6050 2    50   ~ 0
 Pack-
 Text Label 3850 4600 0    50   ~ 0
@@ -429,167 +377,7 @@ Text Label 4750 2700 0    50   ~ 0
 Pack-
 Text Label 1800 2300 0    50   ~ 0
 Pack-
-Text Label 8400 1800 0    50   ~ 0
-Pack-
-Text Label 9500 1450 2    50   ~ 0
-Alert_scl
-Text Label 9500 1600 2    50   ~ 0
-Alert_sda
-Text Label 10550 1100 0    50   ~ 0
-SWDIO
-Text Label 10550 1250 0    50   ~ 0
-SWCLK
-Text Label 10550 1400 0    50   ~ 0
-NRST
-Text Label 10550 950  0    50   ~ 0
-Alert_active
-$Sheet
-S 9500 800  1050 1400
-U 61AAEAFF
-F0 "sheet61AAEAEB" 50
-F1 "power_dsub.sch" 50
-F2 "t_mosi" I L 9500 950 50 
-F3 "t_miso" I L 9500 1100 50 
-F4 "t_clk" I L 9500 1250 50 
-F5 "Alert_scl" I L 9500 1450 50 
-F6 "Alert_sda" I L 9500 1600 50 
-F7 "Alert_Active" I R 10550 950 50 
-F8 "SWDIO" I R 10550 1100 50 
-F9 "SWCLK" I R 10550 1250 50 
-F10 "NRST" I R 10550 1400 50 
-F11 "Fire" I R 10550 1550 50 
-F12 "Fire_redundant" I R 10550 1650 50 
-F13 "ground" I R 10550 1800 50 
-$EndSheet
-Text Label 10550 1800 0    50   ~ 0
-Pack-
-Text Label 7350 3350 2    50   ~ 0
-Alert_scl
-Text Label 7350 3500 2    50   ~ 0
-Alert_sda
-Text Label 8400 3000 0    50   ~ 0
-SWDIO
-Text Label 8400 3150 0    50   ~ 0
-SWCLK
-Text Label 8400 3300 0    50   ~ 0
-NRST
-Text Label 8400 2850 0    50   ~ 0
-Alert_active
-$Sheet
-S 7350 2700 1050 1400
-U 61AB0573
-F0 "sheet61AB055F" 50
-F1 "power_dsub.sch" 50
-F2 "t_mosi" I L 7350 2850 50 
-F3 "t_miso" I L 7350 3000 50 
-F4 "t_clk" I L 7350 3150 50 
-F5 "Alert_scl" I L 7350 3350 50 
-F6 "Alert_sda" I L 7350 3500 50 
-F7 "Alert_Active" I R 8400 2850 50 
-F8 "SWDIO" I R 8400 3000 50 
-F9 "SWCLK" I R 8400 3150 50 
-F10 "NRST" I R 8400 3300 50 
-F11 "Fire" I R 8400 3450 50 
-F12 "Fire_redundant" I R 8400 3550 50 
-F13 "ground" I R 8400 3700 50 
-$EndSheet
-Text Label 8400 3700 0    50   ~ 0
-Pack-
-Text Label 9550 3350 2    50   ~ 0
-Alert_scl
-Text Label 9550 3500 2    50   ~ 0
-Alert_sda
-Text Label 10600 3000 0    50   ~ 0
-SWDIO
-Text Label 10600 3150 0    50   ~ 0
-SWCLK
-Text Label 10600 3300 0    50   ~ 0
-NRST
-Text Label 10600 2850 0    50   ~ 0
-Alert_active
-$Sheet
-S 9550 2700 1050 1400
-U 61AB1C77
-F0 "sheet61AB1C63" 50
-F1 "power_dsub.sch" 50
-F2 "t_mosi" I L 9550 2850 50 
-F3 "t_miso" I L 9550 3000 50 
-F4 "t_clk" I L 9550 3150 50 
-F5 "Alert_scl" I L 9550 3350 50 
-F6 "Alert_sda" I L 9550 3500 50 
-F7 "Alert_Active" I R 10600 2850 50 
-F8 "SWDIO" I R 10600 3000 50 
-F9 "SWCLK" I R 10600 3150 50 
-F10 "NRST" I R 10600 3300 50 
-F11 "Fire" I R 10600 3450 50 
-F12 "Fire_redundant" I R 10600 3550 50 
-F13 "ground" I R 10600 3700 50 
-$EndSheet
-Text Label 10600 3700 0    50   ~ 0
-Pack-
-Text Label 7350 5250 2    50   ~ 0
-Alert_scl
-Text Label 7350 5400 2    50   ~ 0
-Alert_sda
-Text Label 8400 4900 0    50   ~ 0
-SWDIO
-Text Label 8400 5050 0    50   ~ 0
-SWCLK
-Text Label 8400 5200 0    50   ~ 0
-NRST
-Text Label 8400 4750 0    50   ~ 0
-Alert_active
-$Sheet
-S 7350 4600 1050 1400
-U 61AB3C9F
-F0 "sheet61AB3C8B" 50
-F1 "power_dsub.sch" 50
-F2 "t_mosi" I L 7350 4750 50 
-F3 "t_miso" I L 7350 4900 50 
-F4 "t_clk" I L 7350 5050 50 
-F5 "Alert_scl" I L 7350 5250 50 
-F6 "Alert_sda" I L 7350 5400 50 
-F7 "Alert_Active" I R 8400 4750 50 
-F8 "SWDIO" I R 8400 4900 50 
-F9 "SWCLK" I R 8400 5050 50 
-F10 "NRST" I R 8400 5200 50 
-F11 "Fire" I R 8400 5350 50 
-F12 "Fire_redundant" I R 8400 5450 50 
-F13 "ground" I R 8400 5600 50 
-$EndSheet
-Text Label 8400 5600 0    50   ~ 0
-Pack-
-Text Label 9550 5250 2    50   ~ 0
-Alert_scl
-Text Label 9550 5400 2    50   ~ 0
-Alert_sda
-Text Label 10600 4900 0    50   ~ 0
-SWDIO
-Text Label 10600 5050 0    50   ~ 0
-SWCLK
-Text Label 10600 5200 0    50   ~ 0
-NRST
-Text Label 10600 4750 0    50   ~ 0
-Alert_active
-$Sheet
-S 9550 4600 1050 1400
-U 61AB4D27
-F0 "sheet61AB4D13" 50
-F1 "power_dsub.sch" 50
-F2 "t_mosi" I L 9550 4750 50 
-F3 "t_miso" I L 9550 4900 50 
-F4 "t_clk" I L 9550 5050 50 
-F5 "Alert_scl" I L 9550 5250 50 
-F6 "Alert_sda" I L 9550 5400 50 
-F7 "Alert_Active" I R 10600 4750 50 
-F8 "SWDIO" I R 10600 4900 50 
-F9 "SWCLK" I R 10600 5050 50 
-F10 "NRST" I R 10600 5200 50 
-F11 "Fire" I R 10600 5350 50 
-F12 "Fire_redundant" I R 10600 5450 50 
-F13 "ground" I R 10600 5600 50 
-$EndSheet
-Text Label 10600 5600 0    50   ~ 0
+Text Label 8150 4350 0    50   ~ 0
 Pack-
 $Comp
 L XT60-M:XT60-M J2
@@ -685,8 +473,6 @@ Wire Wire Line
 Wire Wire Line
 	1050 5450 1050 5650
 Wire Wire Line
-	1300 5600 1300 5450
-Wire Wire Line
 	1300 5450 1250 5450
 Wire Wire Line
 	1400 5650 1400 5450
@@ -732,6 +518,59 @@ Wire Wire Line
 	1650 5650 1650 5450
 Wire Wire Line
 	1650 5450 1800 5450
+Wire Wire Line
+	1300 5600 1300 5450
+Wire Bus Line
+	1050 6100 1300 6100
+Wire Bus Line
+	1300 5600 1300 6100
+Wire Bus Line
+	1300 6100 1350 6100
+Connection ~ 1300 6100
+$Sheet
+S 7400 2950 750  1600
+U 61D3585E
+F0 "Sheet61D3585D" 50
+F1 "DSUB-slot.sch" 50
+F2 "t_mosi" I L 7400 3200 50 
+F3 "t_miso" I L 7400 3300 50 
+F4 "t_clk" I L 7400 3400 50 
+F5 "Alert_scl" I L 7400 3500 50 
+F6 "Alert_sda" I L 7400 3600 50 
+F7 "Alert_Active" I L 7400 3700 50 
+F8 "SWDIO" I L 7400 3800 50 
+F9 "SWCLK" I L 7400 3900 50 
+F10 "NRST" I L 7400 4000 50 
+F11 "Fire" I R 8150 4050 50 
+F12 "Fire_redundant" I R 8150 4200 50 
+F13 "ground" I R 8150 4350 50 
+$EndSheet
+$Comp
+L SamacSys_Parts:PJ-102AH J6
+U 1 1 61DA3F86
+P 2800 2900
+F 0 "J6" V 3154 2672 50  0000 R CNN
+F 1 "PJ-102AH" V 3245 2672 50  0000 R CNN
+F 2 "PJ-102AH" H 3450 3000 50  0001 L CNN
+F 3 "http://www.cui.com/product/resource/digikeypdf/pj-102ah.pdf" H 3450 2900 50  0001 L CNN
+F 4 "DC POWER JACK" H 3450 2800 50  0001 L CNN "Description"
+F 5 "" H 3450 2700 50  0001 L CNN "Height"
+F 6 "490-PJ-102AH" H 3450 2600 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/CUI-Devices/PJ-102AH?qs=WyjlAZoYn50Yq4CrVLCXLw%3D%3D" H 3450 2500 50  0001 L CNN "Mouser Price/Stock"
+F 8 "CUI Inc." H 3450 2400 50  0001 L CNN "Manufacturer_Name"
+F 9 "PJ-102AH" H 3450 2300 50  0001 L CNN "Manufacturer_Part_Number"
+	1    2800 2900
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	2750 3700 2800 3700
+Wire Wire Line
+	2900 3700 2900 3800
+Wire Wire Line
+	2900 3800 2950 3800
+Wire Wire Line
+	2750 3700 2750 6050
+NoConn ~ 2800 2900
 Wire Bus Line
 	3050 2000 3050 2600
 Wire Bus Line
@@ -740,4 +579,18 @@ Wire Bus Line
 	2500 1550 2500 2000
 Wire Bus Line
 	4450 5400 4450 6800
+$Sheet
+S 3100 5200 850  950 
+U 615ED460
+F0 "LiPo Pack Monitor" 50
+F1 "LiPo_Pack_Monitor.sch" 50
+F2 "PACK+" I L 3100 5300 50 
+F3 "PACK_M5" I R 3950 5300 50 
+F4 "PACK_M4" I R 3950 5450 50 
+F5 "PACK_M3" I R 3950 5600 50 
+F6 "PACK_M2" I R 3950 5750 50 
+F7 "PACK_M1" I R 3950 5900 50 
+F8 "PACK_M0" I R 3950 6050 50 
+F9 "PACK-" I L 3100 6050 50 
+$EndSheet
 $EndSCHEMATC
