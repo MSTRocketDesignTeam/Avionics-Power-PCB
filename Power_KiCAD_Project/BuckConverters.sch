@@ -360,9 +360,9 @@ Wire Wire Line
 Wire Wire Line
 	5400 5200 5750 5200
 Wire Wire Line
-	6200 5400 6900 5400
+	6200 5400 6450 5400
 Wire Wire Line
-	7000 5400 7400 5400
+	7000 5400 7250 5400
 $Comp
 L Power_KiCAD_Project-rescue:LM2672M-TO-263-lm2672m-to-263 U4
 U 1 1 61A7F0DE
@@ -396,27 +396,31 @@ $EndComp
 $Comp
 L SamacSys_Parts:SRP1270-8R2M L1
 U 1 1 61D4AE9F
-P 6450 5000
-F 0 "L1" H 6850 5225 50  0000 C CNN
-F 1 "SRP1270-8R2M" H 6850 5134 50  0000 C CNN
-F 2 "SamacSys_Parts:INDPM137129X700N" H 7100 5050 50  0001 L CNN
-F 3 "https://datasheet.datasheetarchive.com/originals/distributors/SFDatasheet-7/sf-000140448.pdf" H 7100 4950 50  0001 L CNN
-F 4 "Bourns, SRP1270, 1270 Shielded Wire-wound SMD Inductor with a Iron Core, 8.2 uH +/-20% Wire-Wound 17A Idc" H 7100 4850 50  0001 L CNN "Description"
-F 5 "7" H 7100 4750 50  0001 L CNN "Height"
-F 6 "652-SRP1270-8R2M" H 7100 4650 50  0001 L CNN "Mouser Part Number"
-F 7 "https://www.mouser.co.uk/ProductDetail/Bourns/SRP1270-8R2M?qs=s%252BX%2FYkvGCpF9VN%2FUv1apFg%3D%3D" H 7100 4550 50  0001 L CNN "Mouser Price/Stock"
-F 8 "Bourns" H 7100 4450 50  0001 L CNN "Manufacturer_Name"
-F 9 "SRP1270-8R2M" H 7100 4350 50  0001 L CNN "Manufacturer_Part_Number"
-	1    6450 5000
+P 6450 5400
+F 0 "L1" H 6850 5625 50  0000 C CNN
+F 1 "SRP1270-8R2M" H 6850 5534 50  0000 C CNN
+F 2 "SamacSys_Parts:INDPM137129X700N" H 7100 5450 50  0001 L CNN
+F 3 "https://datasheet.datasheetarchive.com/originals/distributors/SFDatasheet-7/sf-000140448.pdf" H 7100 5350 50  0001 L CNN
+F 4 "Bourns, SRP1270, 1270 Shielded Wire-wound SMD Inductor with a Iron Core, 8.2 uH +/-20% Wire-Wound 17A Idc" H 7100 5250 50  0001 L CNN "Description"
+F 5 "7" H 7100 5150 50  0001 L CNN "Height"
+F 6 "652-SRP1270-8R2M" H 7100 5050 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Bourns/SRP1270-8R2M?qs=s%252BX%2FYkvGCpF9VN%2FUv1apFg%3D%3D" H 7100 4950 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Bourns" H 7100 4850 50  0001 L CNN "Manufacturer_Name"
+F 9 "SRP1270-8R2M" H 7100 4750 50  0001 L CNN "Manufacturer_Part_Number"
+	1    6450 5400
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5400 5000 6450 5000
-Wire Wire Line
-	7250 5000 7400 5000
 Wire Wire Line
 	6100 5650 6100 5810
 Connection ~ 6100 5810
 Wire Wire Line
 	6100 5810 6100 6000
+Connection ~ 6450 5400
+Wire Wire Line
+	6450 5400 6900 5400
+Connection ~ 7250 5400
+Wire Wire Line
+	7250 5400 7400 5400
+Wire Wire Line
+	5400 5000 7400 5000
 $EndSCHEMATC
