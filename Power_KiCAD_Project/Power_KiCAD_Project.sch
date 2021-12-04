@@ -360,8 +360,6 @@ Wire Wire Line
 	4450 4000 4450 4450
 Wire Wire Line
 	4450 4450 3850 4450
-Text Notes 1300 7550 0    79   Italic 16
-Important: Should the Pack negative be directly connected to GND?\nThink this will Bypass the BMS system since everything else uses GND and not Pack-?\nMaybe we need separate the two grounds??\n-Seth
 Wire Wire Line
 	4550 1750 4750 1750
 Connection ~ 4750 1750
@@ -394,7 +392,7 @@ F 7 "AMASS" H 800 5150 50  0001 L BNN "MF"
 F 8 "Not in stock" H 800 5150 50  0001 L BNN "Availability"
 F 9 "Plug; DC supply; XT60; male; PIN: 2; for cable; soldered; 30A; 500V" H 800 5150 50  0001 L BNN "Description"
 	1    800  5150
-	0    -1   -1   0   
+	0    1    -1   0   
 $EndComp
 $Comp
 L XT60-M:XT60-M J3
@@ -411,7 +409,7 @@ F 7 "AMASS" H 1350 5150 50  0001 L BNN "MF"
 F 8 "Not in stock" H 1350 5150 50  0001 L BNN "Availability"
 F 9 "Plug; DC supply; XT60; male; PIN: 2; for cable; soldered; 30A; 500V" H 1350 5150 50  0001 L BNN "Description"
 	1    1350 5150
-	0    -1   -1   0   
+	0    1    -1   0   
 $EndComp
 $Comp
 L XT60-M:XT60-M J4
@@ -428,7 +426,7 @@ F 7 "AMASS" H 1900 5150 50  0001 L BNN "MF"
 F 8 "Not in stock" H 1900 5150 50  0001 L BNN "Availability"
 F 9 "Plug; DC supply; XT60; male; PIN: 2; for cable; soldered; 30A; 500V" H 1900 5150 50  0001 L BNN "Description"
 	1    1900 5150
-	0    -1   -1   0   
+	0    1    -1   0   
 $EndComp
 $Comp
 L XT60-M:XT60-M J1
@@ -445,7 +443,7 @@ F 7 "AMASS" H 700 6450 50  0001 L BNN "MF"
 F 8 "Not in stock" H 700 6450 50  0001 L BNN "Availability"
 F 9 "Plug; DC supply; XT60; male; PIN: 2; for cable; soldered; 30A; 500V" H 700 6450 50  0001 L BNN "Description"
 	1    700  6450
-	-1   0    0    1   
+	-1   0    0    -1  
 $EndComp
 $Comp
 L XT60-M:XT60-M J5
@@ -462,7 +460,7 @@ F 7 "AMASS" H 2000 6450 50  0001 L BNN "MF"
 F 8 "Not in stock" H 2000 6450 50  0001 L BNN "Availability"
 F 9 "Plug; DC supply; XT60; male; PIN: 2; for cable; soldered; 30A; 500V" H 2000 6450 50  0001 L BNN "Description"
 	1    2000 6450
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 Wire Wire Line
 	700  5450 700  5650
@@ -584,7 +582,31 @@ F6 "PACK_M2" I R 3950 5750 50
 F7 "PACK_M1" I R 3950 5900 50 
 F8 "PACK_M0" I R 3950 6050 50 
 F9 "PACK-" I L 3100 6050 50 
+F10 "Switch" I L 3100 5700 50 
 $EndSheet
+Wire Bus Line
+	1800 7550 4900 7550
+Wire Notes Line
+	2550 5800 2550 7400
+Wire Notes Line
+	2550 7400 1050 7400
+$Comp
+L XT60-M:XT60-M J8
+U 1 1 61C843A7
+P 2850 6300
+F 0 "J8" H 2980 6346 50  0000 L CNN
+F 1 "XT60-M" H 2980 6255 50  0000 L CNN
+F 2 "XT60-M:AMASS_XT60-M" H 2850 6300 50  0001 L BNN
+F 3 "" H 2850 6300 50  0001 L BNN
+F 4 "XT60-M" H 2850 6300 50  0001 L BNN "MP"
+F 5 "None" H 2850 6300 50  0001 L BNN "Price"
+F 6 "Package" H 2850 6300 50  0001 L BNN "Package"
+F 7 "AMASS" H 2850 6300 50  0001 L BNN "MF"
+F 8 "Not in stock" H 2850 6300 50  0001 L BNN "Availability"
+F 9 "Plug; DC supply; XT60; male; PIN: 2; for cable; soldered; 30A; 500V" H 2850 6300 50  0001 L BNN "Description"
+	1    2850 6300
+	0    -1   -1   0   
+$EndComp
 Wire Bus Line
 	3050 2000 3050 2600
 Wire Bus Line
@@ -593,4 +615,10 @@ Wire Bus Line
 	2500 1550 2500 2000
 Wire Bus Line
 	4450 5400 4450 6800
+Text Label 2950 6600 3    50   ~ 0
+PACK_M0
+Text Label 2750 6600 3    50   ~ 0
+switch
+Text Label 3100 5700 2    50   ~ 0
+switch
 $EndSCHEMATC

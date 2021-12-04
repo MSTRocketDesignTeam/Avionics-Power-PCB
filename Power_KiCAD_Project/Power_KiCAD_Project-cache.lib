@@ -1,6 +1,23 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
+# 1-747301-6_PSMN2R6-40YS
+#
+DEF 1-747301-6_PSMN2R6-40YS U 0 40 Y Y 1 F N
+F0 "U" 0 0 50 H V C CNN
+F1 "1-747301-6_PSMN2R6-40YS" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S 0 750 450 350 0 1 0 N
+X s 1 0 350 100 U 50 50 1 1 I
+X s 2 150 350 100 U 50 50 1 1 I
+X s 3 250 350 100 U 50 50 1 1 I
+X d 4 450 350 100 U 50 50 1 1 I
+X g 5 250 750 100 U 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
 # Battery_Management_BQ76920PW
 #
 DEF Battery_Management_BQ76920PW U 0 20 Y Y 1 F N
@@ -383,31 +400,6 @@ X ~ 2 500 0 200 L 50 50 0 0 P
 ENDDRAW
 ENDDEF
 #
-# SamacSys_Parts_CSD17501Q5A
-#
-DEF SamacSys_Parts_CSD17501Q5A Q 0 30 Y Y 1 F N
-F0 "Q" 850 300 50 H V L CNN
-F1 "SamacSys_Parts_CSD17501Q5A" 850 200 50 H V L CNN
-F2 "Q5A" 850 100 50 H I L CNN
-F3 "http://www.ti.com/lit/gpn/csd17501q5a" 850 0 50 H I L CNN
-F4 "30V, N-Channel NexFET&#153; Power MOSFET with 20 Volt Vgs" 850 -100 50 H I L CNN "Description"
-F5 "595-CSD17501Q5A" 850 -300 50 H I L CNN "Mouser Part Number"
-F6 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/CSD17501Q5A?qs=O1HRStiETCh2cC146pE2OA%3D%3D" 850 -400 50 H I L CNN "Mouser Price/Stock"
-F7 "Texas Instruments" 850 -500 50 H I L CNN "Manufacturer_Name"
-F8 "CSD17501Q5A" 850 -600 50 H I L CNN "Manufacturer_Part_Number"
-DRAW
-P 5 0 1 6 200 100 800 100 800 -400 200 -400 200 100 N
-X S_1 1 0 0 200 R 50 50 0 0 P
-X S_2 2 0 -100 200 R 50 50 0 0 P
-X S_3 3 0 -200 200 R 50 50 0 0 P
-X G 4 0 -300 200 R 50 50 0 0 P
-X D_1 5 1000 0 200 L 50 50 0 0 P
-X D_2 6 1000 -100 200 L 50 50 0 0 P
-X D_3 7 1000 -200 200 L 50 50 0 0 P
-X D_4 8 1000 -300 200 L 50 50 0 0 P
-ENDDRAW
-ENDDEF
-#
 # SamacSys_Parts_L717SDC37P1ACH4F
 #
 DEF SamacSys_Parts_L717SDC37P1ACH4F J 0 30 Y Y 1 F N
@@ -644,6 +636,26 @@ P 5 0 1 6 200 100 600 100 600 -300 200 -300 200 100 N
 X A 1 0 -200 200 R 50 50 0 0 P
 X B 2 0 -100 200 R 50 50 0 0 P
 X C 3 0 0 200 R 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# SamacSys_Parts_WSHP28185L000FEA
+#
+DEF SamacSys_Parts_WSHP28185L000FEA R 0 30 Y Y 1 F N
+F0 "R" 550 250 50 H V L CNN
+F1 "SamacSys_Parts_WSHP28185L000FEA" 550 150 50 H V L CNN
+F2 "RESC7146X175N" 550 50 50 H I L CNN
+F3 "https://componentsearchengine.com/Datasheets/1/WSHP28185L000FEA.pdf" 550 -50 50 H I L CNN
+F4 "Current Sense Resistors - SMD 10W .005ohms 1%" 550 -150 50 H I L CNN "Description"
+F5 "1.75" 550 -250 50 H I L CNN "Height"
+F6 "71-WSHP28185L000FEA" 550 -350 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Vishay-Dale/WSHP28185L000FEA/?qs=WY0B%252Bpw29jOU8WmnTnxtZg%3D%3D" 550 -450 50 H I L CNN "Mouser Price/Stock"
+F8 "Vishay" 550 -550 50 H I L CNN "Manufacturer_Name"
+F9 "WSHP28185L000FEA" 550 -650 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 5 0 1 6 200 50 500 50 500 -50 200 -50 200 50 N
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 700 0 200 L 50 50 0 0 P
 ENDDRAW
 ENDDEF
 #
