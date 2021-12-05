@@ -607,6 +607,12 @@ F 9 "Plug; DC supply; XT60; male; PIN: 2; for cable; soldered; 30A; 500V" H 2850
 	1    2850 6300
 	0    -1   -1   0   
 $EndComp
+Text Label 2950 6600 3    50   ~ 0
+PACK_M0
+Text Label 2750 6600 3    50   ~ 0
+switch
+Text Label 3100 5700 2    50   ~ 0
+switch
 Wire Bus Line
 	3050 2000 3050 2600
 Wire Bus Line
@@ -615,10 +621,4 @@ Wire Bus Line
 	2500 1550 2500 2000
 Wire Bus Line
 	4450 5400 4450 6800
-Text Label 2950 6600 3    50   ~ 0
-PACK_M0
-Text Label 2750 6600 3    50   ~ 0
-switch
-Text Label 3100 5700 2    50   ~ 0
-switch
 $EndSCHEMATC
