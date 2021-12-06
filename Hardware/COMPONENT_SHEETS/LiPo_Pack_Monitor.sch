@@ -1,0 +1,1012 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 7 7
+Title ""
+Date "2021-12-06"
+Rev "v1.0.3"
+Comp "Missouri S&T Rocket Design Team '21 (Jacob King)"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:R R?
+U 1 1 615F6CEF
+P 3800 2900
+F 0 "R?" V 4007 2900 50  0000 C CNN
+F 1 "100Ω" V 3916 2900 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 3730 2900 50  0001 C CNN
+F 3 "~" H 3800 2900 50  0001 C CNN
+	1    3800 2900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 615F6CF5
+P 3800 3300
+F 0 "R?" V 4007 3300 50  0000 C CNN
+F 1 "100Ω" V 3916 3300 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 3730 3300 50  0001 C CNN
+F 3 "~" H 3800 3300 50  0001 C CNN
+	1    3800 3300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 615F6CFB
+P 3800 3700
+F 0 "R?" V 4007 3700 50  0000 C CNN
+F 1 "100Ω" V 3916 3700 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 3730 3700 50  0001 C CNN
+F 3 "~" H 3800 3700 50  0001 C CNN
+	1    3800 3700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 615F6D01
+P 3800 4100
+F 0 "R?" V 4007 4100 50  0000 C CNN
+F 1 "100Ω" V 3916 4100 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 3730 4100 50  0001 C CNN
+F 3 "~" H 3800 4100 50  0001 C CNN
+	1    3800 4100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 615F6D07
+P 3800 4500
+F 0 "R?" V 4007 4500 50  0000 C CNN
+F 1 "100Ω" V 3916 4500 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 3730 4500 50  0001 C CNN
+F 3 "~" H 3800 4500 50  0001 C CNN
+	1    3800 4500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 615F6D0D
+P 3800 5100
+F 0 "R?" V 4007 5100 50  0000 C CNN
+F 1 "100Ω" V 3916 5100 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 3730 5100 50  0001 C CNN
+F 3 "~" H 3800 5100 50  0001 C CNN
+	1    3800 5100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 615F6D13
+P 4300 3100
+F 0 "C?" H 4392 3146 50  0000 L CNN
+F 1 "1μF" H 4392 3055 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4300 3100 50  0001 C CNN
+F 3 "~" H 4300 3100 50  0001 C CNN
+	1    4300 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4300 3000 4300 2900
+Wire Wire Line
+	4300 2900 3950 2900
+Wire Wire Line
+	4300 3200 4300 3300
+Wire Wire Line
+	4300 3300 3950 3300
+$Comp
+L Device:C_Small C?
+U 1 1 615F6D1D
+P 4300 3500
+F 0 "C?" H 4392 3546 50  0000 L CNN
+F 1 "1μF" H 4392 3455 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4300 3500 50  0001 C CNN
+F 3 "~" H 4300 3500 50  0001 C CNN
+	1    4300 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 615F6D23
+P 4300 3900
+F 0 "C?" H 4392 3946 50  0000 L CNN
+F 1 "1μF" H 4392 3855 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4300 3900 50  0001 C CNN
+F 3 "~" H 4300 3900 50  0001 C CNN
+	1    4300 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 615F6D29
+P 4300 4300
+F 0 "C?" H 4392 4346 50  0000 L CNN
+F 1 "1μF" H 4392 4255 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4300 4300 50  0001 C CNN
+F 3 "~" H 4300 4300 50  0001 C CNN
+	1    4300 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4300 4200 4300 4100
+Wire Wire Line
+	4300 4100 3950 4100
+Wire Wire Line
+	4300 4000 4300 4100
+Connection ~ 4300 4100
+Wire Wire Line
+	4300 3800 4300 3700
+Connection ~ 4300 3700
+Wire Wire Line
+	4300 3700 4300 3600
+Wire Wire Line
+	4300 3300 4300 3400
+Connection ~ 4300 3300
+Wire Wire Line
+	4300 4400 4300 4500
+Wire Wire Line
+	4300 4500 3950 4500
+$Comp
+L Device:C_Small C?
+U 1 1 615F6D3A
+P 4300 4650
+F 0 "C?" H 4392 4696 50  0000 L CNN
+F 1 "1μF" H 4392 4605 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4300 4650 50  0001 C CNN
+F 3 "~" H 4300 4650 50  0001 C CNN
+	1    4300 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 615F6D40
+P 4300 4950
+F 0 "C?" H 4392 4996 50  0000 L CNN
+F 1 "1μF" H 4392 4905 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4300 4950 50  0001 C CNN
+F 3 "~" H 4300 4950 50  0001 C CNN
+	1    4300 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 615F6D46
+P 4000 4800
+F 0 "#PWR?" H 4000 4550 50  0001 C CNN
+F 1 "GND" H 4005 4627 50  0000 C CNN
+F 2 "" H 4000 4800 50  0001 C CNN
+F 3 "" H 4000 4800 50  0001 C CNN
+	1    4000 4800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4000 4800 4300 4800
+Wire Wire Line
+	4300 4800 4300 4750
+Wire Wire Line
+	4300 4850 4300 4800
+Connection ~ 4300 4800
+Wire Wire Line
+	4300 4550 4300 4500
+Connection ~ 4300 4500
+Wire Wire Line
+	4300 5050 4300 5100
+Wire Wire Line
+	4300 5100 3950 5100
+$Comp
+L power:GND #PWR?
+U 1 1 615F6D54
+P 3050 5500
+F 0 "#PWR?" H 3050 5250 50  0001 C CNN
+F 1 "GND" H 3055 5327 50  0000 C CNN
+F 2 "" H 3050 5500 50  0001 C CNN
+F 3 "" H 3050 5500 50  0001 C CNN
+	1    3050 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 615F6D5A
+P 4900 5250
+F 0 "C?" V 4671 5250 50  0000 C CNN
+F 1 "0.1μF" V 4762 5250 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4900 5250 50  0001 C CNN
+F 3 "~" H 4900 5250 50  0001 C CNN
+	1    4900 5250
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 615F6D60
+P 5550 5250
+F 0 "C?" V 5321 5250 50  0000 C CNN
+F 1 "0.1μF" V 5412 5250 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5550 5250 50  0001 C CNN
+F 3 "~" H 5550 5250 50  0001 C CNN
+	1    5550 5250
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 615F6D66
+P 6300 5250
+F 0 "C?" V 6071 5250 50  0000 C CNN
+F 1 "0.1μF" V 6162 5250 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6300 5250 50  0001 C CNN
+F 3 "~" H 6300 5250 50  0001 C CNN
+	1    6300 5250
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 615F6D6C
+P 5150 5500
+F 0 "R?" H 5080 5546 50  0000 R CNN
+F 1 "100Ω" H 5080 5455 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 5080 5500 50  0001 C CNN
+F 3 "~" H 5150 5500 50  0001 C CNN
+	1    5150 5500
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 615F6D72
+P 5950 5500
+F 0 "R?" H 6020 5546 50  0000 L CNN
+F 1 "100Ω" H 6020 5455 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 5880 5500 50  0001 C CNN
+F 3 "~" H 5950 5500 50  0001 C CNN
+	1    5950 5500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5150 5350 5150 5250
+Wire Wire Line
+	5150 5250 5000 5250
+Connection ~ 5150 5250
+Wire Wire Line
+	5950 5250 5950 5350
+Wire Wire Line
+	5950 5250 6200 5250
+Connection ~ 5950 5250
+Wire Wire Line
+	5150 5700 5150 5650
+Wire Wire Line
+	5950 5700 5950 5650
+$Comp
+L power:GND #PWR?
+U 1 1 615F6D86
+P 4700 5350
+F 0 "#PWR?" H 4700 5100 50  0001 C CNN
+F 1 "GND" H 4705 5177 50  0000 C CNN
+F 2 "" H 4700 5350 50  0001 C CNN
+F 3 "" H 4700 5350 50  0001 C CNN
+	1    4700 5350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4800 5250 4700 5250
+Wire Wire Line
+	4700 5250 4700 5350
+$Comp
+L power:GND #PWR?
+U 1 1 615F6D8E
+P 6500 5350
+F 0 "#PWR?" H 6500 5100 50  0001 C CNN
+F 1 "GND" H 6505 5177 50  0000 C CNN
+F 2 "" H 6500 5350 50  0001 C CNN
+F 3 "" H 6500 5350 50  0001 C CNN
+	1    6500 5350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6400 5250 6500 5250
+Wire Wire Line
+	6500 5250 6500 5350
+Wire Wire Line
+	4300 3300 4400 3300
+Wire Wire Line
+	4300 3700 4400 3700
+Wire Wire Line
+	4300 4100 4400 4100
+Wire Wire Line
+	4400 4500 4300 4500
+Wire Wire Line
+	4400 5100 4300 5100
+Connection ~ 4300 5100
+Wire Wire Line
+	4400 2900 4300 2900
+Connection ~ 4300 2900
+Wire Wire Line
+	6000 4900 5950 4900
+Wire Wire Line
+	5950 4900 5950 5250
+Wire Wire Line
+	5150 5250 5150 4900
+Wire Wire Line
+	5150 4900 5100 4900
+$Comp
+L Device:R R?
+U 1 1 615F6DBB
+P 5650 4350
+F 0 "R?" V 5857 4350 50  0000 C CNN
+F 1 "10kΩ" V 5766 4350 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 5580 4350 50  0001 C CNN
+F 3 "~" H 5650 4350 50  0001 C CNN
+	1    5650 4350
+	0    -1   -1   0   
+$EndComp
+Connection ~ 5350 4350
+Wire Wire Line
+	5350 4350 5500 4350
+$Comp
+L power:GND #PWR?
+U 1 1 615F6DCB
+P 5350 4850
+F 0 "#PWR?" H 5350 4600 50  0001 C CNN
+F 1 "GND" H 5355 4677 50  0000 C CNN
+F 2 "" H 5350 4850 50  0001 C CNN
+F 3 "" H 5350 4850 50  0001 C CNN
+	1    5350 4850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5800 4350 5900 4350
+Wire Wire Line
+	5150 5250 5450 5250
+Wire Wire Line
+	5650 5250 5950 5250
+$Comp
+L Device:R R?
+U 1 1 615F6DEA
+P 6950 5050
+F 0 "R?" H 7020 5096 50  0000 L CNN
+F 1 "1MΩ" H 7020 5005 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6880 5050 50  0001 C CNN
+F 3 "~" H 6950 5050 50  0001 C CNN
+	1    6950 5050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6950 4900 6950 4850
+Wire Wire Line
+	6950 4850 7350 4850
+Wire Wire Line
+	7350 4850 7350 4950
+Wire Wire Line
+	9250 5250 9250 5200
+Wire Wire Line
+	9250 4900 8850 4900
+$Comp
+L Device:R R?
+U 1 1 615F6E05
+P 8600 4350
+F 0 "R?" V 8393 4350 50  0000 C CNN
+F 1 "1MΩ" V 8484 4350 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 8530 4350 50  0001 C CNN
+F 3 "~" H 8600 4350 50  0001 C CNN
+	1    8600 4350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8750 4350 8850 4350
+Wire Wire Line
+	7350 4850 7350 4450
+Wire Wire Line
+	7350 4450 7500 4450
+Connection ~ 7350 4850
+$Comp
+L power:GND #PWR?
+U 1 1 615F6E25
+P 8050 4650
+F 0 "#PWR?" H 8050 4400 50  0001 C CNN
+F 1 "GND" H 8050 4500 50  0000 C CNN
+F 2 "" H 8050 4650 50  0001 C CNN
+F 3 "" H 8050 4650 50  0001 C CNN
+	1    8050 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 615F6E2C
+P 7850 2850
+F 0 "C?" H 7758 2804 50  0000 R CNN
+F 1 "1μF" H 7758 2895 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 7850 2850 50  0001 C CNN
+F 3 "~" H 7850 2850 50  0001 C CNN
+	1    7850 2850
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 615F6E32
+P 7850 2950
+F 0 "#PWR?" H 7850 2700 50  0001 C CNN
+F 1 "GND" H 7855 2777 50  0000 C CNN
+F 2 "" H 7850 2950 50  0001 C CNN
+F 3 "" H 7850 2950 50  0001 C CNN
+	1    7850 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 615F6E38
+P 7700 3750
+F 0 "C?" H 7608 3704 50  0000 R CNN
+F 1 "1μF" H 7608 3795 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 7700 3750 50  0001 C CNN
+F 3 "~" H 7700 3750 50  0001 C CNN
+	1    7700 3750
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 615F6E3E
+P 7700 3850
+F 0 "#PWR?" H 7700 3600 50  0001 C CNN
+F 1 "GND" H 7705 3677 50  0000 C CNN
+F 2 "" H 7700 3850 50  0001 C CNN
+F 3 "" H 7700 3850 50  0001 C CNN
+	1    7700 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 615F6E44
+P 8250 3100
+F 0 "C?" H 8158 3054 50  0000 R CNN
+F 1 "10μF" H 8158 3145 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 8250 3100 50  0001 C CNN
+F 3 "~" H 8250 3100 50  0001 C CNN
+	1    8250 3100
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 615F6E4A
+P 8250 3200
+F 0 "#PWR?" H 8250 2950 50  0001 C CNN
+F 1 "GND" H 8255 3027 50  0000 C CNN
+F 2 "" H 8250 3200 50  0001 C CNN
+F 3 "" H 8250 3200 50  0001 C CNN
+	1    8250 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 615F6E50
+P 5700 2900
+F 0 "C?" H 5608 2854 50  0000 R CNN
+F 1 "4.7μF" H 5608 2945 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5700 2900 50  0001 C CNN
+F 3 "~" H 5700 2900 50  0001 C CNN
+	1    5700 2900
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 615F6E56
+P 5700 3000
+F 0 "#PWR?" H 5700 2750 50  0001 C CNN
+F 1 "GND" H 5705 2827 50  0000 C CNN
+F 2 "" H 5700 3000 50  0001 C CNN
+F 3 "" H 5700 3000 50  0001 C CNN
+	1    5700 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5700 2800 5700 2700
+Wire Wire Line
+	7850 2750 7850 2450
+$Comp
+L Device:R R?
+U 1 1 615F6E5F
+P 8250 2650
+F 0 "R?" H 8180 2696 50  0000 R CNN
+F 1 "100Ω" H 8180 2605 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 8180 2650 50  0001 C CNN
+F 3 "~" H 8250 2650 50  0001 C CNN
+	1    8250 2650
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	8250 2500 8250 2450
+Connection ~ 7850 2450
+Wire Wire Line
+	8250 3000 8250 2900
+Wire Wire Line
+	8350 2900 8250 2900
+Connection ~ 8250 2900
+Wire Wire Line
+	8250 2900 8250 2800
+Wire Wire Line
+	7700 3650 7700 3600
+Connection ~ 5700 2700
+Connection ~ 3050 5100
+Text Notes 2550 5900 0    50   ~ 0
+Simplified Schematic given from BQ76920 datasheet.
+Wire Notes Line
+	9500 5950 9500 2100
+Wire Wire Line
+	3950 3700 4300 3700
+Wire Wire Line
+	5300 3150 5300 3300
+$Comp
+L Device:R R?
+U 1 1 615F6E90
+P 5300 3450
+F 0 "R?" H 5370 3496 50  0000 L CNN
+F 1 "1k5Ω" H 5370 3405 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 5230 3450 50  0001 C CNN
+F 3 "~" H 5300 3450 50  0001 C CNN
+	1    5300 3450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5300 2850 5300 2700
+Wire Wire Line
+	5300 2700 5700 2700
+$Comp
+L power:GND #PWR?
+U 1 1 615F6E98
+P 5300 3600
+F 0 "#PWR?" H 5300 3350 50  0001 C CNN
+F 1 "GND" H 5305 3427 50  0000 C CNN
+F 2 "" H 5300 3600 50  0001 C CNN
+F 3 "" H 5300 3600 50  0001 C CNN
+	1    5300 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2950 5100 3050 5100
+Wire Wire Line
+	2950 4500 3650 4500
+Wire Wire Line
+	2950 4100 3650 4100
+Wire Wire Line
+	2950 3700 3650 3700
+Wire Notes Line
+	3050 2950 3400 2950
+Wire Notes Line
+	3400 2950 3400 3250
+Wire Notes Line
+	3400 3250 3050 3250
+Wire Notes Line
+	3050 3250 3050 2950
+Wire Notes Line
+	3050 3350 3400 3350
+Wire Notes Line
+	3400 3350 3400 3650
+Wire Notes Line
+	3400 3650 3050 3650
+Wire Notes Line
+	3050 3650 3050 3350
+Wire Notes Line
+	3050 3750 3400 3750
+Wire Notes Line
+	3400 3750 3400 4050
+Wire Notes Line
+	3400 4050 3050 4050
+Wire Notes Line
+	3050 4050 3050 3750
+Wire Notes Line
+	3050 4150 3400 4150
+Wire Notes Line
+	3400 4150 3400 4450
+Wire Notes Line
+	3400 4450 3050 4450
+Wire Notes Line
+	3050 4450 3050 4150
+Wire Notes Line
+	3050 4650 3400 4650
+Wire Notes Line
+	3400 4650 3400 4950
+Wire Notes Line
+	3400 4950 3050 4950
+Wire Notes Line
+	3050 4950 3050 4650
+Text Notes 3100 4850 0    50   ~ 0
+Cell 1
+Text Notes 3100 4350 0    50   ~ 0
+Cell 2
+Text Notes 3100 3950 0    50   ~ 0
+Cell 3
+Text Notes 3100 3550 0    50   ~ 0
+Cell 4
+Text Notes 3100 3150 0    50   ~ 0
+Cell 5
+Wire Notes Line
+	3250 4450 3250 4650
+Wire Notes Line
+	3250 4150 3250 4050
+Wire Notes Line
+	3250 3750 3250 3650
+Wire Notes Line
+	3250 3350 3250 3250
+Wire Notes Line
+	3250 4950 3250 5100
+Wire Notes Line
+	3250 2950 3250 2900
+Wire Notes Line
+	2500 5950 2500 2100
+Text Notes 3200 3050 0    50   ~ 0
++
+Text Notes 3200 3250 0    50   ~ 0
+-
+Text Notes 3200 3650 0    50   ~ 0
+-
+Text Notes 3200 4050 0    50   ~ 0
+-
+Text Notes 3200 4450 0    50   ~ 0
+-
+Text Notes 3200 4950 0    50   ~ 0
+-
+Text Notes 3200 3450 0    50   ~ 0
++
+Text Notes 3200 3850 0    50   ~ 0
++
+Text Notes 3200 4250 0    50   ~ 0
++
+Text Notes 3200 4750 0    50   ~ 0
++
+Wire Wire Line
+	2950 2900 3050 2900
+Wire Wire Line
+	9350 5250 9250 5250
+Wire Wire Line
+	3050 5100 3650 5100
+Text HLabel 2950 2900 0    50   Input ~ 0
+PACK_M5
+Text HLabel 2950 3300 0    50   Input ~ 0
+PACK_M4
+Text HLabel 2950 3700 0    50   Input ~ 0
+PACK_M3
+Text HLabel 2950 4100 0    50   Input ~ 0
+PACK_M2
+Text HLabel 2950 4500 0    50   Input ~ 0
+PACK_M1
+Text HLabel 2950 5100 0    50   Input ~ 0
+PACK_M0
+Text HLabel 9350 5250 2    50   Input ~ 0
+PACK-
+Wire Notes Line
+	2500 2100 9500 2100
+Text Notes 2500 2050 0    100  ~ 0
+LiPo Pack Monitor
+Wire Wire Line
+	8250 2450 7850 2450
+Wire Wire Line
+	6300 4350 6400 4350
+Wire Wire Line
+	7700 3600 7250 3600
+Wire Wire Line
+	7500 3800 7250 3800
+Wire Wire Line
+	7350 3900 7250 3900
+Text Label 6250 3100 2    50   ~ 0
+VC5
+Wire Wire Line
+	6750 2450 7850 2450
+Wire Wire Line
+	5700 2700 6250 2700
+Wire Wire Line
+	7500 4450 7500 3800
+Wire Wire Line
+	7350 4350 7350 3900
+$Comp
+L Switch:SW_Push SW?
+U 1 1 615F6DD2
+P 6100 4350
+F 0 "SW?" H 6100 4635 50  0000 C CNN
+F 1 "Reboot" H 6100 4544 50  0000 C CNN
+F 2 "Button_Switch_SMD:SW_Push_1P1T_NO_6x6mm_H9.5mm" H 6100 4550 50  0001 C CNN
+F 3 "~" H 6100 4550 50  0001 C CNN
+	1    6100 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 615F6DAB
+P 6750 4100
+F 0 "#PWR?" H 6750 3850 50  0001 C CNN
+F 1 "GND" H 6755 3927 50  0000 C CNN
+F 2 "" H 6750 4100 50  0001 C CNN
+F 3 "" H 6750 4100 50  0001 C CNN
+	1    6750 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6750 2450 6750 2500
+Text Label 6250 3200 2    50   ~ 0
+VC4
+Text Label 6250 3300 2    50   ~ 0
+VC3
+Text Label 6250 3400 2    50   ~ 0
+VC2
+Text Label 6250 3500 2    50   ~ 0
+VC1
+Text Label 6250 3600 2    50   ~ 0
+VC0
+Text Label 6250 3800 2    50   ~ 0
+SRP
+Text Label 6250 3900 2    50   ~ 0
+SRN
+Text Label 6250 2900 2    50   ~ 0
+BAT
+Text Label 7250 3400 0    50   ~ 0
+TS1
+Text Label 8350 2900 0    50   ~ 0
+BAT
+Text Label 6000 4900 0    50   ~ 0
+SRN
+Text Label 6400 4350 0    50   ~ 0
+VC1
+Text Label 5350 4200 1    50   ~ 0
+TS1
+Text Label 5100 4900 2    50   ~ 0
+SRP
+Text Label 4400 5100 0    50   ~ 0
+VC0
+Text Label 4400 4500 0    50   ~ 0
+VC1
+Text Label 4400 4100 0    50   ~ 0
+VC2
+Text Label 4400 3700 0    50   ~ 0
+VC3
+Text Label 4400 3300 0    50   ~ 0
+VC4
+Text Label 4400 2900 0    50   ~ 0
+VC5
+Wire Wire Line
+	3050 2450 6750 2450
+Connection ~ 6750 2450
+Wire Wire Line
+	3050 2450 3050 2900
+Connection ~ 9250 5250
+Wire Wire Line
+	3050 5100 3050 5350
+Text HLabel 8250 2450 2    50   Input ~ 0
+PACK+
+Wire Wire Line
+	5950 5700 6950 5700
+Wire Wire Line
+	3350 5700 3350 5350
+Wire Wire Line
+	3350 5350 3050 5350
+Connection ~ 3050 5350
+Wire Wire Line
+	3050 5350 3050 5500
+Text Label 7250 2700 0    50   ~ 0
+I2C_SDA
+Text Label 7250 2800 0    50   ~ 0
+I2C_SCL
+Connection ~ 3050 2900
+$Comp
+L Power_KiCAD_Project-rescue:BSS84PH6327XTSA2-SamacSys_Parts Q?
+U 1 1 61B05439
+P 8050 4650
+F 0 "Q?" V 8617 4750 50  0000 C CNN
+F 1 "BSS84PH6327XTSA2" V 8526 4750 50  0000 C CNN
+F 2 "SamacSys_Parts:SOT95P240X110-3N" H 8500 4600 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/2/BSS84PH6327XTSA2.pdf" H 8500 4500 50  0001 L CNN
+F 4 "INFINEON - BSS84PH6327XTSA2 - MOSFET, P, -60V, -0.17A, SOT-23" H 8500 4400 50  0001 L CNN "Description"
+F 5 "1.1" H 8500 4300 50  0001 L CNN "Height"
+F 6 "726-BSS84PH6327XTSA2" H 8500 4200 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/BSS84PH6327XTSA2?qs=K00xGehIljvU09gSF2VpyQ%3D%3D" H 8500 4100 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Infineon" H 8500 4000 50  0001 L CNN "Manufacturer_Name"
+F 9 "BSS84PH6327XTSA2" H 8500 3900 50  0001 L CNN "Manufacturer_Part_Number"
+	1    8050 4650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Power_KiCAD_Project-rescue:1N4148W-7-F-SamacSys_Parts D?
+U 1 1 61B08937
+P 8850 4700
+F 0 "D?" H 9150 4433 50  0000 C CNN
+F 1 "1N4148W-7-F" H 9150 4524 50  0000 C CNN
+F 2 "SamacSys_Parts:SOD3716X145N" H 9300 4700 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/2/1N4148W-7-F.pdf" H 9300 4600 50  0001 L CNN
+F 4 "Diode Switching 150mA 100V 400mW SOD123 Diodes Inc 1N4148W-7-F Switching Diode 100V, 2-Pin SOD-123" H 9300 4500 50  0001 L CNN "Description"
+F 5 "1.45" H 9300 4400 50  0001 L CNN "Height"
+F 6 "621-1N4148W-F" H 9300 4300 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/1N4148W-7-F?qs=LHX0FizJzg7Ae9ZM8LTAWw%3D%3D" H 9300 4200 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Diodes Inc." H 9300 4100 50  0001 L CNN "Manufacturer_Name"
+F 9 "1N4148W-7-F" H 9300 4000 50  0001 L CNN "Manufacturer_Part_Number"
+	1    8850 4700
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8250 4350 8450 4350
+Wire Wire Line
+	8250 4350 8250 4700
+Wire Wire Line
+	7650 4350 7350 4350
+Wire Wire Line
+	7250 5300 7250 4950
+Wire Wire Line
+	7250 4950 7350 4950
+Wire Wire Line
+	7550 6250 7550 6300
+Wire Wire Line
+	8850 5150 8850 4900
+Connection ~ 8850 4900
+$Comp
+L Power_KiCAD_Project-rescue:T93YA103KT20-SamacSys_Parts VR?
+U 1 1 61CE0AE1
+P 5350 4700
+F 0 "VR?" H 5642 4235 50  0000 C CNN
+F 1 "T93YA103KT20" H 5642 4326 50  0000 C CNN
+F 2 "SamacSys_Parts:T93YA5K10" H 6000 4800 50  0001 L CNN
+F 3 "https://www.vishay.com/docs/51026/t93.pdf" H 6000 4700 50  0001 L CNN
+F 4 "10k, Through Hole Trimmer Potentiometer 0.5W Top Adjust Vishay, T93" H 6000 4600 50  0001 L CNN "Description"
+F 5 "9" H 6000 4500 50  0001 L CNN "Height"
+F 6 "72-T93YA-10K" H 6000 4400 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Vishay-Sfernice/T93YA103KT20?qs=h4f6qdGYbthXcbdd7vDO0Q%3D%3D" H 6000 4300 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Vishay" H 6000 4200 50  0001 L CNN "Manufacturer_Name"
+F 9 "T93YA103KT20" H 6000 4100 50  0001 L CNN "Manufacturer_Part_Number"
+	1    5350 4700
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5350 4500 5350 4350
+Wire Wire Line
+	5350 4350 5350 4200
+Text Label 7250 3000 0    50   ~ 0
+BATT_ALERT
+Text Label 7550 3200 0    50   ~ 0
+l
+Wire Wire Line
+	2950 3300 3650 3300
+Wire Wire Line
+	3650 2900 3050 2900
+$Comp
+L Battery_Management:BQ76920PW U?
+U 1 1 615F6CE9
+P 6750 3300
+F 0 "U?" H 6750 4450 50  0000 C CNN
+F 1 "BQ76920PW" H 6750 4350 50  0000 C CNN
+F 2 "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm" H 7650 2550 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/bq76920.pdf" H 7450 3850 50  0001 C CNN
+F 4 "LiPo Pack Monitor" H 6750 4250 50  0000 C CNN "Description"
+	1    6750 3300
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 615F6DF5
+P 9250 5050
+F 0 "R?" H 9320 5096 50  0000 L CNN
+F 1 "1MΩ" H 9320 5005 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 9180 5050 50  0001 C CNN
+F 3 "~" H 9250 5050 50  0001 C CNN
+	1    9250 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 615F6E88
+P 5300 3000
+F 0 "D?" V 5339 2882 50  0000 R CNN
+F 1 "LED" V 5248 2882 50  0000 R CNN
+F 2 "LED_SMD:LED_0603_1608Metric" H 5300 3000 50  0001 C CNN
+F 3 "~" H 5300 3000 50  0001 C CNN
+	1    5300 3000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7250 6300 7550 6300
+$Comp
+L Power_KiCAD_Project-rescue:PSMN2R6-40YS-1-747301-6 U?
+U 1 1 61B49CF1
+P 7650 5250
+F 0 "U?" H 7612 5754 50  0000 R CNN
+F 1 "PSMN2R6-40YS" H 7612 5845 50  0000 R CNN
+F 2 "TO127P600X120-5N:TO127P600X120-5N" H 7650 5250 50  0001 C CNN
+F 3 "" H 7650 5250 50  0001 C CNN
+	1    7650 5250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7400 5600 7400 5500
+Wire Wire Line
+	7500 5600 7500 5500
+Wire Wire Line
+	7400 5500 7500 5500
+Wire Wire Line
+	6950 5200 6950 5500
+Wire Wire Line
+	6950 5500 6950 5700
+Connection ~ 6950 5500
+Wire Wire Line
+	7400 5500 6950 5500
+Connection ~ 7400 5500
+Wire Wire Line
+	8650 5350 8750 5350
+Connection ~ 8750 5350
+Wire Wire Line
+	8750 5350 8750 5250
+Wire Wire Line
+	8750 5250 9250 5250
+Wire Wire Line
+	7250 6300 7250 6000
+Wire Wire Line
+	7250 6000 7400 6000
+$Comp
+L Power_KiCAD_Project-rescue:PSMN2R6-40YS-1-747301-6 U?
+U 1 1 61B81306
+P 8950 5100
+F 0 "U?" H 8912 5604 50  0000 R CNN
+F 1 "PSMN2R6-40YS" H 8912 5695 50  0000 R CNN
+F 2 "TO127P600X120-5N:TO127P600X120-5N" H 8950 5100 50  0001 C CNN
+F 3 "" H 8950 5100 50  0001 C CNN
+	1    8950 5100
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7500 5500 7650 5500
+Wire Wire Line
+	7650 5500 7650 5600
+Connection ~ 7500 5500
+Wire Wire Line
+	8500 5450 8500 5150
+Wire Wire Line
+	8500 5150 8850 5150
+Wire Wire Line
+	8650 5350 8650 5450
+Wire Wire Line
+	8650 5450 8700 5450
+Wire Wire Line
+	8800 5450 8800 5350
+Wire Wire Line
+	8750 5350 8800 5350
+Connection ~ 8800 5350
+Wire Wire Line
+	8800 5350 8850 5350
+Wire Wire Line
+	8850 5350 8850 5450
+Wire Wire Line
+	8850 5450 8950 5450
+Wire Wire Line
+	7200 5600 7200 5300
+Wire Wire Line
+	7200 5300 7250 5300
+Connection ~ 7250 5300
+Wire Wire Line
+	7250 5300 7300 5300
+Wire Wire Line
+	8700 5850 8700 6250
+Wire Wire Line
+	7550 6250 8700 6250
+$Comp
+L Power_KiCAD_Project-rescue:WSHP28185L000FEA-SamacSys_Parts R?
+U 1 1 61BE384F
+P 5250 5700
+F 0 "R?" H 5600 5800 50  0000 C CNN
+F 1 "WSHP28185L000FEA" H 5600 5600 50  0000 C CNN
+F 2 "RESC7146X175N" H 5800 5750 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/1/WSHP28185L000FEA.pdf" H 5800 5650 50  0001 L CNN
+F 4 "Current Sense Resistors - SMD 10W .005ohms 1%" H 5800 5550 50  0001 L CNN "Description"
+F 5 "1.75" H 5800 5450 50  0001 L CNN "Height"
+F 6 "71-WSHP28185L000FEA" H 5800 5350 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Vishay-Dale/WSHP28185L000FEA/?qs=WY0B%252Bpw29jOU8WmnTnxtZg%3D%3D" H 5800 5250 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Vishay" H 5800 5150 50  0001 L CNN "Manufacturer_Name"
+F 9 "WSHP28185L000FEA" H 5800 5050 50  0001 L CNN "Manufacturer_Part_Number"
+	1    5250 5700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5250 5700 5150 5700
+Connection ~ 5150 5700
+Wire Wire Line
+	3350 5700 5150 5700
+Text HLabel 3050 5250 0    50   Input ~ 0
+Switch
+Wire Wire Line
+	8850 4350 8850 4900
+Wire Wire Line
+	5350 4600 5350 4850
+$EndSCHEMATC
