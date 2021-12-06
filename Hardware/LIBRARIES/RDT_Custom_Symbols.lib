@@ -798,4 +798,200 @@ P 5 0 1 6 200 50 500 50 500 -50 200 -50 200 50 N
 ENDDRAW
 ENDDEF
 #
+# 1-747301-6
+#
+DEF 1-747301-6 J 0 40 Y Y 1 L N
+F0 "J" -301 1027 50 H V L BNN
+F1 "1-747301-6" -300 -1102 50 H V L BNN
+F2 "TE_1-747301-6" 0 0 50 H I L BNN
+F3 "" 0 0 50 H I L BNN
+F4 "1-747301-6" 0 0 50 H I L BNN "MP"
+F5 "https://pricing.snapeda.com/search/part/1-747301-6/?ref=eda" 0 0 50 H I L BNN "Purchase-URL"
+F6 "None" 0 0 50 H I L BNN "Price"
+F7 "1-747301-6" 0 0 50 H I L BNN "Comment"
+F8 "None" 0 0 50 H I L BNN "Package"
+F9 "TE Connectivity" 0 0 50 H I L BNN "MF"
+F10 "In Stock" 0 0 50 H I L BNN "Availability"
+F11 "Conn D-Subminiature SKT 37 POS 2.77mm Solder ST Thru-Hole 37 Terminal 1 Port Tube" 0 0 50 H I L BNN "Description"
+DRAW
+S -300 -1000 300 1000 0 0 10 f
+X 1 1 -500 900 200 R 40 40 0 0 P
+X 10 10 -500 0 200 R 40 40 0 0 P
+X 11 11 -500 -100 200 R 40 40 0 0 P
+X 12 12 -500 -200 200 R 40 40 0 0 P
+X 13 13 -500 -300 200 R 40 40 0 0 P
+X 14 14 -500 -400 200 R 40 40 0 0 P
+X 15 15 -500 -500 200 R 40 40 0 0 P
+X 16 16 -500 -600 200 R 40 40 0 0 P
+X 17 17 -500 -700 200 R 40 40 0 0 P
+X 18 18 -500 -800 200 R 40 40 0 0 P
+X 19 19 -500 -900 200 R 40 40 0 0 P
+X 2 2 -500 800 200 R 40 40 0 0 P
+X 20 20 500 900 200 L 40 40 0 0 P
+X 21 21 500 800 200 L 40 40 0 0 P
+X 22 22 500 700 200 L 40 40 0 0 P
+X 23 23 500 600 200 L 40 40 0 0 P
+X 24 24 500 500 200 L 40 40 0 0 P
+X 25 25 500 400 200 L 40 40 0 0 P
+X 26 26 500 300 200 L 40 40 0 0 P
+X 27 27 500 200 200 L 40 40 0 0 P
+X 28 28 500 100 200 L 40 40 0 0 P
+X 29 29 500 0 200 L 40 40 0 0 P
+X 3 3 -500 700 200 R 40 40 0 0 P
+X 30 30 500 -100 200 L 40 40 0 0 P
+X 31 31 500 -200 200 L 40 40 0 0 P
+X 32 32 500 -300 200 L 40 40 0 0 P
+X 33 33 500 -400 200 L 40 40 0 0 P
+X 34 34 500 -500 200 L 40 40 0 0 P
+X 35 35 500 -600 200 L 40 40 0 0 P
+X 36 36 500 -700 200 L 40 40 0 0 P
+X 37 37 500 -800 200 L 40 40 0 0 P
+X 4 4 -500 600 200 R 40 40 0 0 P
+X 5 5 -500 500 200 R 40 40 0 0 P
+X 6 6 -500 400 200 R 40 40 0 0 P
+X 7 7 -500 300 200 R 40 40 0 0 P
+X 8 8 -500 200 200 R 40 40 0 0 P
+X 9 9 -500 100 200 R 40 40 0 0 P
+ENDDRAW
+ENDDEF
+#
+# PSMN2R6-40YS
+#
+DEF PSMN2R6-40YS U 0 40 Y Y 1 F N
+F0 "U" 0 0 50 H V C CNN
+F1 "PSMN2R6-40YS" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S 0 750 450 350 0 1 0 N
+X s 1 0 350 100 U 50 50 1 1 I
+X s 2 150 350 100 U 50 50 1 1 I
+X s 3 250 350 100 U 50 50 1 1 I
+X d 4 450 350 100 U 50 50 1 1 I
+X g 5 250 750 100 U 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# XT60-M
+#
+DEF XT60-M J 0 40 Y Y 1 L N
+F0 "J" -100 225 50 H V L BNN
+F1 "XT60-M" -110 -250 50 H V L BNN
+F2 "AMASS_XT60-M" 0 0 50 H I L BNN
+F3 "" 0 0 50 H I L BNN
+F4 "XT60-M" 0 0 50 H I L BNN "MP"
+F5 "None" 0 0 50 H I L BNN "Price"
+F6 "Package" 0 0 50 H I L BNN "Package"
+F7 "AMASS" 0 0 50 H I L BNN "MF"
+F8 "Not in stock" 0 0 50 H I L BNN "Availability"
+F9 "Plug; DC supply; XT60; male; PIN: 2; for cable; soldered; 30A; 500V" 0 0 50 H I L BNN "Description"
+DRAW
+S -100 -200 100 200 0 0 10 f
+X - 1 -300 100 200 R 40 40 0 0 P 
+X + 2 -300 -100 200 R 40 40 0 0 P 
+ENDDRAW
+ENDDEF
+#
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# SBRD10200TR
+#
+DEF SBRD10200TR D 0 40 Y N 1 L N
+F0 "D" 200 100 50 H V L BNN
+F1 "SBRD10200TR" 200 -300 50 H V L BNN
+F2 "DPAK228P1005X240-4N" 0 0 50 H I L BNN
+F3 "" 0 0 50 H I L BNN
+F4 "SBRD10200TR" 0 0 50 H I L BNN "MP"
+F5 "1655-1939-1-ND" 0 0 50 H I L BNN "Digi-Key_Part_Number"
+F6 "TO-252-3 SMC" 0 0 50 H I L BNN "Package"
+F7 "Diode Schottky 200 V 10A Surface Mount DPAK" 0 0 50 H I L BNN "Description"
+F8 "SMC Diode" 0 0 50 H I L BNN "MF"
+DRAW
+P 4 0 0 6 0 50 30 0 -30 0 0 50 f
+P 2 0 0 6 30 50 0 50 N
+P 2 0 0 6 0 50 -30 50 N
+P 2 0 0 6 0 0 0 -50 N
+P 2 0 0 6 0 -50 -100 -50 N
+P 2 0 0 6 -100 -50 -100 -110 N
+P 2 0 0 6 0 -50 100 -50 N
+P 2 0 0 6 100 -50 100 -100 N
+P 2 0 0 6 0 50 0 100 N
+C 0 -50 6 0 0 6 N
+X ~ 1 -100 -210 100 U 40 40 0 0 P 
+X ~ 3 100 -200 100 U 40 40 0 0 P 
+X ~ 2 0 200 100 D 40 40 0 0 P 
+ENDDRAW
+ENDDEF
+#
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# RAPC722S
+#
+DEF RAPC722S J 0 40 Y Y 1 L N
+F0 "J" -200 325 50 H V L BNN
+F1 "RAPC722S" -200 -400 50 H V L BNN
+F2 "SWITCHCRAFT_RAPC722S" 0 0 50 H I L BNN
+F3 "" 0 0 50 H I L BNN
+F4 "RAPC722S" 0 0 50 H I L BNN "MP"
+F5 "None" 0 0 50 H I L BNN "Package"
+F6 "None" 0 0 50 H I L BNN "Price"
+F7 "In Stock" 0 0 50 H I L BNN "Availability"
+F8 "https://pricing.snapeda.com/search/part/RAPC722S/?ref=eda" 0 0 50 H I L BNN "Purchase-URL"
+F9 "Switchcraft Inc." 0 0 50 H I L BNN "MF"
+F10 "Power Barrel Connector Jack 2.10mm ID (0.083), 5.50mm OD (0.217) Through Hole, Right Angle" 0 0 50 H I L BNN "Description"
+DRAW
+P 2 0 0 10 -100 200 200 200 N
+P 2 0 0 10 -50 225 -100 200 N
+P 2 0 0 10 -100 200 -50 175 N
+P 4 0 0 10 0 10 10 50 -10 50 0 10 f
+P 2 0 0 10 0 100 200 100 N
+P 2 0 0 10 0 100 0 0 N
+P 2 0 0 10 200 0 -50 0 N
+P 2 0 0 10 -50 0 -75 25 N
+P 2 0 0 10 -75 25 -100 0 N
+S -200 -300 200 300 0 0 10 f
+X ~ 3 300 0 100 L 40 40 0 0 P 
+X ~ 1 300 200 100 L 40 40 0 0 P 
+X ~ 2 300 100 100 L 40 40 0 0 P 
+X SHIELD S1 300 -200 100 L 40 40 0 0 P 
+X SHIELD S2 300 -200 100 L 40 40 0 0 P 
+ENDDRAW
+ENDDEF
+#
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# MSS1210-153MEB
+#
+DEF MSS1210-153MEB L 0 40 N N 1 L N
+F0 "L" -200 200 50 H V L BNN
+F1 "MSS1210-153MEB" -200 -100 50 H V L BNN
+F2 "IND_MSS1210-153MEB" 0 0 50 H I L BNN
+F3 "" 0 0 50 H I L BNN
+F4 "In Stock" 0 0 50 H I L BNN "Availability"
+F5 "MSS1210-153MEB" 0 0 50 H I L BNN "MP"
+F6 "Power inductor, shielded, 10/20% tol, SMT, RoHS" 0 0 50 H I L BNN "Description"
+F7 "None" 0 0 50 H I L BNN "Package"
+F8 "Coilcraft" 0 0 50 H I L BNN "MF"
+F9 "None" 0 0 50 H I L BNN "Price"
+DRAW
+A -150 0 50 1800 900 0 0 10 N -200 0 -150 50
+A -150 0 50 0 900 0 0 10 N -100 0 -150 50
+A -50 0 50 1800 900 0 0 10 N -100 0 -50 50
+A -50 0 50 0 900 0 0 10 N 0 0 -50 50
+A 50 0 50 1800 900 0 0 10 N 0 0 50 50
+A 50 0 50 0 900 0 0 10 N 100 0 50 50
+A 150 0 50 1800 900 0 0 10 N 100 0 150 50
+A 150 0 50 0 900 0 0 10 N 200 0 150 50
+X ~ 1 -300 0 100 R 40 40 0 0 P 
+X ~ 2 300 0 100 L 40 40 0 0 P 
+ENDDRAW
+ENDDEF
+#
 #End Library
