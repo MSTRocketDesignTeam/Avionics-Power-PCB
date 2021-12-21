@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 8
+Sheet 6 7
 Title "LiPo Pack Monitor"
 Date "2021-12-20"
 Rev "v2.0.1"
@@ -989,6 +989,7 @@ F 3 "" H 1700 5850 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1700 5850 1700 5750
+Connection ~ 1700 5750
 Wire Bus Line
 	3450 2800 3450 3700
 Wire Bus Line
@@ -997,5 +998,4 @@ Wire Bus Line
 	5600 3000 5600 3250
 Wire Bus Line
 	5600 3250 5600 3500
-Connection ~ 1700 5750
 $EndSCHEMATC

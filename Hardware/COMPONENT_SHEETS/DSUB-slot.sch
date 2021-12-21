@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 8
+Sheet 4 7
 Title ""
 Date "2021-12-20"
 Rev "v2.0.1"
@@ -114,14 +114,69 @@ F 3 "" H 5700 3600 50  0001 C CNN
 	1    5700 3600
 	0    -1   1    0   
 $EndComp
-Text HLabel 6200 1600 2    50   Input ~ 0
-ground
-Text HLabel 6700 1900 2    50   Input ~ 0
-ground
-Text HLabel 6850 3700 2    50   Input ~ 0
-ground
-Text HLabel 6200 4000 3    50   Input ~ 0
-ground
-Text HLabel 5100 2400 0    50   Input ~ 0
-ground
+$Comp
+L power:GND #PWR?
+U 1 1 61CC9506
+P 6850 3700
+AR Path="/61CC9506" Ref="#PWR?"  Part="1" 
+AR Path="/61D3585E/61CC9506" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 6850 3450 50  0001 C CNN
+F 1 "GND" H 6855 3527 50  0000 C CNN
+F 2 "" H 6850 3700 50  0001 C CNN
+F 3 "" H 6850 3700 50  0001 C CNN
+	1    6850 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 61CC95A1
+P 6200 4000
+AR Path="/61CC95A1" Ref="#PWR?"  Part="1" 
+AR Path="/61D3585E/61CC95A1" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 6200 3750 50  0001 C CNN
+F 1 "GND" H 6205 3827 50  0000 C CNN
+F 2 "" H 6200 4000 50  0001 C CNN
+F 3 "" H 6200 4000 50  0001 C CNN
+	1    6200 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 61CC9DA1
+P 6200 1600
+AR Path="/61CC9DA1" Ref="#PWR?"  Part="1" 
+AR Path="/61D3585E/61CC9DA1" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 6200 1350 50  0001 C CNN
+F 1 "GND" H 6205 1427 50  0000 C CNN
+F 2 "" H 6200 1600 50  0001 C CNN
+F 3 "" H 6200 1600 50  0001 C CNN
+	1    6200 1600
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 61CCA122
+P 6700 1900
+AR Path="/61CCA122" Ref="#PWR?"  Part="1" 
+AR Path="/61D3585E/61CCA122" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 6700 1650 50  0001 C CNN
+F 1 "GND" H 6705 1727 50  0000 C CNN
+F 2 "" H 6700 1900 50  0001 C CNN
+F 3 "" H 6700 1900 50  0001 C CNN
+	1    6700 1900
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 61CCA76D
+P 5100 2400
+AR Path="/61CCA76D" Ref="#PWR?"  Part="1" 
+AR Path="/61D3585E/61CCA76D" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 5100 2150 50  0001 C CNN
+F 1 "GND" H 5105 2227 50  0000 C CNN
+F 2 "" H 5100 2400 50  0001 C CNN
+F 3 "" H 5100 2400 50  0001 C CNN
+	1    5100 2400
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC

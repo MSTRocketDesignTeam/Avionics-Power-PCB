@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 8 8
+Sheet 7 7
 Title ""
 Date "2021-12-20"
 Rev "v2.0.1"
@@ -465,44 +465,10 @@ Wire Notes Line
 	6450 1950 11050 1950
 Wire Notes Line
 	6450 1050 11050 1050
-Text HLabel 3850 4200 2    50   Input ~ 0
-I2C1_SDA
-Text HLabel 3850 4100 2    50   Input ~ 0
-I2C1_SCL
-Text HLabel 3850 3900 2    50   Input ~ 0
-I2C1_EN
 Text HLabel 3850 3000 2    50   Input ~ 0
 DEBUG_SWCLK
-Text HLabel 2050 5000 0    50   Input ~ 0
-~SPI2_NSS
-Text HLabel 3850 6200 2    50   Input ~ 0
-SPI3_MOSI
-Text HLabel 3850 6100 2    50   Input ~ 0
-SPI3_MISO
-Text HLabel 3850 6000 2    50   Input ~ 0
-SPI3_SCK
 Text HLabel 3850 2900 2    50   Input ~ 0
 DEBUG_SWDIO
-Text HLabel 3850 2800 2    50   Input ~ 0
-USB_DP
-Text HLabel 3850 2700 2    50   Input ~ 0
-USB_DM
-Text HLabel 3850 4600 2    50   Input ~ 0
-SPI2_SCK
-Text HLabel 3850 4700 2    50   Input ~ 0
-SPI2_MISO
-Text HLabel 3850 4800 2    50   Input ~ 0
-SPI2_MOSI
-Text HLabel 3850 2000 2    50   Input ~ 0
-~SPI3_NSS
-Text HLabel 3850 2100 2    50   Input ~ 0
-SPI1_SCK
-Text HLabel 3850 2200 2    50   Input ~ 0
-SPI1_MISO
-Text HLabel 3850 2300 2    50   Input ~ 0
-SPI1_MOSI
-Text HLabel 3850 3300 2    50   Input ~ 0
-~SPI1_NSS
 Text Notes 650  4200 0    50   ~ 0
 CL = 2 * (Cload - Cstray)\nCstray ≈ 20pF, Cstray ≈ 5pF\nCL = 2 * (Cload - 5pF)\nCL = 30pF
 Wire Wire Line
@@ -592,7 +558,6 @@ NoConn ~ 2050 4500
 NoConn ~ 2050 4600
 NoConn ~ 3850 2500
 NoConn ~ 3850 2600
-NoConn ~ 3850 5700
 NoConn ~ 2050 5300
 NoConn ~ 2050 5400
 NoConn ~ 2050 5500
@@ -605,19 +570,12 @@ NoConn ~ 3850 1900
 NoConn ~ 3850 2400
 NoConn ~ 3850 3400
 NoConn ~ 3850 3500
-NoConn ~ 3850 3600
-NoConn ~ 3850 3700
-NoConn ~ 3850 3800
-NoConn ~ 3850 4300
-NoConn ~ 3850 4400
 NoConn ~ 3850 5000
 NoConn ~ 3850 5100
 NoConn ~ 3850 5200
 NoConn ~ 3850 5300
 NoConn ~ 3850 5800
 NoConn ~ 3850 5900
-NoConn ~ 2050 6000
-NoConn ~ 2050 6100
 NoConn ~ 2050 6200
 NoConn ~ 2050 6300
 NoConn ~ 2050 6400
@@ -625,38 +583,155 @@ NoConn ~ 2050 6500
 NoConn ~ 3850 6300
 NoConn ~ 3850 6400
 NoConn ~ 3850 6500
-NoConn ~ 3850 4000
-Text HLabel 2050 5800 0    50   Input ~ 0
-SPI2_RST
-Text HLabel 3850 3100 2    50   Input ~ 0
-SPI3_RST
-NoConn ~ 3850 5600
-Text HLabel 2050 5100 0    50   Input ~ 0
-SPI3_EXT_INT
 NoConn ~ 2050 5200
-Text HLabel 2050 5900 0    50   Input ~ 0
-SPI2_EXT_INT
 NoConn ~ 2050 2300
+Wire Wire Line
+	4700 5700 4700 5850
+Wire Wire Line
+	5050 5850 5050 5600
+Wire Wire Line
+	4700 6250 4700 6150
+Wire Wire Line
+	5050 6250 5050 6150
 $Comp
-L power:GNDREF #PWR029
-U 1 1 61C9D008
+L Device:R R?
+U 1 1 61C2F110
+P 5050 6400
+AR Path="/61C2F110" Ref="R?"  Part="1" 
+AR Path="/6160DF75/61C2F110" Ref="R?"  Part="1" 
+AR Path="/61C99968/61C2F110" Ref="R?"  Part="1" 
+F 0 "R?" H 5120 6446 50  0000 L CNN
+F 1 "1k5Ω" H 5120 6355 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4980 6400 50  0001 C CNN
+F 3 "~" H 5050 6400 50  0001 C CNN
+	1    5050 6400
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 61C2F116
+P 5050 6000
+AR Path="/61C2F116" Ref="D?"  Part="1" 
+AR Path="/6160DF75/61C2F116" Ref="D?"  Part="1" 
+AR Path="/61C99968/61C2F116" Ref="D?"  Part="1" 
+F 0 "D?" V 5089 5882 50  0000 R CNN
+F 1 "RED" V 4998 5882 50  0000 R CNN
+F 2 "LED_SMD:LED_0603_1608Metric" H 5050 6000 50  0001 C CNN
+F 3 "~" H 5050 6000 50  0001 C CNN
+	1    5050 6000
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 61C2F11C
+P 4700 6000
+AR Path="/61C2F11C" Ref="D?"  Part="1" 
+AR Path="/6160DF75/61C2F11C" Ref="D?"  Part="1" 
+AR Path="/61C99968/61C2F11C" Ref="D?"  Part="1" 
+F 0 "D?" V 4739 5882 50  0000 R CNN
+F 1 "GREEN" V 4648 5882 50  0000 R CNN
+F 2 "LED_SMD:LED_0603_1608Metric" H 4700 6000 50  0001 C CNN
+F 3 "~" H 4700 6000 50  0001 C CNN
+	1    4700 6000
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 61C2F122
+P 4700 6400
+AR Path="/61C2F122" Ref="R?"  Part="1" 
+AR Path="/6160DF75/61C2F122" Ref="R?"  Part="1" 
+AR Path="/61C99968/61C2F122" Ref="R?"  Part="1" 
+F 0 "R?" H 4770 6446 50  0000 L CNN
+F 1 "1k5Ω" H 4770 6355 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4630 6400 50  0001 C CNN
+F 3 "~" H 4700 6400 50  0001 C CNN
+	1    4700 6400
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	3850 5700 4700 5700
+Wire Wire Line
+	3850 5600 5050 5600
+NoConn ~ 3850 6100
+NoConn ~ 3850 6000
+NoConn ~ 3850 6200
+NoConn ~ 3850 4100
+NoConn ~ 3850 4600
+NoConn ~ 3850 4700
+NoConn ~ 3850 4800
+$Comp
+L power:GND #PWR?
+U 1 1 61C575EE
+P 4700 6550
+F 0 "#PWR?" H 4700 6300 50  0001 C CNN
+F 1 "GND" H 4705 6377 50  0000 C CNN
+F 2 "" H 4700 6550 50  0001 C CNN
+F 3 "" H 4700 6550 50  0001 C CNN
+	1    4700 6550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 61C598CA
+P 5050 6550
+F 0 "#PWR?" H 5050 6300 50  0001 C CNN
+F 1 "GND" H 5055 6377 50  0000 C CNN
+F 2 "" H 5050 6550 50  0001 C CNN
+F 3 "" H 5050 6550 50  0001 C CNN
+	1    5050 6550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 61C5BB8E
 P 1150 3550
-F 0 "#PWR029" H 1150 3300 50  0001 C CNN
-F 1 "GNDREF" H 1155 3377 50  0000 C CNN
+F 0 "#PWR?" H 1150 3300 50  0001 C CNN
+F 1 "GND" H 1155 3377 50  0000 C CNN
 F 2 "" H 1150 3550 50  0001 C CNN
 F 3 "" H 1150 3550 50  0001 C CNN
 	1    1150 3550
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDREF #PWR030
-U 1 1 61C9D81F
+L power:GND #PWR?
+U 1 1 61C5DEA1
 P 1550 3550
-F 0 "#PWR030" H 1550 3300 50  0001 C CNN
-F 1 "GNDREF" H 1555 3377 50  0000 C CNN
+F 0 "#PWR?" H 1550 3300 50  0001 C CNN
+F 1 "GND" H 1555 3377 50  0000 C CNN
 F 2 "" H 1550 3550 50  0001 C CNN
 F 3 "" H 1550 3550 50  0001 C CNN
 	1    1550 3550
 	1    0    0    -1  
 $EndComp
+Text HLabel 3850 4400 2    50   Input ~ 0
+I2C2_SDA
+Text HLabel 3850 4300 2    50   Input ~ 0
+I2C2_SCL
+Text HLabel 3850 3800 2    50   Input ~ 0
+I2C1_EN
+Text HLabel 3850 3900 2    50   Input ~ 0
+I2C1_SCL
+Text HLabel 3850 4000 2    50   Input ~ 0
+I2C1_SDA
+NoConn ~ 3850 4200
+NoConn ~ 3850 3100
+NoConn ~ 2050 5000
+NoConn ~ 2050 5100
+NoConn ~ 2050 5800
+NoConn ~ 3850 3300
+NoConn ~ 3850 2300
+NoConn ~ 3850 2200
+NoConn ~ 3850 2100
+NoConn ~ 3850 2000
+NoConn ~ 3850 2700
+NoConn ~ 3850 2800
+Text HLabel 2050 6100 0    50   Input ~ 0
+EXT_INT1
+Text HLabel 2050 6000 0    50   Input ~ 0
+EXT_INT2
+Text HLabel 2050 5900 0    50   Input ~ 0
+EXT_INT3
+NoConn ~ 3850 3600
+NoConn ~ 3850 3700
 $EndSCHEMATC

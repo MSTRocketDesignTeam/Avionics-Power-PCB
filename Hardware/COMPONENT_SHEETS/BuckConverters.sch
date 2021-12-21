@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 8
+Sheet 5 7
 Title "Buck Converter Supply"
 Date "2021-12-20"
 Rev "v2.0.1"
@@ -74,14 +74,6 @@ Wire Notes Line
 	8150 2200 2900 2200
 Text Notes 2950 2150 0    98   ~ 20
 5V Buck Converter
-Text HLabel 4050 3450 3    50   Input ~ 0
-ground
-Text HLabel 5950 3650 0    50   Input ~ 0
-ground
-Text HLabel 6000 6000 0    50   Input ~ 0
-ground
-Text HLabel 4050 5800 3    50   Input ~ 0
-ground
 $Comp
 L Power_KiCAD_Project-rescue:SBRD10200TR-SBRD10200TR D3
 U 1 1 61A8FF3C
@@ -421,4 +413,56 @@ Wire Wire Line
 Connection ~ 6200 5400
 Wire Wire Line
 	7400 5400 7250 5400
+$Comp
+L power:GND #PWR?
+U 1 1 61CCDE7D
+P 4050 3450
+AR Path="/61CCDE7D" Ref="#PWR?"  Part="1" 
+AR Path="/61A48488/61CCDE7D" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4050 3200 50  0001 C CNN
+F 1 "GND" H 4055 3277 50  0000 C CNN
+F 2 "" H 4050 3450 50  0001 C CNN
+F 3 "" H 4050 3450 50  0001 C CNN
+	1    4050 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 61CCEFCE
+P 5950 3650
+AR Path="/61CCEFCE" Ref="#PWR?"  Part="1" 
+AR Path="/61A48488/61CCEFCE" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 5950 3400 50  0001 C CNN
+F 1 "GND" H 5955 3477 50  0000 C CNN
+F 2 "" H 5950 3650 50  0001 C CNN
+F 3 "" H 5950 3650 50  0001 C CNN
+	1    5950 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 61CD0185
+P 4050 5800
+AR Path="/61CD0185" Ref="#PWR?"  Part="1" 
+AR Path="/61A48488/61CD0185" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4050 5550 50  0001 C CNN
+F 1 "GND" H 4055 5627 50  0000 C CNN
+F 2 "" H 4050 5800 50  0001 C CNN
+F 3 "" H 4050 5800 50  0001 C CNN
+	1    4050 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 61CD137E
+P 6000 6000
+AR Path="/61CD137E" Ref="#PWR?"  Part="1" 
+AR Path="/61A48488/61CD137E" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 6000 5750 50  0001 C CNN
+F 1 "GND" H 6005 5827 50  0000 C CNN
+F 2 "" H 6000 6000 50  0001 C CNN
+F 3 "" H 6000 6000 50  0001 C CNN
+	1    6000 6000
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
