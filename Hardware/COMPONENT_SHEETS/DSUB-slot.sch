@@ -3,11 +3,11 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 7
+Sheet 5 8
 Title ""
-Date "2021-12-06"
-Rev ""
-Comp "Missouri S&T Rocket Design Team '21 (Jacob King)"
+Date "2021-12-20"
+Rev "v2.0.1"
+Comp "Missouri S&T Rocket Design Team '21 (Jacob King, Thomas Francois)"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -52,10 +52,10 @@ $EndComp
 Wire Wire Line
 	5300 2400 5700 2400
 $Comp
-L power:+3.3V #PWR010
+L power:+3.3V #PWR015
 U 1 1 61A4A3FB
 P 6700 2000
-F 0 "#PWR010" H 6700 1850 50  0001 C CNN
+F 0 "#PWR015" H 6700 1850 50  0001 C CNN
 F 1 "+3.3V" V 6715 2128 50  0000 L CNN
 F 2 "" H 6700 2000 50  0001 C CNN
 F 3 "" H 6700 2000 50  0001 C CNN
@@ -63,10 +63,10 @@ F 3 "" H 6700 2000 50  0001 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L power:+5V #PWR08
+L power:+5V #PWR013
 U 1 1 61A491E6
 P 5700 1900
-F 0 "#PWR08" H 5700 1750 50  0001 C CNN
+F 0 "#PWR013" H 5700 1750 50  0001 C CNN
 F 1 "+5V" V 5715 2028 50  0000 L CNN
 F 2 "" H 5700 1900 50  0001 C CNN
 F 3 "" H 5700 1900 50  0001 C CNN
@@ -74,10 +74,10 @@ F 3 "" H 5700 1900 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L power:+3.3V #PWR011
+L power:+3.3V #PWR016
 U 1 1 61A4AB5D
 P 6700 3600
-F 0 "#PWR011" H 6700 3450 50  0001 C CNN
+F 0 "#PWR016" H 6700 3450 50  0001 C CNN
 F 1 "+3.3V" V 6715 3728 50  0000 L CNN
 F 2 "" H 6700 3600 50  0001 C CNN
 F 3 "" H 6700 3600 50  0001 C CNN
@@ -85,10 +85,10 @@ F 3 "" H 6700 3600 50  0001 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L Power_KiCAD_Project-rescue:L717SDC37P1ACH4F-SamacSys_Parts J8
+L Power_KiCAD_Project-rescue:L717SDC37P1ACH4F-SamacSys_Parts J12
 U 1 1 61D5E9EE
 P 6200 1600
-F 0 "J8" V 6019 1600 50  0000 C CNN
+F 0 "J12" V 6019 1600 50  0000 C CNN
 F 1 "L717SDC37P1ACH4F" V 6110 1600 50  0000 C CNN
 F 2 "SamacSys_Parts:L717SDC37P1ACH4F" H 8450 1900 50  0001 L CNN
 F 3 "https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/l717sdxxxp1ach4f.pdf" H 8450 1800 50  0001 L CNN
@@ -104,10 +104,10 @@ $EndComp
 Wire Wire Line
 	6850 3700 6700 3700
 $Comp
-L power:+5V #PWR09
+L power:+5V #PWR014
 U 1 1 61A49AB4
 P 5700 3600
-F 0 "#PWR09" H 5700 3450 50  0001 C CNN
+F 0 "#PWR014" H 5700 3450 50  0001 C CNN
 F 1 "+5V" V 5715 3728 50  0000 L CNN
 F 2 "" H 5700 3600 50  0001 C CNN
 F 3 "" H 5700 3600 50  0001 C CNN

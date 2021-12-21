@@ -3,11 +3,11 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 7
+Sheet 4 8
 Title "MCP9608 Temperature Sensor"
-Date "2021-12-06"
-Rev "v1.0.3"
-Comp "Missouri S&T Rocket Design Team '21 (Jacob King)"
+Date "2021-12-20"
+Rev "v2.0.1"
+Comp "Missouri S&T Rocket Design Team '21 (Jacob King, Thomas Francois)"
 Comment1 "https://github.com/MSTRocketDesignTeam/Avionics-Data-Collection-PCB"
 Comment2 ""
 Comment3 ""
@@ -19,9 +19,9 @@ U 1 1 6160E323
 P 3700 2450
 AR Path="/6160E323" Ref="#PWR?"  Part="1" 
 AR Path="/615C1FB4/6160E323" Ref="#PWR?"  Part="1" 
-AR Path="/61B1B3BC/6160E323" Ref="#PWR07"  Part="1" 
-AR Path="/61B35621/6160E323" Ref="#PWR04"  Part="1" 
-F 0 "#PWR07" H 3700 2300 50  0001 C CNN
+AR Path="/61B1B3BC/6160E323" Ref="#PWR012"  Part="1" 
+AR Path="/61B35621/6160E323" Ref="#PWR09"  Part="1" 
+F 0 "#PWR012" H 3700 2300 50  0001 C CNN
 F 1 "+3.3V" H 3715 2623 50  0000 C CNN
 F 2 "" H 3700 2450 50  0001 C CNN
 F 3 "" H 3700 2450 50  0001 C CNN
