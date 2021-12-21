@@ -510,7 +510,6 @@ Wire Wire Line
 	3500 4300 3550 4300
 Wire Wire Line
 	3350 4200 3350 6550
-NoConn ~ 2800 2900
 $Comp
 L Power_KiCAD_Project-rescue:XT60-M-XT60-M J7
 U 1 1 61C843A7
@@ -607,6 +606,7 @@ F8 "PACK_M0" I R 4550 6550 50
 F9 "PACK-" I L 3700 6550 50 
 F10 "Switch" I L 3700 6200 50 
 $EndSheet
+NoConn ~ 3400 3400
 Wire Bus Line
 	3050 2000 3050 2600
 Wire Bus Line
