@@ -14,10 +14,10 @@ Comment3 "Schematic depicting logical connections between components"
 Comment4 ""
 $EndDescr
 $Comp
-L power:+3.3V #PWR07
+L power:+3.3V #PWR05
 U 1 1 61B3C742
 P 9000 1500
-F 0 "#PWR07" H 9000 1350 50  0001 C CNN
+F 0 "#PWR05" H 9000 1350 50  0001 C CNN
 F 1 "+3.3V" H 9015 1673 50  0000 C CNN
 F 2 "" H 9000 1500 50  0001 C CNN
 F 3 "" H 9000 1500 50  0001 C CNN
@@ -175,10 +175,10 @@ Connection ~ 1400 5000
 Wire Wire Line
 	1400 5000 1400 6000
 $Comp
-L power:+3.3V #PWR05
+L power:+3.3V #PWR04
 U 1 1 61A5452E
 P 3100 4550
-F 0 "#PWR05" H 3100 4400 50  0001 C CNN
+F 0 "#PWR04" H 3100 4400 50  0001 C CNN
 F 1 "+3.3V" H 3115 4723 50  0000 C CNN
 F 2 "" H 3100 4550 50  0001 C CNN
 F 3 "" H 3100 4550 50  0001 C CNN
@@ -186,10 +186,10 @@ F 3 "" H 3100 4550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR04
+L power:+5V #PWR03
 U 1 1 61A56282
 P 2850 4550
-F 0 "#PWR04" H 2850 4400 50  0001 C CNN
+F 0 "#PWR03" H 2850 4400 50  0001 C CNN
 F 1 "+5V" H 2865 4723 50  0000 C CNN
 F 2 "" H 2850 4550 50  0001 C CNN
 F 3 "" H 2850 4550 50  0001 C CNN
@@ -258,10 +258,10 @@ F 3 "" H 1200 6850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Power_KiCAD_Project-rescue:XT60-M-XT60-M J11
+L Power_KiCAD_Project-rescue:XT60-M-XT60-M J6
 U 1 1 61C66D12
 P 4750 7200
-F 0 "J11" H 4880 7246 50  0000 L CNN
+F 0 "J6" H 4880 7246 50  0000 L CNN
 F 1 "XT60 Cell 1" H 4880 7155 50  0000 L CNN
 F 2 "RDT_Custom_Footprints:AMASS_XT60-M" H 4750 7200 50  0001 L BNN
 F 3 "" H 4750 7200 50  0001 L BNN
@@ -275,10 +275,10 @@ F 9 "Plug; DC supply; XT60; male; PIN: 2; for cable; soldered; 30A; 500V" H 4750
 	1    0    0    1   
 $EndComp
 $Comp
-L Connector:Barrel_Jack_MountingPin J6
+L Connector:Barrel_Jack_MountingPin J1
 U 1 1 61C18157
 P 1300 4000
-F 0 "J6" V 1311 4180 50  0000 L CNN
+F 0 "J1" V 1311 4180 50  0000 L CNN
 F 1 "Barrel_Jack_MountingPin" V 1402 4180 50  0000 L CNN
 F 2 "Connector_BarrelJack:BarrelJack_CUI_PJ-102AH_Horizontal" H 1350 3960 50  0001 C CNN
 F 3 "~" H 1350 3960 50  0001 C CNN
@@ -288,10 +288,10 @@ $EndComp
 Wire Wire Line
 	1400 4300 1400 5000
 $Comp
-L Power_KiCAD_Project-rescue:XT60-M-XT60-M J10
+L Power_KiCAD_Project-rescue:XT60-M-XT60-M J5
 U 1 1 61C24684
 P 4750 6750
-F 0 "J10" H 4880 6796 50  0000 L CNN
+F 0 "J5" H 4880 6796 50  0000 L CNN
 F 1 "XT60 Cell 2" H 4880 6705 50  0000 L CNN
 F 2 "RDT_Custom_Footprints:AMASS_XT60-M" H 4750 6750 50  0001 L BNN
 F 3 "" H 4750 6750 50  0001 L BNN
@@ -305,10 +305,10 @@ F 9 "Plug; DC supply; XT60; male; PIN: 2; for cable; soldered; 30A; 500V" H 4750
 	1    0    0    1   
 $EndComp
 $Comp
-L Power_KiCAD_Project-rescue:XT60-M-XT60-M J9
+L Power_KiCAD_Project-rescue:XT60-M-XT60-M J4
 U 1 1 61C24CA6
 P 4750 6300
-F 0 "J9" H 4880 6346 50  0000 L CNN
+F 0 "J4" H 4880 6346 50  0000 L CNN
 F 1 "XT60 Cell 3" H 4880 6255 50  0000 L CNN
 F 2 "RDT_Custom_Footprints:AMASS_XT60-M" H 4750 6300 50  0001 L BNN
 F 3 "" H 4750 6300 50  0001 L BNN
@@ -322,10 +322,10 @@ F 9 "Plug; DC supply; XT60; male; PIN: 2; for cable; soldered; 30A; 500V" H 4750
 	1    0    0    1   
 $EndComp
 $Comp
-L Power_KiCAD_Project-rescue:XT60-M-XT60-M J8
+L Power_KiCAD_Project-rescue:XT60-M-XT60-M J3
 U 1 1 61C25141
 P 4750 5850
-F 0 "J8" H 4880 5896 50  0000 L CNN
+F 0 "J3" H 4880 5896 50  0000 L CNN
 F 1 "XT60 Cell 4" H 4880 5805 50  0000 L CNN
 F 2 "RDT_Custom_Footprints:AMASS_XT60-M" H 4750 5850 50  0001 L BNN
 F 3 "" H 4750 5850 50  0001 L BNN
@@ -339,10 +339,10 @@ F 9 "Plug; DC supply; XT60; male; PIN: 2; for cable; soldered; 30A; 500V" H 4750
 	1    0    0    1   
 $EndComp
 $Comp
-L Power_KiCAD_Project-rescue:XT60-M-XT60-M J7
+L Power_KiCAD_Project-rescue:XT60-M-XT60-M J2
 U 1 1 61C25639
 P 4750 5400
-F 0 "J7" H 4880 5446 50  0000 L CNN
+F 0 "J2" H 4880 5446 50  0000 L CNN
 F 1 "XT60 Cell 5" H 4880 5355 50  0000 L CNN
 F 2 "RDT_Custom_Footprints:AMASS_XT60-M" H 4750 5400 50  0001 L BNN
 F 3 "" H 4750 5400 50  0001 L BNN
@@ -455,10 +455,10 @@ Connection ~ 9000 2900
 Wire Wire Line
 	9000 3050 9000 2900
 $Comp
-L power:GND #PWR0101
+L power:GND #PWR06
 U 1 1 61CCB2E2
 P 9000 3050
-F 0 "#PWR0101" H 9000 2800 50  0001 C CNN
+F 0 "#PWR06" H 9000 2800 50  0001 C CNN
 F 1 "GND" H 9005 2877 50  0000 C CNN
 F 2 "" H 9000 3050 50  0001 C CNN
 F 3 "" H 9000 3050 50  0001 C CNN
@@ -506,7 +506,9 @@ $Comp
 L power:GND #PWR?
 U 1 1 61CB03B2
 P 950 4050
-F 0 "#PWR?" H 950 3800 50  0001 C CNN
+AR Path="/61C99968/61CB03B2" Ref="#PWR?"  Part="1" 
+AR Path="/61CB03B2" Ref="#PWR01"  Part="1" 
+F 0 "#PWR01" H 950 3800 50  0001 C CNN
 F 1 "GND" H 955 3877 50  0000 C CNN
 F 2 "" H 950 4050 50  0001 C CNN
 F 3 "" H 950 4050 50  0001 C CNN
