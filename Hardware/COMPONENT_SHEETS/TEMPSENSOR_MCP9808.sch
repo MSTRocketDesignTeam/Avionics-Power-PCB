@@ -46,7 +46,7 @@ AR Path="/6160E331" Ref="C?"  Part="1"
 AR Path="/615C1FB4/6160E331" Ref="C?"  Part="1" 
 AR Path="/61B1B3BC/6160E331" Ref="C2"  Part="1" 
 AR Path="/61B35621/6160E331" Ref="C1"  Part="1" 
-F 0 "C2" H 4365 3146 50  0000 L CNN
+F 0 "C1" H 4365 3146 50  0000 L CNN
 F 1 "100nF" H 4365 3055 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 4288 2950 50  0001 C CNN
 F 3 "~" H 4250 3100 50  0001 C CNN
@@ -73,7 +73,7 @@ AR Path="/61A8C2DF" Ref="U?"  Part="1"
 AR Path="/615C1FB4/61A8C2DF" Ref="U?"  Part="1" 
 AR Path="/61B1B3BC/61A8C2DF" Ref="U2"  Part="1" 
 AR Path="/61B35621/61A8C2DF" Ref="U1"  Part="1" 
-F 0 "U2" H 3200 3800 50  0000 L CNN
+F 0 "U1" H 3200 3800 50  0000 L CNN
 F 1 "MCP9808_MSOP" H 2950 3700 50  0000 L CNN
 F 2 "Package_SO:MSOP-8_3x3mm_P0.65mm" H 3250 3050 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/22203b.pdf" H 3000 3500 50  0001 C CNN

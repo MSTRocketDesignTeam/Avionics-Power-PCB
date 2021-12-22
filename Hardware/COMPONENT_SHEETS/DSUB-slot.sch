@@ -88,7 +88,7 @@ $Comp
 L Power_KiCAD_Project-rescue:L717SDC37P1ACH4F-SamacSys_Parts J8
 U 1 1 61D5E9EE
 P 6200 1600
-F 0 "J8" V 6019 1600 50  0000 C CNN
+F 0 "J8" V 5900 1600 50  0000 C CNN
 F 1 "L717SDC37P1ACH4F" V 6110 1600 50  0000 C CNN
 F 2 "RDT_Custom_Footprints:L717SDC37P1ACH4F" H 8450 1900 50  0001 L CNN
 F 3 "https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/l717sdxxxp1ach4f.pdf" H 8450 1800 50  0001 L CNN
