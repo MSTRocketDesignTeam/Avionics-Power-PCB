@@ -886,7 +886,7 @@ Wire Wire Line
 Wire Wire Line
 	4400 2500 5850 2500
 $Comp
-L Power_KiCAD_Project-rescue:XT60-M-XT60-M J?
+L Power_KiCAD_Project-rescue:XT60-M-XT60-M-Power_KiCAD_Project-rescue J?
 U 1 1 61C225DB
 P 3000 5400
 AR Path="/61C225DB" Ref="J?"  Part="1" 

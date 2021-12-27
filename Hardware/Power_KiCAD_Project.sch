@@ -258,7 +258,7 @@ F 3 "" H 1200 6850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Power_KiCAD_Project-rescue:XT60-M-XT60-M J6
+L Power_KiCAD_Project-rescue:XT60-M-XT60-M-Power_KiCAD_Project-rescue J6
 U 1 1 61C66D12
 P 4750 7200
 F 0 "J6" H 4880 7246 50  0000 L CNN
@@ -288,7 +288,7 @@ $EndComp
 Wire Wire Line
 	1400 4300 1400 5000
 $Comp
-L Power_KiCAD_Project-rescue:XT60-M-XT60-M J5
+L Power_KiCAD_Project-rescue:XT60-M-XT60-M-Power_KiCAD_Project-rescue J5
 U 1 1 61C24684
 P 4750 6750
 F 0 "J5" H 4880 6796 50  0000 L CNN
@@ -305,7 +305,7 @@ F 9 "Plug; DC supply; XT60; male; PIN: 2; for cable; soldered; 30A; 500V" H 4750
 	1    0    0    1   
 $EndComp
 $Comp
-L Power_KiCAD_Project-rescue:XT60-M-XT60-M J4
+L Power_KiCAD_Project-rescue:XT60-M-XT60-M-Power_KiCAD_Project-rescue J4
 U 1 1 61C24CA6
 P 4750 6300
 F 0 "J4" H 4880 6346 50  0000 L CNN
@@ -322,7 +322,7 @@ F 9 "Plug; DC supply; XT60; male; PIN: 2; for cable; soldered; 30A; 500V" H 4750
 	1    0    0    1   
 $EndComp
 $Comp
-L Power_KiCAD_Project-rescue:XT60-M-XT60-M J3
+L Power_KiCAD_Project-rescue:XT60-M-XT60-M-Power_KiCAD_Project-rescue J3
 U 1 1 61C25141
 P 4750 5850
 F 0 "J3" H 4880 5896 50  0000 L CNN
@@ -339,7 +339,7 @@ F 9 "Plug; DC supply; XT60; male; PIN: 2; for cable; soldered; 30A; 500V" H 4750
 	1    0    0    1   
 $EndComp
 $Comp
-L Power_KiCAD_Project-rescue:XT60-M-XT60-M J2
+L Power_KiCAD_Project-rescue:XT60-M-XT60-M-Power_KiCAD_Project-rescue J2
 U 1 1 61C25639
 P 4750 5400
 F 0 "J2" H 4880 5446 50  0000 L CNN

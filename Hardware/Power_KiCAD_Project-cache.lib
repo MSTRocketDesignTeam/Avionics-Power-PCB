@@ -286,11 +286,11 @@ X ~ 2 0 -100 30 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Power_KiCAD_Project-rescue_6SVPC330M-6SVPC330M
+# Power_KiCAD_Project-rescue_6SVPC330M-6SVPC330M-Power_KiCAD_Project-rescue
 #
-DEF Power_KiCAD_Project-rescue_6SVPC330M-6SVPC330M C 0 65 N N 1 L N
+DEF Power_KiCAD_Project-rescue_6SVPC330M-6SVPC330M-Power_KiCAD_Project-rescue C 0 65 N N 1 L N
 F0 "C" 150 150 60 H V C CNN
-F1 "Power_KiCAD_Project-rescue_6SVPC330M-6SVPC330M" 150 -300 60 H V C CNN
+F1 "Power_KiCAD_Project-rescue_6SVPC330M-6SVPC330M-Power_KiCAD_Project-rescue" 150 -300 60 H V C CNN
 F2 "PCAP_SVP_C6_PAN" 150 -360 60 H I C CNN
 F3 "" 0 0 60 H V C CNN
 $FPLIST
@@ -310,11 +310,11 @@ X 2 2 300 0 100 L 59 59 1 1 U
 ENDDRAW
 ENDDEF
 #
-# Power_KiCAD_Project-rescue_L717SDC37P1ACH4F-SamacSys_Parts
+# Power_KiCAD_Project-rescue_L717SDC37P1ACH4F-SamacSys_Parts-Power_KiCAD_Project-rescue
 #
-DEF Power_KiCAD_Project-rescue_L717SDC37P1ACH4F-SamacSys_Parts J 0 30 Y Y 1 F N
+DEF Power_KiCAD_Project-rescue_L717SDC37P1ACH4F-SamacSys_Parts-Power_KiCAD_Project-rescue J 0 30 Y Y 1 F N
 F0 "J" 2250 500 50 H V L CNN
-F1 "Power_KiCAD_Project-rescue_L717SDC37P1ACH4F-SamacSys_Parts" 2250 400 50 H V L CNN
+F1 "Power_KiCAD_Project-rescue_L717SDC37P1ACH4F-SamacSys_Parts-Power_KiCAD_Project-rescue" 2250 400 50 H V L CNN
 F2 "L717SDC37P1ACH4F" 2250 300 50 H I L CNN
 F3 "https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/l717sdxxxp1ach4f.pdf" 2250 200 50 H I L CNN
 F4 "D-Sub Standard Connectors 37P Sz C Std Density Pin Screwlock 4-40" 2250 100 50 H I L CNN "Description"
@@ -367,11 +367,11 @@ X MH2 MH2 2400 0 200 L 50 50 0 0 P
 ENDDRAW
 ENDDEF
 #
-# Power_KiCAD_Project-rescue_LM2672M-TO-263-lm2672m-to-263
+# Power_KiCAD_Project-rescue_LM2672M-TO-263-lm2672m-to-263-Power_KiCAD_Project-rescue
 #
-DEF Power_KiCAD_Project-rescue_LM2672M-TO-263-lm2672m-to-263 U 0 20 Y Y 1 F N
+DEF Power_KiCAD_Project-rescue_LM2672M-TO-263-lm2672m-to-263-Power_KiCAD_Project-rescue U 0 20 Y Y 1 F N
 F0 "U" -400 350 50 H V L CNN
-F1 "Power_KiCAD_Project-rescue_LM2672M-TO-263-lm2672m-to-263" 0 350 50 H V L CNN
+F1 "Power_KiCAD_Project-rescue_LM2672M-TO-263-lm2672m-to-263-Power_KiCAD_Project-rescue" 0 350 50 H V L CNN
 F2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" 50 -350 50 H I L CIN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -388,11 +388,11 @@ X ON/~OFF 7 -500 -200 100 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# Power_KiCAD_Project-rescue_SBRD10200TR-SBRD10200TR
+# Power_KiCAD_Project-rescue_SBRD10200TR-SBRD10200TR-Power_KiCAD_Project-rescue
 #
-DEF Power_KiCAD_Project-rescue_SBRD10200TR-SBRD10200TR D 0 40 Y N 1 L N
+DEF Power_KiCAD_Project-rescue_SBRD10200TR-SBRD10200TR-Power_KiCAD_Project-rescue D 0 40 Y N 1 L N
 F0 "D" 200 100 50 H V L BNN
-F1 "Power_KiCAD_Project-rescue_SBRD10200TR-SBRD10200TR" 200 -300 50 H V L BNN
+F1 "Power_KiCAD_Project-rescue_SBRD10200TR-SBRD10200TR-Power_KiCAD_Project-rescue" 200 -300 50 H V L BNN
 F2 "DPAK228P1005X240-4N" 0 0 50 H I L BNN
 F3 "" 0 0 50 H I L BNN
 F4 "SBRD10200TR" 0 0 50 H I L BNN "MP"
@@ -417,11 +417,11 @@ X ~ 3 100 -200 100 U 40 40 0 0 P
 ENDDRAW
 ENDDEF
 #
-# Power_KiCAD_Project-rescue_XT60-M-XT60-M
+# Power_KiCAD_Project-rescue_XT60-M-XT60-M-Power_KiCAD_Project-rescue
 #
-DEF Power_KiCAD_Project-rescue_XT60-M-XT60-M J 0 40 Y Y 1 L N
+DEF Power_KiCAD_Project-rescue_XT60-M-XT60-M-Power_KiCAD_Project-rescue J 0 40 Y Y 1 L N
 F0 "J" -100 225 50 H V L BNN
-F1 "Power_KiCAD_Project-rescue_XT60-M-XT60-M" -110 -250 50 H V L BNN
+F1 "Power_KiCAD_Project-rescue_XT60-M-XT60-M-Power_KiCAD_Project-rescue" -110 -250 50 H V L BNN
 F2 "AMASS_XT60-M" 0 0 50 H I L BNN
 F3 "" 0 0 50 H I L BNN
 F4 "XT60-M" 0 0 50 H I L BNN "MP"

@@ -1,5 +1,4 @@
 (sym_lib_table
-  (lib (name Power_KiCAD_Project-rescue)(type Legacy)(uri ${KIPRJMOD}/Power_KiCAD_Project-rescue.lib)(options "")(descr ""))
   (lib (name dk_Addressable-Specialty)(type Legacy)(uri ${KIPRJMOD}/LIBRARIES/digikey-kicad-library-master/digikey-kicad-library-master/digikey-symbols/dk_Addressable-Specialty.lib)(options "")(descr ""))
   (lib (name dk_Alarms-Buzzers-and-Sirens)(type Legacy)(uri ${KIPRJMOD}/LIBRARIES/digikey-kicad-library-master/digikey-kicad-library-master/digikey-symbols/dk_Alarms-Buzzers-and-Sirens.lib)(options "")(descr ""))
   (lib (name dk_Automotive-Relays)(type Legacy)(uri ${KIPRJMOD}/LIBRARIES/digikey-kicad-library-master/digikey-kicad-library-master/digikey-symbols/dk_Automotive-Relays.lib)(options "")(descr ""))
@@ -179,4 +178,5 @@
   (lib (name SparkFun-Sensors)(type Legacy)(uri ${KIPRJMOD}/LIBRARIES/SparkFun-KiCad-Libraries-master/Libraries/SparkFun-Sensors.lib)(options "")(descr ""))
   (lib (name SparkFun-Switches)(type Legacy)(uri ${KIPRJMOD}/LIBRARIES/SparkFun-KiCad-Libraries-master/Libraries/SparkFun-Switches.lib)(options "")(descr ""))
   (lib (name RDT_Custom_Symbols)(type Legacy)(uri ${KIPRJMOD}/LIBRARIES/RDT_Custom_Symbols.lib)(options "")(descr ""))
+  (lib (name Power_KiCAD_Project-rescue)(type Legacy)(uri ${KIPRJMOD}/Power_KiCAD_Project-rescue.lib)(options "")(descr ""))
 )

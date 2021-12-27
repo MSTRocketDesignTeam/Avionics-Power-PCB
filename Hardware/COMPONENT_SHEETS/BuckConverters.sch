@@ -14,9 +14,11 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Power_KiCAD_Project-rescue:LM2672M-TO-263-lm2672m-to-263 U4
+L Power_KiCAD_Project-rescue:LM2672M-TO-263-lm2672m-to-263-Power_KiCAD_Project-rescue U4
 U 1 1 61A319C7
 P 4900 5200
+AR Path="/61A319C7" Ref="U4"  Part="1" 
+AR Path="/61A48488/61A319C7" Ref="U4"  Part="1" 
 F 0 "U4" H 4900 5667 50  0000 C CNN
 F 1 "LM2678SX-3.3/NOPB" H 4900 5576 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:TO-263-7_TabPin8" H 4950 4850 50  0001 L CIN
@@ -63,9 +65,11 @@ Wire Notes Line
 Text Notes 2950 2150 0    98   ~ 20
 5V Buck Converter
 $Comp
-L Power_KiCAD_Project-rescue:SBRD10200TR-SBRD10200TR D1
+L Power_KiCAD_Project-rescue:SBRD10200TR-SBRD10200TR-Power_KiCAD_Project-rescue D1
 U 1 1 61A8FF3C
 P 6400 3400
+AR Path="/61A8FF3C" Ref="D1"  Part="1" 
+AR Path="/61A48488/61A8FF3C" Ref="D1"  Part="1" 
 F 0 "D1" H 6576 3441 50  0000 L CNN
 F 1 "SBRD10200TR" H 6576 3350 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:TO-252-2" H 6400 3400 50  0001 L BNN
@@ -79,9 +83,11 @@ F 8 "SMC Diode" H 6400 3400 50  0001 L BNN "MF"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Power_KiCAD_Project-rescue:SBRD10200TR-SBRD10200TR D2
+L Power_KiCAD_Project-rescue:SBRD10200TR-SBRD10200TR-Power_KiCAD_Project-rescue D2
 U 1 1 61A94D59
 P 6400 5600
+AR Path="/61A94D59" Ref="D2"  Part="1" 
+AR Path="/61A48488/61A94D59" Ref="D2"  Part="1" 
 F 0 "D2" H 6576 5641 50  0000 L CNN
 F 1 "SBRD10200TR" H 6576 5550 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:TO-252-2" H 6400 5600 50  0001 L BNN
@@ -107,9 +113,11 @@ Connection ~ 6500 3650
 Wire Wire Line
 	6500 3650 7700 3650
 $Comp
-L Power_KiCAD_Project-rescue:6SVPC330M-6SVPC330M C9
+L Power_KiCAD_Project-rescue:6SVPC330M-6SVPC330M-Power_KiCAD_Project-rescue C9
 U 1 1 61BCD9CD
 P 7600 5500
+AR Path="/61BCD9CD" Ref="C9"  Part="1" 
+AR Path="/61A48488/61BCD9CD" Ref="C9"  Part="1" 
 F 0 "C9" V 7804 5630 50  0000 L CNN
 F 1 "6SVPC330M" V 7895 5630 50  0000 L CNN
 F 2 "RDT_Custom_Footprints:16SVF180M" H 7950 5550 50  0001 L CNN
@@ -175,9 +183,11 @@ Wire Wire Line
 Wire Wire Line
 	5400 5200 5750 5200
 $Comp
-L Power_KiCAD_Project-rescue:LM2672M-TO-263-lm2672m-to-263 U3
+L Power_KiCAD_Project-rescue:LM2672M-TO-263-lm2672m-to-263-Power_KiCAD_Project-rescue U3
 U 1 1 61A7F0DE
 P 4900 2850
+AR Path="/61A7F0DE" Ref="U3"  Part="1" 
+AR Path="/61A48488/61A7F0DE" Ref="U3"  Part="1" 
 F 0 "U3" H 4900 3317 50  0000 C CNN
 F 1 "LM2678SX-5.0/NOPB" H 4900 3226 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:TO-263-7_TabPin8" H 4950 2500 50  0001 L CIN
