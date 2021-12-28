@@ -469,7 +469,7 @@ Text HLabel 3850 3000 2    50   Input ~ 0
 DEBUG_SWCLK
 Text HLabel 3850 2900 2    50   Input ~ 0
 DEBUG_SWDIO
-Text Notes 650  4200 0    50   ~ 0
+Text Notes 600  2850 0    50   ~ 0
 CL = 2 * (Cload - Cstray)\nCstray ≈ 20pF, Cstray ≈ 5pF\nCL = 2 * (Cload - 5pF)\nCL = 30pF
 Wire Wire Line
 	1150 3250 1150 2900
@@ -549,9 +549,6 @@ NoConn ~ 2050 3600
 NoConn ~ 2050 3700
 NoConn ~ 2050 3800
 NoConn ~ 2050 3900
-NoConn ~ 2050 4000
-NoConn ~ 2050 4100
-NoConn ~ 2050 4200
 NoConn ~ 2050 4300
 NoConn ~ 2050 4400
 NoConn ~ 2050 4500
@@ -726,12 +723,14 @@ NoConn ~ 3850 2100
 NoConn ~ 3850 2000
 NoConn ~ 3850 2700
 NoConn ~ 3850 2800
-Text HLabel 2050 6100 0    50   Input ~ 0
+Text HLabel 2050 4100 0    50   Input ~ 0
 EXT_INT1
-Text HLabel 2050 6000 0    50   Input ~ 0
+Text HLabel 2050 4200 0    50   Input ~ 0
 EXT_INT2
-Text HLabel 2050 5900 0    50   Input ~ 0
+Text HLabel 2050 4000 0    50   Input ~ 0
 EXT_INT3
 NoConn ~ 3850 3600
 NoConn ~ 3850 3700
+NoConn ~ 2050 6000
+NoConn ~ 2050 6100
 $EndSCHEMATC
