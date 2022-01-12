@@ -29,7 +29,7 @@ Text HLabel 6700 2200 2    50   Input ~ 0
 SWDIO
 Text HLabel 5700 2200 0    50   Input ~ 0
 SWCLK
-Text HLabel 5700 2400 0    50   Input ~ 0
+Text HLabel 4950 2400 0    50   Input ~ 0
 NRST
 Text HLabel 6700 2500 2    50   Input ~ 0
 Fire
@@ -38,19 +38,17 @@ Fire_redundant
 $Comp
 L Device:C_Small C?
 U 1 1 61A55586
-P 5200 2400
+P 5000 2700
 AR Path="/61A55586" Ref="C?"  Part="1" 
 AR Path="/61A437B5/61A55586" Ref="C?"  Part="1" 
 AR Path="/61D3585E/61A55586" Ref="C36"  Part="1" 
-F 0 "C36" H 5292 2446 50  0000 L CNN
-F 1 "100nF" H 5292 2355 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 5200 2400 50  0001 C CNN
-F 3 "~" H 5200 2400 50  0001 C CNN
-	1    5200 2400
-	0    1    -1   0   
+F 0 "C36" H 5092 2746 50  0000 L CNN
+F 1 "100nF" H 5092 2655 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 5000 2700 50  0001 C CNN
+F 3 "~" H 5000 2700 50  0001 C CNN
+	1    5000 2700
+	1    0    0    1   
 $EndComp
-Wire Wire Line
-	5300 2400 5700 2400
 $Comp
 L power:+3.3V #PWR044
 U 1 1 61A4A3FB
@@ -171,14 +169,41 @@ $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 61CCA76D
-P 5100 2400
+P 5000 2800
 AR Path="/61CCA76D" Ref="#PWR?"  Part="1" 
 AR Path="/61D3585E/61CCA76D" Ref="#PWR038"  Part="1" 
-F 0 "#PWR038" H 5100 2150 50  0001 C CNN
-F 1 "GND" H 5105 2227 50  0000 C CNN
-F 2 "" H 5100 2400 50  0001 C CNN
-F 3 "" H 5100 2400 50  0001 C CNN
-	1    5100 2400
-	-1   0    0    1   
+F 0 "#PWR038" H 5000 2550 50  0001 C CNN
+F 1 "GND" H 5005 2627 50  0000 C CNN
+F 2 "" H 5000 2800 50  0001 C CNN
+F 3 "" H 5000 2800 50  0001 C CNN
+	1    5000 2800
+	1    0    0    -1  
 $EndComp
+NoConn ~ 5700 2600
+NoConn ~ 5700 2700
+NoConn ~ 5700 2800
+NoConn ~ 5700 2900
+NoConn ~ 5700 3000
+NoConn ~ 5700 3100
+NoConn ~ 5700 3200
+NoConn ~ 5700 3300
+NoConn ~ 5700 3400
+NoConn ~ 5700 3500
+NoConn ~ 6700 2600
+NoConn ~ 6700 2700
+NoConn ~ 6700 2800
+NoConn ~ 6700 2900
+NoConn ~ 6700 3000
+NoConn ~ 6700 3100
+NoConn ~ 6700 3200
+NoConn ~ 6700 3300
+NoConn ~ 6700 3400
+NoConn ~ 6700 3500
+Wire Wire Line
+	5000 2600 5000 2400
+Wire Wire Line
+	5000 2400 5700 2400
+Wire Wire Line
+	4950 2400 5000 2400
+Connection ~ 5000 2400
 $EndSCHEMATC

@@ -885,25 +885,6 @@ Wire Wire Line
 	5250 2700 5850 2700
 Wire Wire Line
 	4400 2500 5850 2500
-$Comp
-L Power_KiCAD_Project-rescue:XT60-M-XT60-M-Power_KiCAD_Project-rescue J?
-U 1 1 61C225DB
-P 3000 5400
-AR Path="/61C225DB" Ref="J?"  Part="1" 
-AR Path="/615ED460/61C225DB" Ref="J7"  Part="1" 
-F 0 "J7" V 3000 5600 50  0000 L CNN
-F 1 "XT60 To External Switch" V 3150 4900 50  0000 L CNN
-F 2 "RDT_Custom_Footprints:AMASS_XT60-M" H 3000 5400 50  0001 L BNN
-F 3 "" H 3000 5400 50  0001 L BNN
-F 4 "XT60-M" H 3000 5400 50  0001 L BNN "MP"
-F 5 "None" H 3000 5400 50  0001 L BNN "Price"
-F 6 "Package" H 3000 5400 50  0001 L BNN "Package"
-F 7 "AMASS" H 3000 5400 50  0001 L BNN "MF"
-F 8 "Not in stock" H 3000 5400 50  0001 L BNN "Availability"
-F 9 "Plug; DC supply; XT60; male; PIN: 2; for cable; soldered; 30A; 500V" H 3000 5400 50  0001 L BNN "Description"
-	1    3000 5400
-	0    -1   -1   0   
-$EndComp
 Wire Bus Line
 	4750 3700 4750 3250
 Connection ~ 5600 3250
@@ -926,10 +907,6 @@ Wire Wire Line
 	8150 3750 8150 3900
 Wire Bus Line
 	3450 3700 4750 3700
-Wire Wire Line
-	2900 5750 2900 5700
-Wire Wire Line
-	3100 5700 3100 5750
 Connection ~ 4950 5750
 Wire Wire Line
 	7550 5750 7400 5750
@@ -938,8 +915,6 @@ Wire Wire Line
 	5650 4700 4950 4700
 Wire Wire Line
 	5650 3600 5650 4700
-Wire Wire Line
-	3100 5750 4950 5750
 Wire Wire Line
 	1500 1750 5250 1750
 Connection ~ 5250 1750
@@ -973,8 +948,6 @@ Connection ~ 2950 4900
 Wire Wire Line
 	1700 4900 2100 4900
 Wire Wire Line
-	2900 5750 1700 5750
-Wire Wire Line
 	1700 4900 1700 5750
 $Comp
 L power:GNDREF #PWR017
@@ -990,6 +963,8 @@ $EndComp
 Wire Wire Line
 	1700 5850 1700 5750
 Connection ~ 1700 5750
+Wire Wire Line
+	1700 5750 4950 5750
 Wire Bus Line
 	3450 2800 3450 3700
 Wire Bus Line
