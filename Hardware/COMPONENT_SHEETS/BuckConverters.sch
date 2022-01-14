@@ -41,7 +41,6 @@ Text HLabel 7950 5400 2    50   Input ~ 0
 3.3V
 Wire Wire Line
 	7600 5000 7600 5400
-NoConn ~ 4400 5400
 Wire Notes Line
 	2250 4550 2250 6250
 Text Notes 2950 4500 0    98   ~ 20
@@ -434,4 +433,5 @@ Wire Notes Line
 	2250 6250 8450 6250
 Wire Notes Line
 	2250 4550 8450 4550
+NoConn ~ 4400 5400
 $EndSCHEMATC
