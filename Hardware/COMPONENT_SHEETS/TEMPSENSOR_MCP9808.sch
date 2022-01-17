@@ -3,11 +3,11 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 7
+Sheet 7 7
 Title "MCP9608 Temperature Sensor"
-Date "2021-12-06"
-Rev "v1.0.3"
-Comp "Missouri S&T Rocket Design Team '21 (Jacob King)"
+Date "2021-12-20"
+Rev "v2.0.1"
+Comp "Missouri S&T Rocket Design Team '21 (Jacob King, Thomas Francois)"
 Comment1 "https://github.com/MSTRocketDesignTeam/Avionics-Data-Collection-PCB"
 Comment2 ""
 Comment3 ""
@@ -19,9 +19,9 @@ U 1 1 6160E323
 P 3700 2450
 AR Path="/6160E323" Ref="#PWR?"  Part="1" 
 AR Path="/615C1FB4/6160E323" Ref="#PWR?"  Part="1" 
-AR Path="/61B1B3BC/6160E323" Ref="#PWR07"  Part="1" 
-AR Path="/61B35621/6160E323" Ref="#PWR04"  Part="1" 
-F 0 "#PWR07" H 3700 2300 50  0001 C CNN
+AR Path="/61B1B3BC/6160E323" Ref="#PWR011"  Part="1" 
+AR Path="/61B35621/6160E323" Ref="#PWR08"  Part="1" 
+F 0 "#PWR08" H 3700 2300 50  0001 C CNN
 F 1 "+3.3V" H 3715 2623 50  0000 C CNN
 F 2 "" H 3700 2450 50  0001 C CNN
 F 3 "" H 3700 2450 50  0001 C CNN
@@ -44,7 +44,7 @@ U 1 1 6160E331
 P 4250 3100
 AR Path="/6160E331" Ref="C?"  Part="1" 
 AR Path="/615C1FB4/6160E331" Ref="C?"  Part="1" 
-AR Path="/61B1B3BC/6160E331" Ref="C7"  Part="1" 
+AR Path="/61B1B3BC/6160E331" Ref="C2"  Part="1" 
 AR Path="/61B35621/6160E331" Ref="C1"  Part="1" 
 F 0 "C1" H 4365 3146 50  0000 L CNN
 F 1 "100nF" H 4365 3055 50  0000 L CNN
@@ -93,8 +93,32 @@ Wire Notes Line
 	2400 2200 4750 2200
 Wire Wire Line
 	4250 2500 4250 2950
-Text HLabel 4250 3250 3    50   Input ~ 0
-ground
-Text HLabel 3250 3650 3    50   Input ~ 0
-ground
+$Comp
+L power:GND #PWR?
+U 1 1 61CCAD29
+P 4250 3250
+AR Path="/61CCAD29" Ref="#PWR?"  Part="1" 
+AR Path="/61B1B3BC/61CCAD29" Ref="#PWR012"  Part="1" 
+AR Path="/61B35621/61CCAD29" Ref="#PWR09"  Part="1" 
+F 0 "#PWR09" H 4250 3000 50  0001 C CNN
+F 1 "GND" H 4255 3077 50  0000 C CNN
+F 2 "" H 4250 3250 50  0001 C CNN
+F 3 "" H 4250 3250 50  0001 C CNN
+	1    4250 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 61CCAD97
+P 3250 3650
+AR Path="/61CCAD97" Ref="#PWR?"  Part="1" 
+AR Path="/61B1B3BC/61CCAD97" Ref="#PWR010"  Part="1" 
+AR Path="/61B35621/61CCAD97" Ref="#PWR07"  Part="1" 
+F 0 "#PWR07" H 3250 3400 50  0001 C CNN
+F 1 "GND" H 3255 3477 50  0000 C CNN
+F 2 "" H 3250 3650 50  0001 C CNN
+F 3 "" H 3250 3650 50  0001 C CNN
+	1    3250 3650
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

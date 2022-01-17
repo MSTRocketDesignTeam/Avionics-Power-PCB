@@ -3,11 +3,11 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 7
+Sheet 3 8
 Title ""
-Date "2021-12-06"
-Rev "v1.0.3"
-Comp "Missouri S&T Rocket Design Team '21 (Jacob King)"
+Date "2021-12-20"
+Rev "v2.0.1"
+Comp "Missouri S&T Rocket Design Team '21 (Jacob King, Thomas Francois)"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -75,8 +75,8 @@ L power:+3.3V #PWR?
 U 1 1 61614698
 P 1700 3800
 AR Path="/61614698" Ref="#PWR?"  Part="1" 
-AR Path="/6160DF75/61614698" Ref="#PWR05"  Part="1" 
-F 0 "#PWR05" H 1700 3650 50  0001 C CNN
+AR Path="/6160DF75/61614698" Ref="#PWR010"  Part="1" 
+F 0 "#PWR010" H 1700 3650 50  0001 C CNN
 F 1 "+3.3V" H 1715 3973 50  0000 C CNN
 F 2 "" H 1700 3800 50  0001 C CNN
 F 3 "" H 1700 3800 50  0001 C CNN
@@ -198,8 +198,8 @@ L power:+3.3V #PWR?
 U 1 1 6161463B
 P 6850 2550
 AR Path="/6161463B" Ref="#PWR?"  Part="1" 
-AR Path="/6160DF75/6161463B" Ref="#PWR06"  Part="1" 
-F 0 "#PWR06" H 6850 2400 50  0001 C CNN
+AR Path="/6160DF75/6161463B" Ref="#PWR011"  Part="1" 
+F 0 "#PWR011" H 6850 2400 50  0001 C CNN
 F 1 "+3.3V" H 6865 2723 50  0000 C CNN
 F 2 "" H 6850 2550 50  0001 C CNN
 F 3 "" H 6850 2550 50  0001 C CNN

@@ -5,614 +5,614 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 7
 Title "Power Supply PCB Schematic"
-Date "2021-12-06"
-Rev "v1.0.3"
-Comp "Missouri S&T Rocket Design Team '21 (Jacob King)"
+Date "2021-12-20"
+Rev "v2.0.1"
+Comp "Missouri S&T Rocket Design Team '21 (Jacob King, Thomas Francois)"
 Comment1 "https://github.com/MSTRocketDesignTeam/Avionics-Power-PCB"
 Comment2 "Intended as initial pre-production design"
 Comment3 "Schematic depicting logical connections between components"
 Comment4 ""
 $EndDescr
 $Comp
-L power:+3.3V #PWR01
+L power:+3.3V #PWR05
 U 1 1 61B3C742
-P 4750 1150
-F 0 "#PWR01" H 4750 1000 50  0001 C CNN
-F 1 "+3.3V" H 4765 1323 50  0000 C CNN
-F 2 "" H 4750 1150 50  0001 C CNN
-F 3 "" H 4750 1150 50  0001 C CNN
-	1    4750 1150
+P 9250 1050
+F 0 "#PWR05" H 9250 900 50  0001 C CNN
+F 1 "+3.3V" H 9265 1223 50  0000 C CNN
+F 2 "" H 9250 1050 50  0001 C CNN
+F 3 "" H 9250 1050 50  0001 C CNN
+	1    9250 1050
 	1    0    0    -1  
 $EndComp
-Text Notes 5100 850  2    100  ~ 0
+Text Notes 9600 750  2    100  ~ 0
 Temperature Sensors
-$Sheet
-S 3750 2100 800  800 
-U 61B35621
-F0 "MCP9808_2" 50
-F1 "COMPONENT_SHEETS/TEMPSENSOR_MCP9808.sch" 50
-F2 "SDA" I L 3750 2200 50 
-F3 "SCL" I L 3750 2350 50 
-F4 "A0" I R 4550 2250 50 
-F5 "A1" I R 4550 2400 50 
-F6 "A2" I R 4550 2550 50 
-F7 "ALERT" I L 3750 2500 50 
-F8 "ground" I R 4550 2700 50 
-$EndSheet
 Entry Wire Line
-	2500 1850 2400 1750
+	6750 1900 6650 1800
 Entry Wire Line
-	2500 1950 2400 1850
+	6750 2000 6650 1900
 Wire Wire Line
-	2400 1850 1800 1850
+	6650 1900 6050 1900
 Wire Wire Line
-	2400 1750 1800 1750
-Text Label 1850 1750 0    50   ~ 0
+	6650 1800 6050 1800
+Text Label 6100 1800 0    50   ~ 0
 I2C_SDA
-Text Label 1850 1850 0    50   ~ 0
+Text Label 6100 1900 0    50   ~ 0
 I2C_SCL
 Wire Wire Line
-	4750 2700 4750 2550
+	9250 2450 9050 2450
 Wire Wire Line
-	4750 2550 4550 2550
+	9250 2450 9250 2300
 Wire Wire Line
-	4750 2550 4750 2400
+	9250 2300 9050 2300
 Wire Wire Line
-	4750 2400 4550 2400
-Connection ~ 4750 2550
+	9250 2300 9250 2150
 Wire Wire Line
-	4750 2400 4750 2250
+	9250 2150 9050 2150
+Connection ~ 9250 2300
 Wire Wire Line
-	4750 2250 4550 2250
-Connection ~ 4750 2400
+	9050 1500 9250 1500
+Connection ~ 9250 2150
 Wire Wire Line
-	4550 1600 4750 1600
+	9050 1300 9250 1300
 Wire Wire Line
-	4750 1600 4750 1750
-Connection ~ 4750 2250
+	9250 1300 9250 1500
+Connection ~ 9250 1500
 Wire Wire Line
-	4550 1400 4750 1400
+	9050 1100 9250 1100
 Wire Wire Line
-	4750 1400 4750 1600
-Connection ~ 4750 1600
-Wire Wire Line
-	4550 1200 4750 1200
-Wire Wire Line
-	4750 1200 4750 1150
+	9250 1100 9250 1050
 Wire Notes Line
-	3650 900  3650 3000
-Wire Notes Line
-	3650 3000 5000 3000
-Wire Notes Line
-	5000 3000 5000 900 
-Wire Notes Line
-	5000 900  3650 900 
+	9500 800  8150 800 
 Entry Wire Line
-	2500 1550 2400 1450
+	6750 1600 6650 1500
 Entry Wire Line
-	2500 1650 2400 1550
+	6750 1700 6650 1600
 Wire Wire Line
-	2400 1550 1800 1550
+	6650 1600 6050 1600
 Wire Wire Line
-	1800 1450 2400 1450
-Text Label 1850 1450 0    50   ~ 0
+	6050 1500 6650 1500
+Text Label 6100 1500 0    50   ~ 0
 TEMP_ALERT_1
-Text Label 1850 1550 0    50   ~ 0
+Text Label 6100 1600 0    50   ~ 0
 TEMP_ALERT_2
-Text Label 3650 1450 2    50   ~ 0
+Text Label 8150 1100 2    50   ~ 0
 TEMP_ALERT_1
-Text Label 3650 1150 2    50   ~ 0
+Text Label 8150 1500 2    50   ~ 0
 I2C_SDA
-Text Label 3650 1300 2    50   ~ 0
+Text Label 8150 1650 2    50   ~ 0
 I2C_SCL
-Text Label 3650 2350 2    50   ~ 0
+Text Label 8150 2700 2    50   ~ 0
 I2C_SCL
-Text Label 3650 2200 2    50   ~ 0
+Text Label 8150 2550 2    50   ~ 0
 I2C_SDA
-Text Label 3650 2500 2    50   ~ 0
+Text Label 8150 2150 2    50   ~ 0
 TEMP_ALERT_2
-Wire Bus Line
-	1950 7300 5050 7300
-Text Notes 1250 5500 0    100  ~ 0
-Battery Pack Connectors
 Entry Wire Line
-	5050 5900 4950 5800
+	3100 6400 3000 6300
 Entry Wire Line
-	5050 6050 4950 5950
+	3100 6550 3000 6450
 Entry Wire Line
-	5050 6200 4950 6100
+	3100 6700 3000 6600
 Entry Wire Line
-	5050 6350 4950 6250
+	3100 6850 3000 6750
 Entry Wire Line
-	5050 6500 4950 6400
+	3100 7000 3000 6900
 Entry Wire Line
-	5050 6650 4950 6550
+	3100 7150 3000 7050
 Entry Wire Line
-	5050 5900 4950 5800
+	3100 6400 3000 6300
 Entry Wire Line
-	5050 6650 4950 6550
+	3100 7150 3000 7050
 Wire Wire Line
-	4950 6550 4550 6550
+	3000 7050 2600 7050
 Wire Wire Line
-	4950 6400 4550 6400
+	3000 6900 2600 6900
 Wire Wire Line
-	4950 6250 4550 6250
+	3000 6750 2600 6750
 Wire Wire Line
-	4550 6100 4950 6100
+	2600 6600 3000 6600
 Wire Wire Line
-	4950 5950 4550 5950
+	3000 6450 2600 6450
 Wire Wire Line
-	4550 5800 4950 5800
-Text Label 4550 5800 0    50   ~ 0
+	2600 6300 3000 6300
+Text Label 2600 6300 0    50   ~ 0
 PACK_M5
-Text Label 4550 5950 0    50   ~ 0
+Text Label 2600 6450 0    50   ~ 0
 PACK_M4
-Text Label 4550 6100 0    50   ~ 0
+Text Label 2600 6600 0    50   ~ 0
 PACK_M3
-Text Label 4550 6250 0    50   ~ 0
+Text Label 2600 6750 0    50   ~ 0
 PACK_M2
-Text Label 4550 6400 0    50   ~ 0
+Text Label 2600 6900 0    50   ~ 0
 PACK_M1
-Text Label 4550 6550 0    50   ~ 0
+Text Label 2600 7050 0    50   ~ 0
 PACK_M0
 Entry Wire Line
-	5050 6500 4950 6400
+	3100 7000 3000 6900
 Entry Wire Line
-	5050 6350 4950 6250
+	3100 6850 3000 6750
 Entry Wire Line
-	5050 6200 4950 6100
+	3100 6700 3000 6600
 Entry Wire Line
-	5050 6050 4950 5950
-Wire Wire Line
-	3150 2200 3750 2200
-Wire Wire Line
-	3750 2350 3150 2350
-Wire Wire Line
-	3150 2500 3750 2500
-Wire Wire Line
-	3150 1450 3750 1450
-Wire Wire Line
-	3150 1300 3750 1300
-Wire Wire Line
-	3150 1150 3750 1150
-Entry Wire Line
-	3050 2300 3150 2200
-Entry Wire Line
-	3050 2450 3150 2350
-Entry Wire Line
-	3050 2600 3150 2500
-Entry Wire Line
-	3050 1550 3150 1450
-Entry Wire Line
-	3050 1400 3150 1300
-Entry Wire Line
-	3050 1250 3150 1150
-Wire Bus Line
-	2500 2000 3050 2000
-Wire Wire Line
-	3550 5800 3700 5800
-Wire Wire Line
-	3350 6550 3700 6550
-Text Label 1100 2050 2    50   ~ 0
-SWDIO
-Text Label 1100 2200 2    50   ~ 0
-SWCLK
-Text Label 1100 2350 2    50   ~ 0
-NRST
-Text Label 1100 1150 2    50   ~ 0
-Alert_scl
-Text Label 1100 1250 2    50   ~ 0
-Alert_sda
-Text Label 1100 1350 2    50   ~ 0
-Alert_active
-Text Label 7400 3500 2    50   ~ 0
-Alert_scl
-Text Label 7400 3600 2    50   ~ 0
-Alert_sda
-Text Label 7400 3800 2    50   ~ 0
-SWDIO
-Text Label 7400 3900 2    50   ~ 0
-SWCLK
-Text Label 7400 4000 2    50   ~ 0
-NRST
-Text Label 7400 3700 2    50   ~ 0
-Alert_active
-Connection ~ 3050 2000
-Wire Notes Line
-	1200 5550 1200 7150
-Wire Notes Line
-	1200 5550 2700 5550
-Wire Notes Line
-	2700 5550 2700 7150
-Wire Notes Line
-	2700 7150 1200 7150
-Wire Bus Line
-	1500 6700 1950 6700
-Wire Bus Line
-	1950 6700 1950 7300
-Wire Bus Line
-	1500 6600 1550 6600
-Wire Bus Line
-	1950 6600 1950 6700
-Connection ~ 1950 6700
-Connection ~ 1950 6600
-Wire Bus Line
-	2400 6700 1950 6700
-Wire Bus Line
-	1550 6150 1550 6600
-Wire Bus Line
-	1550 6600 1650 6600
-Connection ~ 1550 6600
-Wire Bus Line
-	2350 6150 2350 6600
-Connection ~ 2350 6600
-Wire Bus Line
-	2350 6600 2400 6600
-Wire Bus Line
-	2250 6150 2250 6600
-Wire Bus Line
-	1950 6600 2000 6600
-Connection ~ 2250 6600
-Wire Bus Line
-	2250 6600 2350 6600
-Wire Bus Line
-	2000 6150 2000 6600
-Connection ~ 2000 6600
-Wire Bus Line
-	2000 6600 2250 6600
-Wire Bus Line
-	1650 6150 1650 6600
-Connection ~ 1650 6600
-Text Label 1500 6700 0    50   ~ 0
-PACK_M5
-Text Label 1500 6600 0    50   ~ 0
-PACK_M4
-Text Label 1550 6150 3    50   ~ 0
-PACK_M4
-Text Label 1650 6150 3    50   ~ 0
-PACK_M3
-Text Label 1900 6100 3    50   ~ 0
-PACK_M3
-Text Label 2000 6150 3    50   ~ 0
-PACK_M2
-Text Label 2250 6150 3    50   ~ 0
-PACK_M2
-Text Label 2350 6150 3    50   ~ 0
-PACK_M1
-Text Label 2400 6600 2    50   ~ 0
-PACK_M1
-Text Label 2400 6700 2    50   ~ 0
-PACK_M0
-Wire Wire Line
-	3550 4300 3550 4800
-Wire Wire Line
-	3700 4800 3550 4800
-Connection ~ 3550 4800
-Wire Wire Line
-	3550 4800 3550 5800
+	3100 6550 3000 6450
 $Comp
-L power:+3.3V #PWR03
+L power:+3.3V #PWR04
 U 1 1 61A5452E
-P 5050 4500
-F 0 "#PWR03" H 5050 4350 50  0001 C CNN
-F 1 "+3.3V" H 5065 4673 50  0000 C CNN
-F 2 "" H 5050 4500 50  0001 C CNN
-F 3 "" H 5050 4500 50  0001 C CNN
-	1    5050 4500
+P 3100 3150
+F 0 "#PWR04" H 3100 3000 50  0001 C CNN
+F 1 "+3.3V" H 3115 3323 50  0000 C CNN
+F 2 "" H 3100 3150 50  0001 C CNN
+F 3 "" H 3100 3150 50  0001 C CNN
+	1    3100 3150
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR02
+L power:+5V #PWR03
 U 1 1 61A56282
-P 4800 4500
-F 0 "#PWR02" H 4800 4350 50  0001 C CNN
-F 1 "+5V" H 4815 4673 50  0000 C CNN
-F 2 "" H 4800 4500 50  0001 C CNN
-F 3 "" H 4800 4500 50  0001 C CNN
-	1    4800 4500
+P 2850 3150
+F 0 "#PWR03" H 2850 3000 50  0001 C CNN
+F 1 "+5V" H 2865 3323 50  0000 C CNN
+F 2 "" H 2850 3150 50  0001 C CNN
+F 3 "" H 2850 3150 50  0001 C CNN
+	1    2850 3150
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4450 4650 4800 4650
-Wire Wire Line
-	4800 4650 4800 4500
-Wire Wire Line
-	5050 4500 5050 4950
-Wire Wire Line
-	5050 4950 4450 4950
-Wire Wire Line
-	4550 1750 4750 1750
-Connection ~ 4750 1750
-Wire Wire Line
-	4750 1750 4750 2250
-Wire Wire Line
-	4550 2700 4750 2700
-Text Label 3350 6550 2    50   ~ 0
-Pack-
-Text Label 4450 5100 0    50   ~ 0
-Pack-
-Text Label 4750 2700 0    50   ~ 0
-Pack-
-Text Label 1800 2300 0    50   ~ 0
-Pack-
-Text Label 8150 4350 0    50   ~ 0
-Pack-
-$Comp
-L Power_KiCAD_Project-rescue:XT60-M-XT60-M J2
-U 1 1 61B97F73
-P 1400 5650
-F 0 "J2" V 1339 5420 50  0000 R CNN
-F 1 "XT60-M" V 1248 5420 50  0000 R CNN
-F 2 "XT60-M:AMASS_XT60-M" H 1400 5650 50  0001 L BNN
-F 3 "" H 1400 5650 50  0001 L BNN
-F 4 "XT60-M" H 1400 5650 50  0001 L BNN "MP"
-F 5 "None" H 1400 5650 50  0001 L BNN "Price"
-F 6 "Package" H 1400 5650 50  0001 L BNN "Package"
-F 7 "AMASS" H 1400 5650 50  0001 L BNN "MF"
-F 8 "Not in stock" H 1400 5650 50  0001 L BNN "Availability"
-F 9 "Plug; DC supply; XT60; male; PIN: 2; for cable; soldered; 30A; 500V" H 1400 5650 50  0001 L BNN "Description"
-	1    1400 5650
-	0    1    -1   0   
-$EndComp
-$Comp
-L Power_KiCAD_Project-rescue:XT60-M-XT60-M J3
-U 1 1 61B9B054
-P 1950 5650
-F 0 "J3" V 1889 5420 50  0000 R CNN
-F 1 "XT60-M" V 1798 5420 50  0000 R CNN
-F 2 "XT60-M:AMASS_XT60-M" H 1950 5650 50  0001 L BNN
-F 3 "" H 1950 5650 50  0001 L BNN
-F 4 "XT60-M" H 1950 5650 50  0001 L BNN "MP"
-F 5 "None" H 1950 5650 50  0001 L BNN "Price"
-F 6 "Package" H 1950 5650 50  0001 L BNN "Package"
-F 7 "AMASS" H 1950 5650 50  0001 L BNN "MF"
-F 8 "Not in stock" H 1950 5650 50  0001 L BNN "Availability"
-F 9 "Plug; DC supply; XT60; male; PIN: 2; for cable; soldered; 30A; 500V" H 1950 5650 50  0001 L BNN "Description"
-	1    1950 5650
-	0    1    -1   0   
-$EndComp
-$Comp
-L Power_KiCAD_Project-rescue:XT60-M-XT60-M J4
-U 1 1 61B9B5CA
-P 2500 5650
-F 0 "J4" V 2439 5420 50  0000 R CNN
-F 1 "XT60-M" V 2348 5420 50  0000 R CNN
-F 2 "XT60-M:AMASS_XT60-M" H 2500 5650 50  0001 L BNN
-F 3 "" H 2500 5650 50  0001 L BNN
-F 4 "XT60-M" H 2500 5650 50  0001 L BNN "MP"
-F 5 "None" H 2500 5650 50  0001 L BNN "Price"
-F 6 "Package" H 2500 5650 50  0001 L BNN "Package"
-F 7 "AMASS" H 2500 5650 50  0001 L BNN "MF"
-F 8 "Not in stock" H 2500 5650 50  0001 L BNN "Availability"
-F 9 "Plug; DC supply; XT60; male; PIN: 2; for cable; soldered; 30A; 500V" H 2500 5650 50  0001 L BNN "Description"
-	1    2500 5650
-	0    1    -1   0   
-$EndComp
-$Comp
-L Power_KiCAD_Project-rescue:XT60-M-XT60-M J1
-U 1 1 61B9C33E
-P 1300 6950
-F 0 "J1" H 1193 6583 50  0000 C CNN
-F 1 "XT60-M" H 1193 6674 50  0000 C CNN
-F 2 "XT60-M:AMASS_XT60-M" H 1300 6950 50  0001 L BNN
-F 3 "" H 1300 6950 50  0001 L BNN
-F 4 "XT60-M" H 1300 6950 50  0001 L BNN "MP"
-F 5 "None" H 1300 6950 50  0001 L BNN "Price"
-F 6 "Package" H 1300 6950 50  0001 L BNN "Package"
-F 7 "AMASS" H 1300 6950 50  0001 L BNN "MF"
-F 8 "Not in stock" H 1300 6950 50  0001 L BNN "Availability"
-F 9 "Plug; DC supply; XT60; male; PIN: 2; for cable; soldered; 30A; 500V" H 1300 6950 50  0001 L BNN "Description"
-	1    1300 6950
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Power_KiCAD_Project-rescue:XT60-M-XT60-M J5
-U 1 1 61B9D931
-P 2600 6950
-F 0 "J5" H 2730 6996 50  0000 L CNN
-F 1 "XT60-M" H 2730 6905 50  0000 L CNN
-F 2 "XT60-M:AMASS_XT60-M" H 2600 6950 50  0001 L BNN
-F 3 "" H 2600 6950 50  0001 L BNN
-F 4 "XT60-M" H 2600 6950 50  0001 L BNN "MP"
-F 5 "None" H 2600 6950 50  0001 L BNN "Price"
-F 6 "Package" H 2600 6950 50  0001 L BNN "Package"
-F 7 "AMASS" H 2600 6950 50  0001 L BNN "MF"
-F 8 "Not in stock" H 2600 6950 50  0001 L BNN "Availability"
-F 9 "Plug; DC supply; XT60; male; PIN: 2; for cable; soldered; 30A; 500V" H 2600 6950 50  0001 L BNN "Description"
-	1    2600 6950
-	1    0    0    1   
-$EndComp
-Wire Wire Line
-	1300 5950 1300 6150
-Wire Wire Line
-	1300 6150 1550 6150
-Wire Wire Line
-	1500 5950 1650 5950
-Wire Wire Line
-	1650 5950 1650 6150
-Wire Wire Line
-	1900 5950 1850 5950
-Wire Wire Line
-	2000 6150 2000 5950
-Wire Wire Line
-	2000 5950 2050 5950
-Wire Wire Line
-	1500 6750 1800 6750
-Wire Wire Line
-	1800 6750 1800 7050
-Wire Wire Line
-	1800 7050 1600 7050
-Wire Wire Line
-	1500 6700 1500 6750
-Wire Wire Line
-	1500 6600 1450 6600
-Wire Wire Line
-	1450 6600 1450 6800
-Wire Wire Line
-	1450 6800 1600 6800
-Wire Wire Line
-	1600 6800 1600 6850
-Wire Wire Line
-	2300 6850 2300 6800
-Wire Wire Line
-	2300 6800 2450 6800
-Wire Wire Line
-	2450 6800 2450 6600
-Wire Wire Line
-	2450 6600 2400 6600
-Wire Wire Line
-	2400 6700 2400 6750
-Wire Wire Line
-	2400 6750 2250 6750
-Wire Wire Line
-	2250 6750 2250 7050
-Wire Wire Line
-	2250 7050 2300 7050
-Wire Wire Line
-	2350 6150 2600 6150
-Wire Wire Line
-	2600 6150 2600 5950
-Wire Wire Line
-	2250 6150 2250 5950
-Wire Wire Line
-	2250 5950 2400 5950
-Wire Wire Line
-	1900 6100 1900 5950
-Wire Bus Line
-	1650 6600 1900 6600
-Wire Bus Line
-	1900 6100 1900 6600
-Wire Bus Line
-	1900 6600 1950 6600
-Connection ~ 1900 6600
-$Comp
-L Power_KiCAD_Project-rescue:PJ-102AH-SamacSys_Parts J6
-U 1 1 61DA3F86
-P 3400 3400
-F 0 "J6" V 3754 3172 50  0000 R CNN
-F 1 "PJ-102AH" V 3845 3172 50  0000 R CNN
-F 2 "SamacSys_Parts:PJ-102AH" H 4050 3500 50  0001 L CNN
-F 3 "http://www.cui.com/product/resource/digikeypdf/pj-102ah.pdf" H 4050 3400 50  0001 L CNN
-F 4 "DC POWER JACK" H 4050 3300 50  0001 L CNN "Description"
-F 5 "" H 4050 3200 50  0001 L CNN "Height"
-F 6 "490-PJ-102AH" H 4050 3100 50  0001 L CNN "Mouser Part Number"
-F 7 "https://www.mouser.co.uk/ProductDetail/CUI-Devices/PJ-102AH?qs=WyjlAZoYn50Yq4CrVLCXLw%3D%3D" H 4050 3000 50  0001 L CNN "Mouser Price/Stock"
-F 8 "CUI Inc." H 4050 2900 50  0001 L CNN "Manufacturer_Name"
-F 9 "PJ-102AH" H 4050 2800 50  0001 L CNN "Manufacturer_Part_Number"
-	1    3400 3400
-	0    -1   1    0   
-$EndComp
-Wire Wire Line
-	3350 4200 3400 4200
-Wire Wire Line
-	3500 4200 3500 4300
-Wire Wire Line
-	3500 4300 3550 4300
-Wire Wire Line
-	3350 4200 3350 6550
-$Comp
-L Power_KiCAD_Project-rescue:XT60-M-XT60-M J7
-U 1 1 61C843A7
-P 3450 6800
-F 0 "J7" H 3580 6846 50  0000 L CNN
-F 1 "XT60-M" H 3580 6755 50  0000 L CNN
-F 2 "XT60-M:AMASS_XT60-M" H 3450 6800 50  0001 L BNN
-F 3 "" H 3450 6800 50  0001 L BNN
-F 4 "XT60-M" H 3450 6800 50  0001 L BNN "MP"
-F 5 "None" H 3450 6800 50  0001 L BNN "Price"
-F 6 "Package" H 3450 6800 50  0001 L BNN "Package"
-F 7 "AMASS" H 3450 6800 50  0001 L BNN "MF"
-F 8 "Not in stock" H 3450 6800 50  0001 L BNN "Availability"
-F 9 "Plug; DC supply; XT60; male; PIN: 2; for cable; soldered; 30A; 500V" H 3450 6800 50  0001 L BNN "Description"
-	1    3450 6800
-	0    -1   -1   0   
-$EndComp
-Text Label 3550 7100 3    50   ~ 0
-PACK_M0
-Text Label 3350 7100 3    50   ~ 0
-switch
-Text Label 3700 6200 2    50   ~ 0
-switch
 $Sheet
-S 1100 1050 700  1500
-U 6160DF75
-F0 "STM32L562VET6Q" 50
-F1 "COMPONENT_SHEETS/MCU_STM32L562VET6Q.sch" 50
-F2 "SWCLK" I L 1100 2200 50 
-F3 "SWDIO" I L 1100 2050 50 
-F4 "I2C1_SDA" I R 1800 1750 50 
-F5 "I2C1_SCL" I R 1800 1850 50 
-F6 "NRST" I L 1100 2350 50 
-F7 "BATT_ALERT1" I R 1800 1450 50 
-F8 "BATT_ALERT2" I R 1800 1550 50 
-F9 "Alert_scl" I L 1100 1150 50 
-F10 "Alert_sda" I L 1100 1250 50 
-F11 "Alert_Active" I L 1100 1350 50 
-F12 "ground" I R 1800 2300 50 
-$EndSheet
-$Sheet
-S 3750 1050 800  800 
+S 8250 950  800  800 
 U 61B1B3BC
 F0 "MCP9808_1" 50
 F1 "COMPONENT_SHEETS/TEMPSENSOR_MCP9808.sch" 50
-F2 "SDA" I L 3750 1150 50 
-F3 "SCL" I L 3750 1300 50 
-F4 "A0" I R 4550 1200 50 
-F5 "A1" I R 4550 1400 50 
-F6 "A2" I R 4550 1600 50 
-F7 "ALERT" I L 3750 1450 50 
-F8 "ground" I R 4550 1750 50 
+F2 "SDA" I L 8250 1500 50 
+F3 "SCL" I L 8250 1650 50 
+F4 "A0" I R 9050 1100 50 
+F5 "A1" I R 9050 1300 50 
+F6 "A2" I R 9050 1500 50 
+F7 "ALERT" I L 8250 1100 50 
 $EndSheet
 $Sheet
-S 7400 2950 750  1600
-U 61D3585E
-F0 "DSUB-37_Bus" 50
-F1 "COMPONENT_SHEETS/DSUB-slot.sch" 50
-F2 "t_mosi" I L 7400 3200 50 
-F3 "t_miso" I L 7400 3300 50 
-F4 "t_clk" I L 7400 3400 50 
-F5 "Alert_scl" I L 7400 3500 50 
-F6 "Alert_sda" I L 7400 3600 50 
-F7 "Alert_Active" I L 7400 3700 50 
-F8 "SWDIO" I L 7400 3800 50 
-F9 "SWCLK" I L 7400 3900 50 
-F10 "NRST" I L 7400 4000 50 
-F11 "Fire" I R 8150 4050 50 
-F12 "Fire_redundant" I R 8150 4200 50 
-F13 "ground" I R 8150 4350 50 
-$EndSheet
-$Sheet
-S 3700 4450 750  700 
+S 1750 3250 750  700 
 U 61A48488
 F0 "Buck_Converters" 50
 F1 "COMPONENT_SHEETS/BuckConverters.sch" 50
-F2 "V_IN" I L 3700 4800 50 
-F3 "3.3V" I R 4450 4950 50 
-F4 "5V" I R 4450 4650 50 
-F5 "ground" I R 4450 5100 50 
+F2 "V_IN" I L 1750 3600 50 
+F3 "3.3V" I R 2500 3500 50 
+F4 "5V" I R 2500 3350 50 
 $EndSheet
 $Sheet
-S 3700 5700 850  950 
+S 1700 5400 900  1750
 U 615ED460
 F0 "LiPo Pack Monitor" 50
 F1 "COMPONENT_SHEETS/LiPo_Pack_Monitor.sch" 50
-F2 "PACK+" I L 3700 5800 50 
-F3 "PACK_M5" I R 4550 5800 50 
-F4 "PACK_M4" I R 4550 5950 50 
-F5 "PACK_M3" I R 4550 6100 50 
-F6 "PACK_M2" I R 4550 6250 50 
-F7 "PACK_M1" I R 4550 6400 50 
-F8 "PACK_M0" I R 4550 6550 50 
-F9 "PACK-" I L 3700 6550 50 
-F10 "Switch" I L 3700 6200 50 
+F2 "PACK+" I L 1700 5500 50 
+F3 "PACK_M5" I R 2600 6300 50 
+F4 "PACK_M4" I R 2600 6450 50 
+F5 "PACK_M3" I R 2600 6600 50 
+F6 "PACK_M2" I R 2600 6750 50 
+F7 "PACK_M1" I R 2600 6900 50 
+F8 "PACK_M0" I R 2600 7050 50 
+F9 "PACK-" I L 1700 7050 50 
+F10 "BATT_ALERT" I R 2600 5900 50 
+F11 "I2C_SCL" I R 2600 5650 50 
+F12 "I2C_SDA" I R 2600 5500 50 
 $EndSheet
-NoConn ~ 3400 3400
+Wire Notes Line
+	8150 800  8150 2900
+Wire Notes Line
+	9500 2900 9500 800 
+Wire Notes Line
+	8150 2900 9500 2900
+Wire Wire Line
+	2500 3350 2850 3350
+Wire Wire Line
+	2850 3350 2850 3150
+Wire Wire Line
+	2500 3500 3100 3500
+Wire Wire Line
+	3100 3500 3100 3150
+$Comp
+L Power_KiCAD_Project-rescue:XT60-M-XT60-M-Power_KiCAD_Project-rescue J6
+U 1 1 61C66D12
+P 5550 7200
+F 0 "J6" H 5680 7246 50  0000 L CNN
+F 1 "XT60 Cell 1" H 5680 7155 50  0000 L CNN
+F 2 "RDT_Custom_Footprints:AMASS_XT60-M" H 5550 7200 50  0001 L BNN
+F 3 "" H 5550 7200 50  0001 L BNN
+F 4 "XT60-M" H 5550 7200 50  0001 L BNN "MP"
+F 5 "None" H 5550 7200 50  0001 L BNN "Price"
+F 6 "Package" H 5550 7200 50  0001 L BNN "Package"
+F 7 "AMASS" H 5550 7200 50  0001 L BNN "MF"
+F 8 "Not in stock" H 5550 7200 50  0001 L BNN "Availability"
+F 9 "Plug; DC supply; XT60; male; PIN: 2; for cable; soldered; 30A; 500V" H 5550 7200 50  0001 L BNN "Description"
+	1    5550 7200
+	1    0    0    1   
+$EndComp
+$Comp
+L RDT_Custom_Symbols:Barrel_Jack_MountingPin J1
+U 1 1 61C18157
+P 1300 2600
+F 0 "J1" V 1311 2780 50  0000 L CNN
+F 1 "Barrel_Jack_MountingPin" V 1402 2780 50  0000 L CNN
+F 2 "Connector_BarrelJack:BarrelJack_CUI_PJ-102AH_Horizontal" H 1350 2560 50  0001 C CNN
+F 3 "~" H 1350 2560 50  0001 C CNN
+	1    1300 2600
+	0    1    1    0   
+$EndComp
+$Comp
+L Power_KiCAD_Project-rescue:XT60-M-XT60-M-Power_KiCAD_Project-rescue J5
+U 1 1 61C24684
+P 5550 6750
+F 0 "J5" H 5680 6796 50  0000 L CNN
+F 1 "XT60 Cell 2" H 5680 6705 50  0000 L CNN
+F 2 "RDT_Custom_Footprints:AMASS_XT60-M" H 5550 6750 50  0001 L BNN
+F 3 "" H 5550 6750 50  0001 L BNN
+F 4 "XT60-M" H 5550 6750 50  0001 L BNN "MP"
+F 5 "None" H 5550 6750 50  0001 L BNN "Price"
+F 6 "Package" H 5550 6750 50  0001 L BNN "Package"
+F 7 "AMASS" H 5550 6750 50  0001 L BNN "MF"
+F 8 "Not in stock" H 5550 6750 50  0001 L BNN "Availability"
+F 9 "Plug; DC supply; XT60; male; PIN: 2; for cable; soldered; 30A; 500V" H 5550 6750 50  0001 L BNN "Description"
+	1    5550 6750
+	1    0    0    1   
+$EndComp
+$Comp
+L Power_KiCAD_Project-rescue:XT60-M-XT60-M-Power_KiCAD_Project-rescue J4
+U 1 1 61C24CA6
+P 5550 6300
+F 0 "J4" H 5680 6346 50  0000 L CNN
+F 1 "XT60 Cell 3" H 5680 6255 50  0000 L CNN
+F 2 "RDT_Custom_Footprints:AMASS_XT60-M" H 5550 6300 50  0001 L BNN
+F 3 "" H 5550 6300 50  0001 L BNN
+F 4 "XT60-M" H 5550 6300 50  0001 L BNN "MP"
+F 5 "None" H 5550 6300 50  0001 L BNN "Price"
+F 6 "Package" H 5550 6300 50  0001 L BNN "Package"
+F 7 "AMASS" H 5550 6300 50  0001 L BNN "MF"
+F 8 "Not in stock" H 5550 6300 50  0001 L BNN "Availability"
+F 9 "Plug; DC supply; XT60; male; PIN: 2; for cable; soldered; 30A; 500V" H 5550 6300 50  0001 L BNN "Description"
+	1    5550 6300
+	1    0    0    1   
+$EndComp
+$Comp
+L Power_KiCAD_Project-rescue:XT60-M-XT60-M-Power_KiCAD_Project-rescue J3
+U 1 1 61C25141
+P 5550 5850
+F 0 "J3" H 5680 5896 50  0000 L CNN
+F 1 "XT60 Cell 4" H 5680 5805 50  0000 L CNN
+F 2 "RDT_Custom_Footprints:AMASS_XT60-M" H 5550 5850 50  0001 L BNN
+F 3 "" H 5550 5850 50  0001 L BNN
+F 4 "XT60-M" H 5550 5850 50  0001 L BNN "MP"
+F 5 "None" H 5550 5850 50  0001 L BNN "Price"
+F 6 "Package" H 5550 5850 50  0001 L BNN "Package"
+F 7 "AMASS" H 5550 5850 50  0001 L BNN "MF"
+F 8 "Not in stock" H 5550 5850 50  0001 L BNN "Availability"
+F 9 "Plug; DC supply; XT60; male; PIN: 2; for cable; soldered; 30A; 500V" H 5550 5850 50  0001 L BNN "Description"
+	1    5550 5850
+	1    0    0    1   
+$EndComp
+$Comp
+L Power_KiCAD_Project-rescue:XT60-M-XT60-M-Power_KiCAD_Project-rescue J2
+U 1 1 61C25639
+P 5550 5400
+F 0 "J2" H 5680 5446 50  0000 L CNN
+F 1 "XT60 Cell 5" H 5680 5355 50  0000 L CNN
+F 2 "RDT_Custom_Footprints:AMASS_XT60-M" H 5550 5400 50  0001 L BNN
+F 3 "" H 5550 5400 50  0001 L BNN
+F 4 "XT60-M" H 5550 5400 50  0001 L BNN "MP"
+F 5 "None" H 5550 5400 50  0001 L BNN "Price"
+F 6 "Package" H 5550 5400 50  0001 L BNN "Package"
+F 7 "AMASS" H 5550 5400 50  0001 L BNN "MF"
+F 8 "Not in stock" H 5550 5400 50  0001 L BNN "Availability"
+F 9 "Plug; DC supply; XT60; male; PIN: 2; for cable; soldered; 30A; 500V" H 5550 5400 50  0001 L BNN "Description"
+	1    5550 5400
+	1    0    0    1   
+$EndComp
+Text Label 5250 7300 2    50   ~ 0
+PACK_M0
+Text Label 5250 7100 2    50   ~ 0
+PACK_M1
+Text Label 5250 6850 2    50   ~ 0
+PACK_M1
+Text Label 5250 6650 2    50   ~ 0
+PACK_M2
+Text Label 5250 6400 2    50   ~ 0
+PACK_M2
+Text Label 5250 6200 2    50   ~ 0
+PACK_M3
+Text Label 5250 5950 2    50   ~ 0
+PACK_M3
+Text Label 5250 5750 2    50   ~ 0
+PACK_M4
+Text Label 5250 5500 2    50   ~ 0
+PACK_M4
+Text Label 5250 5300 2    50   ~ 0
+PACK_M5
+Entry Wire Line
+	4800 7400 4900 7300
+Entry Wire Line
+	4800 7200 4900 7100
+Entry Wire Line
+	4800 6950 4900 6850
+Entry Wire Line
+	4800 6750 4900 6650
+Entry Wire Line
+	4800 6500 4900 6400
+Entry Wire Line
+	4800 6300 4900 6200
+Entry Wire Line
+	4800 6050 4900 5950
+Entry Wire Line
+	4800 5850 4900 5750
+Entry Wire Line
+	4800 5600 4900 5500
+Entry Wire Line
+	4800 5400 4900 5300
+Wire Wire Line
+	4900 5300 5250 5300
+Wire Wire Line
+	5250 5500 4900 5500
+Wire Wire Line
+	4900 5750 5250 5750
+Wire Wire Line
+	5250 5950 4900 5950
+Wire Wire Line
+	4900 6200 5250 6200
+Wire Wire Line
+	5250 6400 4900 6400
+Wire Wire Line
+	4900 6650 5250 6650
+Wire Wire Line
+	5250 6850 4900 6850
+Wire Wire Line
+	4900 7100 5250 7100
+Wire Wire Line
+	5250 7300 4900 7300
+$Sheet
+S 5050 1100 1000 1500
+U 61C99968
+F0 "STM32L562VET6Q 1" 50
+F1 "COMPONENT_SHEETS/MCU_L562VE.sch" 50
+F2 "I2C1_SCL" I R 6050 1900 50 
+F3 "I2C1_SDA" I R 6050 1800 50 
+F4 "DEBUG_SWCLK" I L 5050 2250 50 
+F5 "DEBUG_SWDIO" I L 5050 2100 50 
+F6 "ABORT_1" I L 5050 1700 50 
+F7 "ABORT_2" I L 5050 1800 50 
+F8 "NRST" I L 5050 2400 50 
+F9 "I2C2_SDA" I L 5050 1300 50 
+F10 "I2C2_SCL" I L 5050 1200 50 
+F11 "I2C1_EN" I R 6050 2000 50 
+F12 "EXT_INT1" I R 6050 1500 50 
+F13 "EXT_INT2" I R 6050 1600 50 
+F14 "EXT_INT3" I R 6050 2200 50 
+F15 "I2C2_EN" I L 5050 1400 50 
+$EndSheet
+Text Label 6100 2200 0    50   ~ 0
+BATT_ALERT
+Text Notes 4650 5100 0    100  ~ 0
+Battery Pack Connectors
+Connection ~ 9250 2450
+Wire Wire Line
+	9250 2600 9250 2450
+$Comp
+L power:GND #PWR06
+U 1 1 61CCB2E2
+P 9250 2600
+F 0 "#PWR06" H 9250 2350 50  0001 C CNN
+F 1 "GND" H 9255 2427 50  0000 C CNN
+F 2 "" H 9250 2600 50  0001 C CNN
+F 3 "" H 9250 2600 50  0001 C CNN
+	1    9250 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9250 1500 9250 2150
+Wire Wire Line
+	1400 3600 1750 3600
+$Sheet
+S 3000 1050 750  1600
+U 61D3585E
+F0 "DSUB-37_Bus" 50
+F1 "COMPONENT_SHEETS/DSUB-slot.sch" 50
+F2 "t_mosi" I L 3000 2400 50 
+F3 "t_miso" I L 3000 2250 50 
+F4 "t_clk" I L 3000 2100 50 
+F5 "Alert_scl" I R 3750 1200 50 
+F6 "Alert_sda" I R 3750 1300 50 
+F7 "Alert_Active" I R 3750 1400 50 
+F8 "SWDIO" I R 3750 2100 50 
+F9 "SWCLK" I R 3750 2250 50 
+F10 "NRST" I R 3750 2400 50 
+F11 "Fire" I R 3750 1700 50 
+F12 "Fire_redundant" I R 3750 1800 50 
+$EndSheet
+Wire Wire Line
+	3750 1200 5050 1200
+Wire Wire Line
+	5050 1300 3750 1300
+Wire Wire Line
+	5050 2100 3750 2100
+Wire Wire Line
+	3750 2250 5050 2250
+Wire Wire Line
+	5050 2400 3750 2400
+Wire Wire Line
+	950  2650 950  2600
+Wire Wire Line
+	950  2600 1000 2600
+Wire Wire Line
+	3750 1400 5050 1400
+Wire Wire Line
+	1200 7050 1700 7050
+Wire Wire Line
+	2600 5650 3000 5650
+Wire Wire Line
+	2600 5500 3000 5500
+Text Label 2600 5650 0    50   ~ 0
+I2C_SCL
+Text Label 2600 5500 0    50   ~ 0
+I2C_SDA
+Entry Wire Line
+	3000 5650 3100 5550
+Entry Wire Line
+	3000 5500 3100 5400
 Wire Bus Line
-	3050 2000 3050 2600
+	6750 1600 6750 1700
 Wire Bus Line
-	3050 1250 3050 2000
+	6750 1700 7200 1700
+Entry Wire Line
+	7600 1500 7500 1600
+Entry Wire Line
+	7600 1650 7500 1750
+Entry Wire Line
+	7500 2450 7600 2550
+Entry Wire Line
+	7500 2600 7600 2700
+Entry Wire Line
+	7600 2150 7500 2050
+Entry Wire Line
+	7600 1100 7500 1000
 Wire Bus Line
-	2500 1550 2500 2000
+	7200 1700 7200 1000
 Wire Bus Line
-	5050 5900 5050 7300
+	7200 1000 7500 1000
+Wire Bus Line
+	7500 2050 7200 2050
+Wire Bus Line
+	6750 1900 7350 1900
+Wire Bus Line
+	7200 2050 7200 1700
+Connection ~ 7200 1700
+Wire Bus Line
+	7350 1900 7350 2400
+Wire Bus Line
+	7350 1900 7350 1800
+Wire Bus Line
+	7350 1800 7500 1800
+Connection ~ 7350 1900
+Wire Wire Line
+	7600 1500 8250 1500
+Wire Wire Line
+	7600 1650 8250 1650
+Wire Wire Line
+	7600 2150 8250 2150
+Wire Wire Line
+	7600 2550 8250 2550
+Wire Wire Line
+	7600 2700 8250 2700
+Wire Wire Line
+	7600 1100 8250 1100
+Wire Wire Line
+	1200 7300 1200 7050
+Entry Wire Line
+	3000 5900 3100 5800
+Wire Wire Line
+	3000 5900 2600 5900
+Text Label 2600 5900 0    50   ~ 0
+BATT_ALERT
+Entry Wire Line
+	6750 2300 6650 2200
+NoConn ~ 3000 2100
+NoConn ~ 3000 2250
+NoConn ~ 3000 2400
+Wire Wire Line
+	1200 2900 1200 7050
+Connection ~ 1200 7050
+Wire Bus Line
+	3100 7500 4800 7500
+Wire Bus Line
+	4000 5250 4000 3550
+Wire Bus Line
+	3100 5250 4000 5250
+Wire Bus Line
+	4000 3550 6750 3550
+$Comp
+L Power_KiCAD_Project-rescue:XT60-M-XT60-M-Power_KiCAD_Project-rescue J7
+U 1 1 61E5656E
+P 1950 4650
+AR Path="/61E5656E" Ref="J7"  Part="1" 
+AR Path="/615ED460/61E5656E" Ref="J?"  Part="1" 
+F 0 "J7" H 1900 4900 50  0000 L CNN
+F 1 "XT60 To External Switch" H 2100 4800 50  0000 L CNN
+F 2 "RDT_Custom_Footprints:AMASS_XT60-M" H 1950 4650 50  0001 L BNN
+F 3 "" H 1950 4650 50  0001 L BNN
+F 4 "XT60-M" H 1950 4650 50  0001 L BNN "MP"
+F 5 "None" H 1950 4650 50  0001 L BNN "Price"
+F 6 "Package" H 1950 4650 50  0001 L BNN "Package"
+F 7 "AMASS" H 1950 4650 50  0001 L BNN "MF"
+F 8 "Not in stock" H 1950 4650 50  0001 L BNN "Availability"
+F 9 "Plug; DC supply; XT60; male; PIN: 2; for cable; soldered; 30A; 500V" H 1950 4650 50  0001 L BNN "Description"
+	1    1950 4650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1700 5500 1400 5500
+Wire Wire Line
+	1400 5500 1400 4750
+Wire Wire Line
+	1400 4750 1650 4750
+Wire Wire Line
+	1650 4550 1400 4550
+Wire Wire Line
+	1400 4550 1400 3600
+Connection ~ 1400 3600
+Wire Wire Line
+	1400 3600 1400 2900
+$Comp
+L power:GND #PWR0101
+U 1 1 61FD97B5
+P 1200 7300
+AR Path="/61FD97B5" Ref="#PWR0101"  Part="1" 
+AR Path="/61A48488/61FD97B5" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0101" H 1200 7050 50  0001 C CNN
+F 1 "GND" H 1205 7127 50  0000 C CNN
+F 2 "" H 1200 7300 50  0001 C CNN
+F 3 "" H 1200 7300 50  0001 C CNN
+	1    1200 7300
+	1    0    0    -1  
+$EndComp
+$Sheet
+S 8250 2000 800  800 
+U 61B35621
+F0 "MCP9808_2" 50
+F1 "COMPONENT_SHEETS/TEMPSENSOR_MCP9808.sch" 50
+F2 "SDA" I L 8250 2550 50 
+F3 "SCL" I L 8250 2700 50 
+F4 "A0" I R 9050 2150 50 
+F5 "A1" I R 9050 2300 50 
+F6 "A2" I R 9050 2450 50 
+F7 "ALERT" I L 8250 2150 50 
+$EndSheet
+$Comp
+L power:GND #PWR0102
+U 1 1 6208BBED
+P 950 2650
+AR Path="/6208BBED" Ref="#PWR0102"  Part="1" 
+AR Path="/61A48488/6208BBED" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0102" H 950 2400 50  0001 C CNN
+F 1 "GND" H 955 2477 50  0000 C CNN
+F 2 "" H 950 2650 50  0001 C CNN
+F 3 "" H 950 2650 50  0001 C CNN
+	1    950  2650
+	1    0    0    -1  
+$EndComp
+NoConn ~ 5050 1700
+NoConn ~ 5050 1800
+NoConn ~ 3750 1700
+NoConn ~ 3750 1800
+Wire Wire Line
+	6650 2200 6050 2200
+NoConn ~ 6050 2000
+Wire Bus Line
+	7350 2400 7500 2400
+Wire Bus Line
+	7500 1600 7500 1800
+Wire Bus Line
+	7500 2400 7500 2600
+Wire Bus Line
+	3100 5250 3100 5800
+Wire Bus Line
+	6750 1900 6750 3550
+Wire Bus Line
+	3100 6400 3100 7500
+Wire Bus Line
+	4800 5400 4800 7500
 $EndSCHEMATC
