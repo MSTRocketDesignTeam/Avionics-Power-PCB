@@ -4286,15 +4286,15 @@
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 94450941-0304-4eab-87c4-cdff017d794a)
     )
-    (fp_text value "MIC184YMM-TR" (at 0 0) (layer "F.SilkS")
+    (fp_text value "MIC184YMM-TR" (at 0 0) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 8be79576-5ed1-488e-b694-606334a795d6)
     )
-    (fp_text user "*" (at -2.5146 -2.4736) (layer "F.SilkS")
+    (fp_text user "*" (at -2.5146 -2.4736) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 3a161c0a-7a5f-4e98-a530-093b2ca7fa09)
     )
-    (fp_text user "*" (at -2.5146 -2.4736) (layer "F.SilkS")
+    (fp_text user "*" (at -2.5146 -2.4736) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 887f53e1-e7b2-4151-bf83-4749cda09a8b)
     )
@@ -4454,6 +4454,11 @@
       (net 3 "+3V3") (pinfunction "A0") (pintype "input") (tstamp 6e3ab41b-f9bb-4ef4-9d67-530b27155b44))
     (pad "8" smd rect locked (at 2.2606 -0.974999) (size 1.2446 0.3556) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 3 "+3V3") (pinfunction "VDD") (pintype "power_in") (tstamp 6552ddec-4c68-47db-a5a5-7c7c8a77dc96))
+    (model "${KICAD6_3DMODEL_DIR}/Package_SO.3dshapes/MSOP-8-1EP_3x3mm_P0.65mm_EP1.68x1.88mm.wrl"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (footprint "RDT_Custom_Footprints:MIC184YMM-TR" (layer "F.Cu")
@@ -4467,15 +4472,15 @@
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 831e45cc-063c-4456-b825-cd876b9458ee)
     )
-    (fp_text value "MIC184YMM-TR" (at 0 0) (layer "F.SilkS")
+    (fp_text value "MIC184YMM-TR" (at 0 0) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp dc782193-8811-4dd4-8c86-ea5bb20dbec8)
     )
-    (fp_text user "*" (at -2.5146 -2.4736) (layer "F.SilkS")
+    (fp_text user "*" (at -2.5146 -2.4736) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 19be1aa8-564f-4212-b280-5e70ee47fa07)
     )
-    (fp_text user "*" (at -2.5146 -2.4736) (layer "F.SilkS")
+    (fp_text user "*" (at -2.5146 -2.4736) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp a6a06341-ef7a-4249-85a0-a1d5541417c3)
     )
@@ -4635,6 +4640,11 @@
       (net 2 "GND") (pinfunction "A0") (pintype "input") (tstamp c77ab2ef-0693-45ae-903e-f63ed0fe3a6b))
     (pad "8" smd rect locked (at 2.2606 -0.974999) (size 1.2446 0.3556) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 3 "+3V3") (pinfunction "VDD") (pintype "power_in") (tstamp 0ab661c6-3a5f-426e-a285-fdbd98c17743))
+    (model "${KICAD6_3DMODEL_DIR}/Package_SO.3dshapes/MSOP-8-1EP_3x3mm_P0.65mm_EP1.68x1.88mm.wrl"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (footprint "RDT_Custom_Footprints:TL3301NF260QG" (layer "F.Cu")
@@ -4697,11 +4707,11 @@
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 10e5d2e0-3700-4aa0-9695-78a555ba3286)
     )
-    (fp_text value "IHLP5050FDER150M5A" (at 0 0) (layer "F.SilkS")
+    (fp_text value "IHLP5050FDER150M5A" (at 0 0) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp e43f6446-2ad4-4d41-b8d1-4611348ff132)
     )
-    (fp_text user "*" (at 0 0) (layer "F.SilkS")
+    (fp_text user "*" (at 0 0) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 75ee78c1-0aab-424b-8f14-9a3d1402a232)
     )
@@ -8787,6 +8797,13 @@
     ) (layer "F.SilkS") (width 0.1) (fill solid) (tstamp 2713445a-5e01-40d8-94c6-c4d9a94c1daa))
   (gr_poly
     (pts
+      (xy 160.0419 134.930107)
+      (xy 157.0419 134.940107)
+      (xy 157.0419 61.780107)
+      (xy 160.0419 61.780107)
+    ) (layer "F.SilkS") (width 0.1) (fill solid) (tstamp 2a5f9b85-8ecb-4cb5-8258-0cdfee241eb3))
+  (gr_poly
+    (pts
       (xy 149.9331 54.744893)
       (xy 89.6881 54.784893)
       (xy 89.903039 51.769893)
@@ -8829,13 +8846,6 @@
       (xy 150.025 54.725)
       (xy 150.025 51.75)
       (xy 150.05 51.75)
-    ) (layer "F.SilkS") (width 0.1) (fill solid) (tstamp 39e74c5c-b798-4d06-8858-8667944befeb))
-  (gr_poly
-    (pts
-      (xy 160.0419 134.930107)
-      (xy 157.0419 134.940107)
-      (xy 157.0419 61.780107)
-      (xy 160.0419 61.780107)
     ) (layer "F.SilkS") (width 0.1) (fill solid) (tstamp 39e74c5c-b798-4d06-8858-8667944befeb))
   (gr_arc (start 83 61.75) (mid 85.050253 56.800253) (end 90 54.75) (layer "F.SilkS") (width 0.12) (tstamp 401b5a0c-f502-4551-9d61-fa50a303707e))
   (gr_arc (start 157 135) (mid 154.949747 139.949747) (end 150 142) (layer "F.SilkS") (width 0.12) (tstamp 4c069f0b-8c76-44a0-a999-7bd72a3e8dee))
