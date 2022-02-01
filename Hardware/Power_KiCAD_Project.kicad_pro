@@ -45,7 +45,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.508
+          "min_clearance": 0.39999999999999997
         }
       },
       "diff_pair_dimensions": [],
@@ -479,8 +479,7 @@
           "Net-(Q1-Pad4)",
           "Net-(Q1-Pad5)",
           "Net-(Q2-Pad3)",
-          "Net-(R14-Pad1)",
-          "Net-(R14-Pad2)"
+          "Net-(R14-Pad1)"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
