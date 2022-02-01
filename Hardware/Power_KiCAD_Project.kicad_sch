@@ -1290,7 +1290,7 @@
     (pin "2" (uuid dacbdbab-e42b-4ea2-9aa5-a972981bb848))
   )
 
-  (symbol (lib_id "Power_KiCAD_Project-rescue:XT60-M-XT60-M-Power_KiCAD_Project-rescue") (at 49.53 118.11 0)
+  (symbol (lib_id "Power_KiCAD_Project-rescue:XT60-M-XT60-M-Power_KiCAD_Project-rescue") (at 49.53 118.11 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061e5656e)
     (property "Reference" "J7" (id 0) (at 48.26 111.76 0)
@@ -1327,7 +1327,7 @@
     (pin "2" (uuid fe2308d6-9f0d-49e2-9881-a5018bd25cc0))
   )
 
-  (symbol (lib_id "power:GND") (at 30.48 185.42 0)
+  (symbol (lib_id "power:GND") (at 30.48 185.42 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061fd97b5)
     (property "Reference" "#PWR0101" (id 0) (at 30.48 191.77 0)
@@ -1343,7 +1343,7 @@
     (pin "1" (uuid a8bbd635-d92c-4ead-9e88-72e4d88ac55c))
   )
 
-  (symbol (lib_id "power:GND") (at 24.13 67.31 0)
+  (symbol (lib_id "power:GND") (at 24.13 67.31 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00006208bbed)
     (property "Reference" "#PWR0102" (id 0) (at 24.13 73.66 0)
@@ -2086,7 +2086,7 @@
       (reference "U6") (unit 1) (value "STM32L562VET") (footprint "Package_QFP:LQFP-100_14x14mm_P0.5mm")
     )
     (path "/00000000-0000-0000-0000-000061c99968/00000000-0000-0000-0000-000061adfe82"
-      (reference "Y1") (unit 1) (value "32MHz") (footprint "Crystal:Crystal_SMD_2012-2Pin_2.0x1.2mm_HandSoldering")
+      (reference "Y1") (unit 1) (value "32MHz") (footprint "RDT_Custom_Footprints:XTAL_ABM7-32.000MHZ-D2Y-T")
     )
   )
 )

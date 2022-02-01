@@ -928,7 +928,7 @@
     (uuid ffcb14df-d7b1-4e40-a700-6735e8b4e80a)
   )
 
-  (symbol (lib_id "Power_KiCAD_Project-rescue:LM2672M-TO-263-lm2672m-to-263-Power_KiCAD_Project-rescue") (at 124.46 132.08 0)
+  (symbol (lib_id "Power_KiCAD_Project-rescue:LM2672M-TO-263-lm2672m-to-263-Power_KiCAD_Project-rescue") (at 124.46 132.08 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061a319c7)
     (property "Reference" "U4" (id 0) (at 124.46 120.2182 0))
@@ -953,7 +953,7 @@
     (pin "7" (uuid 0387c3ff-c4a3-4666-a668-7e4d1b1e6a3d))
   )
 
-  (symbol (lib_id "Power_KiCAD_Project-rescue:LM2672M-TO-263-lm2672m-to-263-Power_KiCAD_Project-rescue") (at 124.46 72.39 0)
+  (symbol (lib_id "Power_KiCAD_Project-rescue:LM2672M-TO-263-lm2672m-to-263-Power_KiCAD_Project-rescue") (at 124.46 72.39 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061a7f0de)
     (property "Reference" "U3" (id 0) (at 124.46 60.5282 0))
@@ -978,7 +978,7 @@
     (pin "7" (uuid 7ea0798a-2a5a-41ae-93cd-c5991d6a52c3))
   )
 
-  (symbol (lib_id "Power_KiCAD_Project-rescue:SBRD10200TR-SBRD10200TR-Power_KiCAD_Project-rescue") (at 162.56 86.36 0)
+  (symbol (lib_id "Power_KiCAD_Project-rescue:SBRD10200TR-SBRD10200TR-Power_KiCAD_Project-rescue") (at 162.56 86.36 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061a8ff3c)
     (property "Reference" "D1" (id 0) (at 167.0304 85.3186 0)
@@ -1013,7 +1013,7 @@
     (pin "3" (uuid 83f5ae30-b072-4cfd-b54b-a5c75acf4838))
   )
 
-  (symbol (lib_id "Power_KiCAD_Project-rescue:SBRD10200TR-SBRD10200TR-Power_KiCAD_Project-rescue") (at 162.56 142.24 0)
+  (symbol (lib_id "Power_KiCAD_Project-rescue:SBRD10200TR-SBRD10200TR-Power_KiCAD_Project-rescue") (at 162.56 142.24 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061a94d59)
     (property "Reference" "D2" (id 0) (at 167.0304 141.1986 0)
@@ -1048,7 +1048,7 @@
     (pin "3" (uuid 06a2fb1d-945f-4402-a43e-cd1b45e8c81c))
   )
 
-  (symbol (lib_id "Power_KiCAD_Project-rescue:6SVPC330M-6SVPC330M-Power_KiCAD_Project-rescue") (at 193.04 139.7 270)
+  (symbol (lib_id "Power_KiCAD_Project-rescue:6SVPC330M-6SVPC330M-Power_KiCAD_Project-rescue") (at 193.04 139.7 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061bcd9cd)
     (property "Reference" "C9" (id 0) (at 196.342 144.8816 90)
@@ -1242,7 +1242,7 @@
     (pin "2" (uuid 85bc6ff4-2cd8-4bdc-a934-f84ac196b64a))
   )
 
-  (symbol (lib_id "power:GND") (at 86.36 87.63 0)
+  (symbol (lib_id "power:GND") (at 86.36 87.63 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061ccde7d)
     (property "Reference" "#PWR013" (id 0) (at 86.36 93.98 0)
@@ -1258,7 +1258,7 @@
     (pin "1" (uuid b543f9ec-a794-43ed-a2e5-d72352966cc0))
   )
 
-  (symbol (lib_id "power:GND") (at 158.75 92.71 0)
+  (symbol (lib_id "power:GND") (at 158.75 92.71 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061ccefce)
     (property "Reference" "#PWR016" (id 0) (at 158.75 99.06 0)
@@ -1274,7 +1274,7 @@
     (pin "1" (uuid f3bb8c7c-92ec-4207-a6b2-3bdfa8c1a21a))
   )
 
-  (symbol (lib_id "power:GND") (at 86.36 147.32 0)
+  (symbol (lib_id "power:GND") (at 86.36 147.32 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061cd0185)
     (property "Reference" "#PWR014" (id 0) (at 86.36 153.67 0)
@@ -1290,7 +1290,7 @@
     (pin "1" (uuid 7cd3ed0e-612c-4802-b3cc-0606f2945d21))
   )
 
-  (symbol (lib_id "power:GND") (at 157.48 152.4 0)
+  (symbol (lib_id "power:GND") (at 157.48 152.4 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061cd137e)
     (property "Reference" "#PWR015" (id 0) (at 157.48 158.75 0)

@@ -1445,7 +1445,7 @@
     (uuid f3aef680-b982-40cf-bfc2-291c3f349059)
   )
 
-  (symbol (lib_id "power:+3.3V") (at 167.64 33.02 0)
+  (symbol (lib_id "power:+3.3V") (at 167.64 33.02 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061a17dd9)
     (property "Reference" "#PWR035" (id 0) (at 167.64 36.83 0)
@@ -1461,7 +1461,7 @@
     (pin "1" (uuid 4129d454-4242-466f-b729-e5b2225668bd))
   )
 
-  (symbol (lib_id "Device:C_Small") (at 167.64 38.1 0)
+  (symbol (lib_id "Device:C_Small") (at 167.64 38.1 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061a17ddf)
     (property "Reference" "C26" (id 0) (at 169.9768 36.9316 0)
@@ -1480,7 +1480,7 @@
     (pin "2" (uuid d51bafb5-d4f6-4863-8829-7e7b2b12be0b))
   )
 
-  (symbol (lib_id "Device:C_Small") (at 177.8 38.1 0)
+  (symbol (lib_id "Device:C_Small") (at 177.8 38.1 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061a17de5)
     (property "Reference" "C27" (id 0) (at 180.1368 36.9316 0)
@@ -1499,7 +1499,7 @@
     (pin "2" (uuid 4e82efac-6afb-4cc4-9dd5-a886dda24d1d))
   )
 
-  (symbol (lib_id "Device:C_Small") (at 189.23 38.1 0)
+  (symbol (lib_id "Device:C_Small") (at 189.23 38.1 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061a17deb)
     (property "Reference" "C28" (id 0) (at 191.5668 36.9316 0)
@@ -1518,7 +1518,7 @@
     (pin "2" (uuid 8769353f-c290-455c-be90-c53f1e2c282a))
   )
 
-  (symbol (lib_id "Device:C_Small") (at 223.52 38.1 0)
+  (symbol (lib_id "Device:C_Small") (at 223.52 38.1 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061a17df1)
     (property "Reference" "C31" (id 0) (at 225.8568 36.9316 0)
@@ -1537,7 +1537,7 @@
     (pin "2" (uuid 8e4f3515-b2cb-4300-96a3-c3b8717da4e3))
   )
 
-  (symbol (lib_id "Device:C_Small") (at 269.24 38.1 0)
+  (symbol (lib_id "Device:C_Small") (at 269.24 38.1 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061a17df7)
     (property "Reference" "C35" (id 0) (at 271.5768 36.9316 0)
@@ -1556,7 +1556,7 @@
     (pin "2" (uuid 6c84a930-9ded-48f0-9778-50af7bb9ddee))
   )
 
-  (symbol (lib_id "power:GND") (at 167.64 43.18 0)
+  (symbol (lib_id "power:GND") (at 167.64 43.18 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061a17dfd)
     (property "Reference" "#PWR036" (id 0) (at 167.64 49.53 0)
@@ -1572,7 +1572,7 @@
     (pin "1" (uuid 1b038129-7ee5-40b7-b45c-6991fe06044c))
   )
 
-  (symbol (lib_id "power:+3.3V") (at 187.96 82.55 0)
+  (symbol (lib_id "power:+3.3V") (at 187.96 82.55 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061a17e24)
     (property "Reference" "#PWR037" (id 0) (at 187.96 86.36 0)
@@ -1588,7 +1588,7 @@
     (pin "1" (uuid 5df39b2d-7c2e-47f7-99a6-7301ed5d7c49))
   )
 
-  (symbol (lib_id "Device:R_Small") (at 193.04 88.9 270)
+  (symbol (lib_id "Device:R_Small") (at 193.04 88.9 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061a17e2a)
     (property "Reference" "R18" (id 0) (at 193.04 83.9216 90))
@@ -1603,7 +1603,7 @@
     (pin "2" (uuid e1c6d3b7-31d4-4b92-96c5-979f8f12b377))
   )
 
-  (symbol (lib_id "Device:R_Small") (at 193.04 96.52 270)
+  (symbol (lib_id "Device:R_Small") (at 193.04 96.52 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061a17e32)
     (property "Reference" "R19" (id 0) (at 193.04 91.5416 90))
@@ -1764,7 +1764,7 @@
     (pin "1" (uuid 6fb21866-717c-40c5-b515-aa96dda7b85d))
   )
 
-  (symbol (lib_id "Device:C_Small") (at 200.66 38.1 0)
+  (symbol (lib_id "Device:C_Small") (at 200.66 38.1 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061a89eeb)
     (property "Reference" "C29" (id 0) (at 202.9968 36.9316 0)
@@ -1783,7 +1783,7 @@
     (pin "2" (uuid 663a6467-6ad3-4383-8e56-914d2fe7fc52))
   )
 
-  (symbol (lib_id "Device:C_Small") (at 212.09 38.1 0)
+  (symbol (lib_id "Device:C_Small") (at 212.09 38.1 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061a89ef1)
     (property "Reference" "C30" (id 0) (at 214.4268 36.9316 0)
@@ -1802,7 +1802,7 @@
     (pin "2" (uuid db03e713-5f4e-42a8-bc1b-ef01be2c39c0))
   )
 
-  (symbol (lib_id "Device:C_Small") (at 234.95 38.1 0)
+  (symbol (lib_id "Device:C_Small") (at 234.95 38.1 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061aa18ef)
     (property "Reference" "C32" (id 0) (at 237.2868 36.9316 0)
@@ -1821,7 +1821,7 @@
     (pin "2" (uuid 6bc37310-1d47-4600-92fb-8502846d314d))
   )
 
-  (symbol (lib_id "Device:C_Small") (at 246.38 38.1 0)
+  (symbol (lib_id "Device:C_Small") (at 246.38 38.1 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061aa2382)
     (property "Reference" "C33" (id 0) (at 248.7168 36.9316 0)
@@ -1840,7 +1840,7 @@
     (pin "2" (uuid 585f7c66-9c67-4dfe-885f-95e3c06fba9f))
   )
 
-  (symbol (lib_id "Device:C_Small") (at 257.81 38.1 0)
+  (symbol (lib_id "Device:C_Small") (at 257.81 38.1 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061aa2953)
     (property "Reference" "C34" (id 0) (at 260.1468 36.9316 0)
@@ -1859,7 +1859,7 @@
     (pin "2" (uuid e79bb862-543e-4255-bf96-e1ebb09374e6))
   )
 
-  (symbol (lib_id "Device:C_Small") (at 29.21 87.63 0)
+  (symbol (lib_id "Device:C_Small") (at 29.21 87.63 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061adfe6a)
     (property "Reference" "C24" (id 0) (at 31.5468 86.4616 0)
@@ -1878,7 +1878,7 @@
     (pin "2" (uuid 28b9ccd2-c107-46fc-b206-0fa1711c2e74))
   )
 
-  (symbol (lib_id "Device:C_Small") (at 39.37 87.63 0)
+  (symbol (lib_id "Device:C_Small") (at 39.37 87.63 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061adfe7c)
     (property "Reference" "C25" (id 0) (at 41.7068 86.4616 0)
@@ -1897,12 +1897,12 @@
     (pin "2" (uuid b1831ccf-67cd-43e5-9874-5603108293ea))
   )
 
-  (symbol (lib_id "Device:Crystal_Small") (at 34.29 82.55 0)
+  (symbol (lib_id "Device:Crystal_Small") (at 34.29 82.55 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061adfe82)
     (property "Reference" "Y1" (id 0) (at 34.29 76.835 0))
     (property "Value" "32MHz" (id 1) (at 34.29 79.1464 0))
-    (property "Footprint" "Crystal:Crystal_SMD_2012-2Pin_2.0x1.2mm_HandSoldering" (id 2) (at 34.29 82.55 0)
+    (property "Footprint" "RDT_Custom_Footprints:XTAL_ABM7-32.000MHZ-D2Y-T" (id 2) (at 34.29 82.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 34.29 82.55 0)
@@ -1912,7 +1912,7 @@
     (pin "2" (uuid ec917ca8-e32e-4a0e-8524-68dc4f1130fb))
   )
 
-  (symbol (lib_id "Device:R") (at 134.62 82.55 0) (mirror y)
+  (symbol (lib_id "Device:R") (at 134.62 82.55 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061c2f110)
     (property "Reference" "R17" (id 0) (at 132.842 81.3816 0)
@@ -1931,7 +1931,7 @@
     (pin "2" (uuid 2fe4605b-93ad-4af6-b775-0c37993ccb7b))
   )
 
-  (symbol (lib_id "Device:LED") (at 134.62 72.39 270) (mirror x)
+  (symbol (lib_id "Device:LED") (at 134.62 72.39 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061c2f116)
     (property "Reference" "D6" (id 0) (at 131.6228 71.3994 90)
@@ -1950,7 +1950,7 @@
     (pin "2" (uuid f79ee5db-392c-4998-b9c7-e62c095e61c8))
   )
 
-  (symbol (lib_id "Device:LED") (at 125.73 72.39 270) (mirror x)
+  (symbol (lib_id "Device:LED") (at 125.73 72.39 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061c2f11c)
     (property "Reference" "D5" (id 0) (at 122.7328 71.3994 90)
@@ -1969,7 +1969,7 @@
     (pin "2" (uuid 331ad0f6-b94d-4dee-9b4d-dc55a3fe2d68))
   )
 
-  (symbol (lib_id "Device:R") (at 125.73 82.55 0) (mirror y)
+  (symbol (lib_id "Device:R") (at 125.73 82.55 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061c2f122)
     (property "Reference" "R16" (id 0) (at 123.952 81.3816 0)

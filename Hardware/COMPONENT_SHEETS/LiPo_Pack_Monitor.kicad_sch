@@ -1011,7 +1011,7 @@
   )
 
   (no_connect (at 240.03 66.04) (uuid 944cf8ee-37c1-43c5-bafa-a14f2050c039))
-  (no_connect (at 242.57 66.04) (uuid 944cf8ee-37c1-43c5-bafa-a14f2050c039))
+  (no_connect (at 242.57 66.04) (uuid 944cf8ee-37c1-43c5-bafa-a14f2050c03a))
   (no_connect (at 222.25 96.52) (uuid 9aa72dcd-9898-4941-9fd8-fbdb0ead459c))
 
   (bus_entry (at 87.63 96.52) (size -2.54 2.54)

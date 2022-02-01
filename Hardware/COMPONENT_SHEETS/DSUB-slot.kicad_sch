@@ -570,7 +570,7 @@
     (pin "1" (uuid f103f9ad-22ad-41de-8aec-d4c086831a6a))
   )
 
-  (symbol (lib_id "Device:C_Small") (at 127 68.58 0) (mirror x)
+  (symbol (lib_id "Device:C_Small") (at 127 68.58 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061a55586)
     (property "Reference" "C36" (id 0) (at 129.3368 69.7484 0)
@@ -589,7 +589,7 @@
     (pin "2" (uuid 0c59004a-f774-4c73-9d07-ceebc85d9eac))
   )
 
-  (symbol (lib_id "power:GND") (at 173.99 93.98 0)
+  (symbol (lib_id "power:GND") (at 173.99 93.98 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061cc9506)
     (property "Reference" "#PWR046" (id 0) (at 173.99 100.33 0)
@@ -605,7 +605,7 @@
     (pin "1" (uuid a0188e7b-20ae-45c2-9ed0-be95537b3414))
   )
 
-  (symbol (lib_id "power:GND") (at 157.48 101.6 0)
+  (symbol (lib_id "power:GND") (at 157.48 101.6 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061cc95a1)
     (property "Reference" "#PWR042" (id 0) (at 157.48 107.95 0)
@@ -621,7 +621,7 @@
     (pin "1" (uuid ee16ae99-ce07-4ba2-ad0e-65fcec9956c2))
   )
 
-  (symbol (lib_id "power:GND") (at 157.48 40.64 180)
+  (symbol (lib_id "power:GND") (at 157.48 40.64 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061cc9da1)
     (property "Reference" "#PWR041" (id 0) (at 157.48 34.29 0)
@@ -637,7 +637,7 @@
     (pin "1" (uuid 094db5ef-6551-4265-aab5-73d16271c87d))
   )
 
-  (symbol (lib_id "power:GND") (at 170.18 48.26 180)
+  (symbol (lib_id "power:GND") (at 170.18 48.26 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061cca122)
     (property "Reference" "#PWR043" (id 0) (at 170.18 41.91 0)
@@ -653,7 +653,7 @@
     (pin "1" (uuid f558f605-b21d-4549-96db-69d60065ddeb))
   )
 
-  (symbol (lib_id "power:GND") (at 127 71.12 0)
+  (symbol (lib_id "power:GND") (at 127 71.12 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061cca76d)
     (property "Reference" "#PWR038" (id 0) (at 127 77.47 0)
@@ -669,7 +669,7 @@
     (pin "1" (uuid 930b7010-88a5-4917-8429-10d721807ee6))
   )
 
-  (symbol (lib_id "Power_KiCAD_Project-rescue:L717SDC37P1ACH4F-SamacSys_Parts-Power_KiCAD_Project-rescue") (at 157.48 40.64 270)
+  (symbol (lib_id "Power_KiCAD_Project-rescue:L717SDC37P1ACH4F-SamacSys_Parts-Power_KiCAD_Project-rescue") (at 157.48 40.64 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061d5e9ee)
     (property "Reference" "J8" (id 0) (at 157.48 33.02 90))
