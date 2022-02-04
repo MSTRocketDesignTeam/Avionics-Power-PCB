@@ -1698,11 +1698,23 @@
   )
 
   (symbol_instances
+    (path "/00000000-0000-0000-0000-000061c99968/e553b744-0813-49e5-82c6-4ab8ac5cf5e7"
+      (reference "#PWR01") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000061c99968/e3de2907-6354-435f-b734-ba7e469ea0ad"
+      (reference "#PWR02") (unit 1) (value "+3.3V") (footprint "")
+    )
     (path "/00000000-0000-0000-0000-000061a56282"
       (reference "#PWR03") (unit 1) (value "+5V") (footprint "")
     )
     (path "/00000000-0000-0000-0000-000061a5452e"
       (reference "#PWR04") (unit 1) (value "+3.3V") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000061c99968/154d3377-6296-4aab-9aa3-3cabfc82996f"
+      (reference "#PWR05") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000061c99968/b4ba9515-7fed-46b8-8dc0-ee789efd3b9d"
+      (reference "#PWR06") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-000061b35621/00000000-0000-0000-0000-000061ccad97"
       (reference "#PWR07") (unit 1) (value "GND") (footprint "")
@@ -1947,6 +1959,9 @@
     (path "/00000000-0000-0000-0000-000061d3585e/00000000-0000-0000-0000-000061a55586"
       (reference "C36") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
     )
+    (path "/00000000-0000-0000-0000-000061c99968/cee8a491-78ef-4f86-87da-55f8eee52b8a"
+      (reference "C37") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
+    )
     (path "/00000000-0000-0000-0000-000061a48488/00000000-0000-0000-0000-000061a8ff3c"
       (reference "D1") (unit 1) (value "SBRD10200TR") (footprint "Package_TO_SOT_SMD:TO-252-2")
     )
@@ -1991,6 +2006,9 @@
     )
     (path "/00000000-0000-0000-0000-000061d3585e/00000000-0000-0000-0000-000061d5e9ee"
       (reference "J8") (unit 1) (value "L717SDC37P1ACH4F") (footprint "RDT_Custom_Footprints:L717SDC37P1ACH4F")
+    )
+    (path "/00000000-0000-0000-0000-000061c99968/5d8a57d4-0f3a-42b5-a54a-c25df76cbe5b"
+      (reference "JP1") (unit 1) (value "Debug Jumper") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
     )
     (path "/00000000-0000-0000-0000-000061a48488/558483dd-e1f0-4908-a191-8cb4df4c1c01"
       (reference "L1") (unit 1) (value "IHLP5050FDER150M5A") (footprint "RDT_Custom_Footprints:IHLP5050FDER150M5A")
@@ -2066,6 +2084,9 @@
     )
     (path "/00000000-0000-0000-0000-0000615ed460/00000000-0000-0000-0000-000061e3cd33"
       (reference "RV1") (unit 1) (value "10Ω to 2.2MΩ") (footprint "RDT_Custom_Footprints:T93YA5K10")
+    )
+    (path "/00000000-0000-0000-0000-000061c99968/7c07ad76-f7eb-43f2-a2cd-5e6e17a0e261"
+      (reference "SW1") (unit 1) (value "MCU Reset") (footprint "Button_Switch_SMD:SW_SPST_PTS645")
     )
     (path "/00000000-0000-0000-0000-000061b1b3bc/a3248eeb-f904-4c09-834c-c82774920b01"
       (reference "U1") (unit 1) (value "MIC184YMM-TR") (footprint "RDT_Custom_Footprints:MIC184YMM-TR")
