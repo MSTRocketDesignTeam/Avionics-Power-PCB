@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 0,
+    "active_layer": 2,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_nets": [],
@@ -9,7 +9,7 @@
     "opacity": {
       "pads": 1.0,
       "tracks": 1.0,
-      "vias": 1.0,
+      "vias": 0.3400000035762787,
       "zones": 1.0
     },
     "ratsnest_display_mode": 0,
@@ -62,7 +62,7 @@
       36
     ],
     "visible_layers": "ffefdff_ffffffff",
-    "zone_display_mode": 1
+    "zone_display_mode": 0
   },
   "meta": {
     "filename": "Power_KiCAD_Project.kicad_prl",
