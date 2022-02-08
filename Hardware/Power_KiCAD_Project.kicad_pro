@@ -656,8 +656,8 @@
       "idf": "",
       "netlist": "Power_KiCAD_Project.net",
       "specctra_dsn": "",
-      "step": "",
-      "vrml": ""
+      "step": "../../../../Downloads/Power_KiCAD_Project.step",
+      "vrml": "../../../../Downloads/Power_KiCAD_Project.wrl"
     },
     "page_layout_descr_file": ""
   },
