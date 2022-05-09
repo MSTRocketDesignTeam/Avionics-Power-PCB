@@ -26,4 +26,4 @@ fp-info-cache
 *.csv
 
 # KiCAD Project Backups
-Hardware/Telemetry_KiCAD_Project-backups/
+Hardware/Power_KiCAD_Project-backups/

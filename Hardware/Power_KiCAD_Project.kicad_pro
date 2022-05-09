@@ -33,9 +33,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.0,
-          "height": 2.1,
-          "width": 1.4
+          "drill": 4.5,
+          "height": 5.516,
+          "width": 5.516
         },
         "silk_line_width": 0.12,
         "silk_text_italic": false,
@@ -468,13 +468,10 @@
           "/LiPo Pack Monitor/VC0",
           "/LiPo Pack Monitor/VC1",
           "/LiPo Pack Monitor/VC2",
-          "/LiPo Pack Monitor/VC3",
-          "/LiPo Pack Monitor/VC4",
           "/LiPo Pack Monitor/VC5",
           "/PACK_M1",
           "/PACK_M2",
           "/PACK_M3",
-          "/PACK_M4",
           "/PACK_M5",
           "/STM32L562VET6Q 1/ABORT_1",
           "/STM32L562VET6Q 1/ABORT_2",
